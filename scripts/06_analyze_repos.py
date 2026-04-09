@@ -43,11 +43,12 @@ LOGGER = logging.getLogger(__name__)
 # Constants
 # ---------------------------------------------------------------------------
 RATE_LIMIT_SLEEP = 1.0
-REQUEST_TIMEOUT_MS = 30_000
+REQUEST_TIMEOUT_MS = 60_000  # 60s — Cloudflare challenge can be slow
 REPOS_RAW_DIR = RAW_DIR / "repos"
 READMES_RAW_DIR = RAW_DIR / "readmes"
 
 README_RE = re.compile(r"^readme\b", re.IGNORECASE)
+LARGE_TXT_THRESHOLD = 100 * 1024  # 100KB
 
 
 # ---------------------------------------------------------------------------
@@ -93,13 +94,7 @@ def insert_repo_files(conn, repo_doi: str, files: list[dict[str, Any]]) -> None:
                 INSERT INTO repo_files (repo_doi, filename, extension, file_type, size_bytes)
                 VALUES (?, ?, ?, ?, ?)
                 """,
-                (
-                    repo_doi,
-                    f["filename"],
-                    f["extension"],
-                    f["file_type"],
-                    f["size_bytes"],
-                ),
+                (repo_doi, f["filename"], f["extension"], f["file_type"], f["size_bytes"]),
             )
 
 
@@ -109,7 +104,6 @@ def insert_readme_analysis(
     """Insert or replace README analysis for a repository."""
     has_readme = readme_filename is not None
 
-    # Scan for restriction indicators
     restriction_flags: list[str] = []
     if readme_text:
         text_lower = readme_text.lower()
@@ -124,34 +118,26 @@ def insert_readme_analysis(
                 (repo_doi, has_readme, readme_text, restriction_flags, restriction_count)
             VALUES (?, ?, ?, ?, ?)
             """,
-            (
-                repo_doi,
-                has_readme,
-                readme_text,
-                json.dumps(restriction_flags),
-                len(restriction_flags),
-            ),
+            (repo_doi, has_readme, readme_text, json.dumps(restriction_flags), len(restriction_flags)),
         )
 
 
 # ---------------------------------------------------------------------------
-# MHTML support and Playwright page fetching
+# MHTML support
 # ---------------------------------------------------------------------------
 def _extract_html_from_mhtml(mhtml_path: Path) -> str:
-    """Extract the HTML body from an MHTML file using the email module."""
+    """Extract the HTML body from an MHTML file."""
     raw = mhtml_path.read_bytes()
     msg = email.message_from_bytes(raw)
 
     if msg.is_multipart():
         for part in msg.walk():
-            content_type = part.get_content_type()
-            if content_type == "text/html":
+            if part.get_content_type() == "text/html":
                 payload = part.get_payload(decode=True)
                 if payload:
                     charset = part.get_content_charset() or "utf-8"
                     return payload.decode(charset, errors="replace")
 
-    # Non-multipart fallback
     payload = msg.get_payload(decode=True)
     if payload:
         charset = msg.get_content_charset() or "utf-8"
@@ -160,32 +146,30 @@ def _extract_html_from_mhtml(mhtml_path: Path) -> str:
     return ""
 
 
-def fetch_project_page(browser_context: Any, project_id: str) -> str | None:
+# ---------------------------------------------------------------------------
+# Playwright page fetching
+# ---------------------------------------------------------------------------
+def fetch_project_page(browser_context: Any, project_id: str) -> tuple[str | None, Any]:
     """Fetch the openICPSR project page HTML, using cache when available.
 
-    Checks for cached .html then .mhtml files before making a live request
-    via Playwright. Caches the fetched HTML to ``REPOS_RAW_DIR/{project_id}.html``.
-
-    Returns the HTML string, or *None* on failure.
+    Returns ``(html, page)``. When served from cache, ``page`` is *None*.
+    When fetched live, ``page`` is still open so it can be reused for
+    README fetching (the page already passed Cloudflare). The caller
+    MUST close the page when done.
     """
     REPOS_RAW_DIR.mkdir(parents=True, exist_ok=True)
 
     html_cache = REPOS_RAW_DIR / f"{project_id}.html"
     mhtml_cache = REPOS_RAW_DIR / f"{project_id}.mhtml"
 
-    # Try cached HTML first
     if html_cache.exists():
-        LOGGER.debug("Using cached HTML for project %s", project_id)
-        return html_cache.read_text(encoding="utf-8")
+        return html_cache.read_text(encoding="utf-8"), None
 
-    # Try cached MHTML
     if mhtml_cache.exists():
-        LOGGER.debug("Using cached MHTML for project %s", project_id)
         html = _extract_html_from_mhtml(mhtml_cache)
         if html:
-            return html
+            return html, None
 
-    # Fetch via Playwright
     url = f"{OPENICPSR_BASE_URL}/{project_id}/version/V1/view"
     LOGGER.info("Fetching project page: %s", url)
 
@@ -195,15 +179,13 @@ def fetch_project_page(browser_context: Any, project_id: str) -> str | None:
         page.goto(url, wait_until="networkidle", timeout=REQUEST_TIMEOUT_MS)
         page.wait_for_timeout(3000)
         html = page.content()
-        page.close()
 
-        # Cache the result
         try:
             html_cache.write_text(html, encoding="utf-8")
         except OSError as exc:
             LOGGER.warning("Failed to cache HTML for project %s: %s", project_id, exc)
 
-        return html
+        return html, page  # page stays open for README fetch
 
     except Exception as exc:
         LOGGER.warning("Failed to fetch project page %s: %s", project_id, exc)
@@ -212,18 +194,20 @@ def fetch_project_page(browser_context: Any, project_id: str) -> str | None:
                 page.close()
             except Exception:
                 pass
-        return None
+        return None, None
 
 
 def fetch_readme_bytes(
-    browser_context: Any, project_id: str, filename: str
+    browser: Any, project_id: str, filename: str
 ) -> bytes | None:
-    """Fetch raw README bytes via the openICPSR getBinary endpoint.
+    """Fetch raw README bytes via the getBinary endpoint.
 
-    Uses ``browser_context.request.get()`` so the session cookies from
-    Playwright are included. Caches to ``READMES_RAW_DIR/{project_id}.{ext}``.
+    Uses a **fresh browser context** for each download because Cloudflare
+    blocks getBinary requests from contexts that already visited project pages.
+    The browser solves the Cloudflare challenge, then the server delivers the
+    file as a download.
 
-    Returns raw bytes on success, *None* on failure.
+    Caches to ``READMES_RAW_DIR/{project_id}.{ext}``.
     """
     READMES_RAW_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -231,51 +215,70 @@ def fetch_readme_bytes(
     cache_path = READMES_RAW_DIR / f"{project_id}{ext}"
 
     if cache_path.exists():
-        LOGGER.debug("Using cached README for project %s", project_id)
         return cache_path.read_bytes()
 
-    # Build MIME type for the content type parameter
     mime_map = {
         ".pdf": "application/pdf",
         ".txt": "text/plain",
         ".md": "text/markdown",
+        ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     }
     content_type = mime_map.get(ext, "application/octet-stream")
 
-    # Construct the getBinary URL
     file_path = f"/openicpsr/{project_id}/fcr:versions/V1/{filename}"
-    url = (
+    get_binary_url = (
         f"https://www.openicpsr.org/openicpsr/project/{project_id}"
         f"/version/V1/getBinary?filePath={file_path}"
         f"&contentType={content_type}&jwtToken="
     )
 
     LOGGER.info("Fetching README: %s", filename)
+
+    # Use a fresh context — Cloudflare blocks getBinary in contexts that
+    # already visited project pages.
+    dl_context = browser.new_context(
+        user_agent=(
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        accept_downloads=True,
+    )
+    page = None
     try:
-        response = browser_context.request.get(url, timeout=REQUEST_TIMEOUT_MS)
-        if response.ok:
-            raw_bytes = response.body()
+        page = dl_context.new_page()
+
+        # getBinary triggers a file download. Capture it via expect_download.
+        # page.goto() throws "Download is starting" — this is expected.
+        with page.expect_download(timeout=REQUEST_TIMEOUT_MS) as download_info:
             try:
-                cache_path.write_bytes(raw_bytes)
-            except OSError as exc:
-                LOGGER.warning(
-                    "Failed to cache README for project %s: %s", project_id, exc
-                )
-            return raw_bytes
-        else:
-            LOGGER.warning(
-                "Failed to fetch README for project %s: HTTP %d",
-                project_id,
-                response.status,
-            )
-            return None
+                page.goto(get_binary_url, wait_until="commit", timeout=REQUEST_TIMEOUT_MS)
+            except Exception:
+                pass  # Expected: "Download is starting"
+
+        download = download_info.value
+        download.save_as(str(cache_path))
+        page.close()
+        dl_context.close()
+
+        return cache_path.read_bytes()
+
     except Exception as exc:
         LOGGER.warning("Error fetching README for project %s: %s", project_id, exc)
+        if page:
+            try:
+                page.close()
+            except Exception:
+                pass
+        try:
+            dl_context.close()
+        except Exception:
+            pass
         return None
 
 
 # ---------------------------------------------------------------------------
-# HTML parsing and file classification
+# HTML parsing
 # ---------------------------------------------------------------------------
 def parse_size_string(size_str: str) -> int:
     """Parse a human-readable size string to bytes.
@@ -288,17 +291,15 @@ def parse_size_string(size_str: str) -> int:
 
     size_str = size_str.strip()
 
-    # Multipliers for recognized suffixes
     multipliers = {
         "BYTE": 1,
         "BYTES": 1,
         "KB": 1_024,
-        "MB": 1_024 ** 2,
-        "GB": 1_024 ** 3,
-        "TB": 1_024 ** 4,
+        "MB": 1_024**2,
+        "GB": 1_024**3,
+        "TB": 1_024**4,
     }
 
-    # Try matching "<number> <suffix>"
     match = re.match(r"^([\d.,]+)\s*([a-zA-Z]*)\s*$", size_str)
     if not match:
         return 0
@@ -312,23 +313,17 @@ def parse_size_string(size_str: str) -> int:
         return 0
 
     if not suffix:
-        # Bare number — treat as bytes
         return int(number)
 
     multiplier = multipliers.get(suffix)
     if multiplier is None:
-        LOGGER.debug("Unknown size suffix: %r in %r", suffix, size_str)
         return 0
 
     return int(number * multiplier)
 
 
 def extract_files_from_html(html: str) -> list[dict[str, Any]]:
-    """Parse the openICPSR project page and extract root-level file listings.
-
-    Returns a list of dicts with keys: filename, size_bytes.
-    Skips folder rows (href containing ``type=folder``).
-    """
+    """Parse the openICPSR project page and extract root-level file listings."""
     soup = BeautifulSoup(html, "html.parser")
     table = soup.select_one("table.table.table-striped")
 
@@ -349,7 +344,6 @@ def extract_files_from_html(html: str) -> list[dict[str, Any]]:
         if len(cells) < 3:
             continue
 
-        # First cell: filename link
         link = cells[0].find("a")
         if link is None:
             continue
@@ -363,7 +357,6 @@ def extract_files_from_html(html: str) -> list[dict[str, Any]]:
         if not filename:
             continue
 
-        # Third cell: size
         size_str = cells[2].get_text(strip=True)
         size_bytes = parse_size_string(size_str)
 
@@ -375,21 +368,17 @@ def extract_files_from_html(html: str) -> list[dict[str, Any]]:
     return files
 
 
+# ---------------------------------------------------------------------------
+# File classification
+# ---------------------------------------------------------------------------
 def classify_file(filename: str, size_bytes: int) -> dict[str, Any]:
-    """Classify a file by its extension using FILE_TYPE_CLASSIFICATIONS.
-
-    Special cases:
-    - README files (matching README_RE) are classified as ``documentation``.
-    - ``.txt`` files larger than 100 KB are classified as ``data``.
-
-    Returns a dict with: filename, extension, file_type, size_bytes, is_readme.
-    """
+    """Classify a file by its extension using FILE_TYPE_CLASSIFICATIONS."""
     ext = Path(filename).suffix.lower()
     is_readme = bool(README_RE.match(filename))
 
     if is_readme:
         file_type = "documentation"
-    elif ext == ".txt" and size_bytes > 100 * 1024:
+    elif ext == ".txt" and size_bytes > LARGE_TXT_THRESHOLD:
         file_type = "data"
     else:
         file_type = FILE_TYPE_CLASSIFICATIONS.get(ext, "other")
@@ -407,11 +396,7 @@ def classify_file(filename: str, size_bytes: int) -> dict[str, Any]:
 # README text extraction
 # ---------------------------------------------------------------------------
 def extract_readme_text(raw_bytes: bytes, filename: str) -> str | None:
-    """Extract text content from a README file.
-
-    Supports PDF (via PyMuPDF/fitz) and plain text (.txt, .md).
-    Returns the extracted text string, or *None* on failure.
-    """
+    """Extract text from a README file (PDF, DOCX, TXT, MD)."""
     ext = Path(filename).suffix.lower()
 
     if ext == ".pdf":
@@ -420,8 +405,8 @@ def extract_readme_text(raw_bytes: bytes, filename: str) -> str | None:
 
             pages_text: list[str] = []
             with fitz.open(stream=raw_bytes, filetype="pdf") as doc:
-                for page in doc:
-                    text = page.get_text()
+                for page_obj in doc:
+                    text = page_obj.get_text()
                     if text:
                         pages_text.append(text)
             if pages_text:
@@ -432,7 +417,24 @@ def extract_readme_text(raw_bytes: bytes, filename: str) -> str | None:
             LOGGER.warning("Failed to extract text from PDF %s: %s", filename, exc)
             return None
 
-    # Plain text / markdown
+    if ext == ".docx":
+        try:
+            import fitz
+
+            pages_text_d: list[str] = []
+            with fitz.open(stream=raw_bytes, filetype="docx") as doc:
+                for page_obj in doc:
+                    text = page_obj.get_text()
+                    if text:
+                        pages_text_d.append(text)
+            if pages_text_d:
+                return "\n\n".join(pages_text_d)
+            LOGGER.warning("No text extracted from DOCX: %s", filename)
+            return None
+        except Exception as exc:
+            LOGGER.warning("Failed to extract text from DOCX %s: %s", filename, exc)
+            return None
+
     if ext in (".txt", ".md", ""):
         try:
             return raw_bytes.decode("utf-8")
@@ -440,9 +442,7 @@ def extract_readme_text(raw_bytes: bytes, filename: str) -> str | None:
             try:
                 return raw_bytes.decode("latin-1")
             except Exception as exc:
-                LOGGER.warning(
-                    "Failed to decode text file %s: %s", filename, exc
-                )
+                LOGGER.warning("Failed to decode text file %s: %s", filename, exc)
                 return None
 
     LOGGER.warning("Unsupported README format: %s", ext)
@@ -501,7 +501,8 @@ def main() -> int:
                     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) "
                     "Chrome/120.0.0.0 Safari/537.36"
-                )
+                ),
+                accept_downloads=True,
             )
 
             for idx, repo in enumerate(to_process, 1):
@@ -511,8 +512,8 @@ def main() -> int:
                 if idx > 1:
                     time.sleep(RATE_LIMIT_SLEEP)
 
-                # --- Step 1: Fetch root page and parse file listing ---
-                html = fetch_project_page(context, project_id)
+                # --- Step 1: Fetch root page ---
+                html, live_page = fetch_project_page(context, project_id)
 
                 if html is None:
                     failed += 1
@@ -530,14 +531,15 @@ def main() -> int:
                     insert_readme_analysis(conn, repo_doi, None, None)
                     continue
 
+                # --- Step 2: Parse and classify files ---
                 raw_files = extract_files_from_html(html)
 
                 if not raw_files:
                     failed += 1
                     unavailable.append(project_id)
-                    LOGGER.warning(
-                        "Project %s: no files found in HTML", project_id
-                    )
+                    LOGGER.warning("Project %s: no files found in HTML", project_id)
+                    if live_page:
+                        live_page.close()
                     with conn:
                         conn.execute(
                             """
@@ -550,7 +552,6 @@ def main() -> int:
                     insert_readme_analysis(conn, repo_doi, None, None)
                     continue
 
-                # --- Step 2: Classify files ---
                 classified = [
                     classify_file(f["filename"], f["size_bytes"])
                     for f in raw_files
@@ -574,8 +575,15 @@ def main() -> int:
                     readmes_found += 1
                     readme_name = readme_file["filename"]
 
+                    # Close the project page before opening a new one for download
+                    if live_page:
+                        live_page.close()
+                        live_page = None
+
                     time.sleep(RATE_LIMIT_SLEEP)
-                    raw_bytes = fetch_readme_bytes(context, project_id, readme_name)
+                    raw_bytes = fetch_readme_bytes(
+                        browser, project_id, readme_name
+                    )
                     readme_text = None
                     if raw_bytes:
                         readme_text = extract_readme_text(raw_bytes, readme_name)
@@ -585,6 +593,10 @@ def main() -> int:
                     insert_readme_analysis(conn, repo_doi, readme_name, readme_text)
                 else:
                     insert_readme_analysis(conn, repo_doi, None, None)
+
+                # Close the live page now that we're done with this repo
+                if live_page:
+                    live_page.close()
 
                 # --- Progress ---
                 if idx % 50 == 0:
