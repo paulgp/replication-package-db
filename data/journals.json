@@ -1,0 +1,65 @@
+[
+  {
+    "display_name": "American Economic Review",
+    "homepage_url": "http://www.aeaweb.org/aer/",
+    "issn": "0002-8282",
+    "openalex_id": "S23254222",
+    "works_count": 10083
+  },
+  {
+    "display_name": "American Economic Review Insights",
+    "homepage_url": null,
+    "issn": "2640-205X",
+    "openalex_id": "S4210174288",
+    "works_count": 256
+  },
+  {
+    "display_name": "AEA Papers and Proceedings",
+    "homepage_url": "https://www.aeaweb.org/journals/pandp",
+    "issn": "2574-0768",
+    "openalex_id": "S4210213798",
+    "works_count": 1173
+  },
+  {
+    "display_name": "American Economic Journal Applied Economics",
+    "homepage_url": null,
+    "issn": "1945-7782",
+    "openalex_id": "S42893225",
+    "works_count": 833
+  },
+  {
+    "display_name": "American Economic Journal Economic Policy",
+    "homepage_url": "http://aeaweb.org/aej-policy",
+    "issn": "1945-7731",
+    "openalex_id": "S158011328",
+    "works_count": 889
+  },
+  {
+    "display_name": "American Economic Journal Macroeconomics",
+    "homepage_url": "http://books.google.com/books?id=6FlQAQAAIAAJ",
+    "issn": "1945-7707",
+    "openalex_id": "S170166683",
+    "works_count": 731
+  },
+  {
+    "display_name": "American Economic Journal Microeconomics",
+    "homepage_url": "http://pubs.aeaweb.org/openurl?genre=journal&stitle=mic",
+    "issn": "1945-7669",
+    "openalex_id": "S96919139",
+    "works_count": 835
+  },
+  {
+    "display_name": "Journal of Economic Literature",
+    "homepage_url": "http://www.aeaweb.org/journal.html",
+    "issn": "0022-0515",
+    "openalex_id": "S127708089",
+    "works_count": 2481
+  },
+  {
+    "display_name": "The Journal of Economic Perspectives",
+    "homepage_url": "http://www.aeaweb.org/jep/",
+    "issn": "0895-3309",
+    "openalex_id": "S72880728",
+    "works_count": 2424
+  }
+]
