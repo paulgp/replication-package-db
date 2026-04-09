@@ -56,8 +56,9 @@ CREATE TABLE IF NOT EXISTS readme_analysis (
     repo_doi TEXT UNIQUE,
     has_readme BOOLEAN,
     readme_text TEXT,
-    restriction_flags TEXT, -- JSON array of matched phrases
-    restriction_count INTEGER
+    restriction_flags TEXT,    -- JSON array of matched phrases
+    restriction_count INTEGER,
+    data_availability TEXT     -- 'all_data', 'partial_data', 'no_data', or NULL
 );
 
 CREATE TABLE IF NOT EXISTS replication_scores (
