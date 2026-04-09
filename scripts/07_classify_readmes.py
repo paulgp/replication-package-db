@@ -267,15 +267,19 @@ def save_result(
 # ---------------------------------------------------------------------------
 # Page scraping helpers
 # ---------------------------------------------------------------------------
-def find_readme_in_page(html: str) -> tuple[str | None, str | None]:
-    """Find README filename and file path from project page HTML.
+def find_readme_in_html(html: str) -> tuple[str | None, str | None, list[str]]:
+    """Find README filename and file path from a project/folder page HTML.
 
-    Returns (readme_name, file_path) or (None, None).
+    Returns (readme_name, file_path, folder_paths).
+    readme_name and file_path are for the first README found (or None).
+    folder_paths is a list of subfolder path parameters for deeper search.
     """
     soup = BeautifulSoup(html, "html.parser")
     table = soup.select_one("table.table.table-striped")
     if not table:
-        return None, None
+        return None, None, []
+
+    folders: list[str] = []
 
     for row in table.select("tbody tr"):
         link = row.select_one("td a")
@@ -283,9 +287,47 @@ def find_readme_in_page(html: str) -> tuple[str | None, str | None]:
             continue
         fname = link.get_text(strip=True)
         href = link.get("href", "")
-        if README_RE.match(fname) and "type=folder" not in href and "path=" in href:
+
+        if "type=folder" in href and "path=" in href:
+            folder_path = href.split("path=")[1].split("&")[0]
+            folders.append(folder_path)
+            continue
+
+        if README_RE.match(fname) and "path=" in href:
             file_path = href.split("path=")[1].split("&")[0]
-            return fname, file_path
+            return fname, file_path, folders
+
+    return None, None, folders
+
+
+def find_readme_with_subfolders(
+    page: Any, project_id: str, root_html: str
+) -> tuple[str | None, str | None]:
+    """Search root page and one level of subfolders for a README.
+
+    Returns (readme_name, file_path) or (None, None).
+    """
+    # Check root first
+    readme_name, file_path, folders = find_readme_in_html(root_html)
+    if readme_name:
+        return readme_name, file_path
+
+    # Check each subfolder (one level deep)
+    for folder_path in folders:
+        folder_url = (
+            f"https://www.openicpsr.org/openicpsr/project/{project_id}"
+            f"/version/V1/view?path={folder_path}&type=folder"
+        )
+        try:
+            page.goto(folder_url, wait_until="networkidle", timeout=20000)
+            time.sleep(PAGE_DELAY)
+            sub_html = page.content()
+        except Exception:
+            continue
+
+        readme_name, file_path, _ = find_readme_in_html(sub_html)
+        if readme_name:
+            return readme_name, file_path
 
     return None, None
 
@@ -442,7 +484,7 @@ def main() -> int:
                         continue
 
                 # --- Find README in file listing ---
-                readme_name, file_path = find_readme_in_page(html)
+                readme_name, file_path = find_readme_with_subfolders(page, pid, html)
 
                 if not readme_name:
                     stats["no_readme"] += 1
