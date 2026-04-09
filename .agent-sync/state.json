@@ -1,0 +1,110 @@
+{
+  "source": "http://som:3000/psg24/agent-config",
+  "branch": "main",
+  "synced_commit": "",
+  "items": {
+    "pi/extension/forge": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".pi/extensions/forge/debate.ts": "sha256:1b0d57dcacbff3aa325c478c726173cfc53f3b4122ab0ccd5d5dafb272764738",
+        ".pi/extensions/forge/dispatch.ts": "sha256:d0b70ad9c912ae77463cc4ba9aedf2aa2b6c5bd91a1b6467010a8facaa48712f",
+        ".pi/extensions/forge/index.ts": "sha256:b4f3b9ad3a2c3c6c81fc1a9c3fb6cbf1fe1aae4bc7fdc412f62062929682f330",
+        ".pi/extensions/forge/log.ts": "sha256:c473641f058e0bf914935adc9a12da5ce1951b723579798fde95a62db3ff37ce",
+        ".pi/extensions/forge/models.ts": "sha256:d9d58e49162fc0cb69251b7c56eaa9c3b41257b058ce1e29757543c705166ba4",
+        ".pi/extensions/forge/ship.ts": "sha256:a92e897495b537204e24ae7ef64185dd54e98c59fac11127127b9c30ba7d22c7"
+      }
+    },
+    "pi/extension/project-context": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".pi/extensions/project-context/index.ts": "sha256:4d26ff14264fdecc4990827de470d0bc89843e34af0f85c6e64be7950ba6adb5"
+      }
+    },
+    "pi/prompt/debate": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".pi/prompts/debate.md": "sha256:64b32afe8184bf3f8a547353b015b7ec4c262fcd43a5413bf3c8ae668e29ff76"
+      }
+    },
+    "pi/prompt/plan": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".pi/prompts/plan.md": "sha256:3efe18ba71a875ed27a739b8c75f30bf2a40194e4b9e332abb107449f27cb690"
+      }
+    },
+    "pi/prompt/review": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".pi/prompts/review.md": "sha256:5e0e19dac02f3f34fb38479a022599dcf8ad4addca08f90b3499fce9ddfb322b"
+      }
+    },
+    "pi/prompt/shape": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".pi/prompts/shape.md": "sha256:7f81d68a5cd77f05f7fe048da55c5a8c0924905c666e05cda4e3ef7e0d86080f"
+      }
+    },
+    "pi/prompt/ship": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".pi/prompts/ship.md": "sha256:76846fc8faa8e694453031a3b62249c3304612244413fd4a66d6ea7288ca3c78"
+      }
+    },
+    "skill/code-review": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".agents/skills/code-review/SKILL.md": "sha256:07d33f37c7a30022c47461788a484d0e586cbc2f2567915be74ee283d1dc7398"
+      }
+    },
+    "skill/forge-orchestration": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".agents/skills/forge-orchestration/SKILL.md": "sha256:ec545b2a39f82f0079efaa4f34fd6bf3f0a4684b1b387cfcb4cac9f10f0a1b8b"
+      }
+    },
+    "skill/forgejo": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".agents/skills/forgejo/SKILL.md": "sha256:202db097d7ce21a7a7f7503b0f92be37c0ad26452f8b700c10e3b0c34eed6129"
+      }
+    },
+    "skill/forgejo-actions": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".agents/skills/forgejo-actions/SKILL.md": "sha256:4655bf32b5ed78529a6a2a976a7aba3c7bf5746f65539ebe43c26310695c20c5"
+      }
+    },
+    "skill/model-selection": {
+      "installed_by": [
+        "bundle:forge"
+      ],
+      "files": {
+        ".agents/skills/model-selection/SKILL.md": "sha256:efd673c4a1704d035332004bd37989eb7d52e0d99672ab658bc17e5d56346373",
+        ".agents/skills/model-selection/fetch-models.py": "sha256:746a23159d59707ad0eb5e2438fdd346e805a5cca816586c2f2f16d50eaff008",
+        ".agents/skills/model-selection/pick-models.py": "sha256:4cd528b6d59fb9e2865bd2e37d3bd38ef7f0e61b1e2ed2f74d7261562d0351c3"
+      }
+    }
+  }
+}
