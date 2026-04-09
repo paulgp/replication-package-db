@@ -31,6 +31,7 @@ AEA_JOURNALS = {
 OPENALEX_BASE_URL = "https://api.openalex.org"
 DATACITE_BASE_URL = "https://api.datacite.org"
 CROSSREF_BASE_URL = "https://api.crossref.org"
+OPENICPSR_BASE_URL = "https://www.openicpsr.org/openicpsr/project"
 
 DATA_DIR = BASE_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"
@@ -98,5 +99,8 @@ RATE_LIMITS = {
     "crossref": {
         "requests_per_second": 50,
         "polite_pool_recommended": True,
+    },
+    "openicpsr": {
+        "requests_per_second": 1,
     },
 }

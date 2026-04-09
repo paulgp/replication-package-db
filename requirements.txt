@@ -6,3 +6,4 @@ pymupdf
 pandas
 httpx
 python-dotenv
+playwright
