@@ -221,7 +221,7 @@ def extract_readme_text(file_path: Path) -> str | None:
 # DB helpers
 # ---------------------------------------------------------------------------
 def get_repos_to_process(conn) -> list[dict[str, str]]:
-    """Return repos not yet in readme_analysis."""
+    """Return repos not yet in readme_analysis, newest first."""
     rows = conn.execute(
         """
         SELECT DISTINCT rm.repo_doi, rm.icpsr_project_id
@@ -230,7 +230,7 @@ def get_repos_to_process(conn) -> list[dict[str, str]]:
           AND NOT EXISTS (
               SELECT 1 FROM readme_analysis ra WHERE ra.repo_doi = rm.repo_doi
           )
-        ORDER BY rm.icpsr_project_id
+        ORDER BY CAST(rm.icpsr_project_id AS INTEGER) DESC
         """
     ).fetchall()
     return [{"repo_doi": r["repo_doi"], "icpsr_project_id": r["icpsr_project_id"]} for r in rows]
