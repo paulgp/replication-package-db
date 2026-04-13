@@ -374,7 +374,7 @@ def extract_files_from_html(html: str) -> list[dict[str, Any]]:
 def classify_file(filename: str, size_bytes: int) -> dict[str, Any]:
     """Classify a file by its extension using FILE_TYPE_CLASSIFICATIONS."""
     ext = Path(filename).suffix.lower()
-    is_readme = bool(README_RE.search(filename))
+    is_readme = bool(README_RE.search(filename) and not filename.startswith("._"))
 
     if is_readme:
         file_type = "documentation"

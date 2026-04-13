@@ -293,7 +293,7 @@ def find_readme_in_html(html: str) -> tuple[str | None, str | None, list[str]]:
             folders.append(folder_path)
             continue
 
-        if README_RE.search(fname) and "path=" in href:
+        if README_RE.search(fname) and not fname.startswith("._") and "path=" in href:
             file_path = href.split("path=")[1].split("&")[0]
             return fname, file_path, folders
 

@@ -149,7 +149,7 @@ def parse_listing(html: str) -> tuple[str | None, str | None, list[str]]:
 
         if "type=folder" in href:
             folders.append(path)
-        elif README_RE.search(fname):
+        elif README_RE.search(fname) and not fname.startswith("._"):
             # Take the first README we find
             if readme_name is None:
                 readme_name = fname
