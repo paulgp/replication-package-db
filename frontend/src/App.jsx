@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   ResponsiveContainer,
   BarChart,
@@ -34,6 +34,12 @@ const STATUS_COLORS = {
   no_repository: "#cbd5e1",
 };
 
+const BASE = import.meta.env.BASE_URL;
+
+function dataUrl(path) {
+  return `${BASE}data/${path}`;
+}
+
 function pct(n, total) {
   if (!total) return "";
   return `${((100 * n) / total).toFixed(1)}%`;
@@ -54,7 +60,7 @@ function StatusBadge({ status }) {
 function Overview() {
   const [data, setData] = useState(null);
   useEffect(() => {
-    fetch("/api/stats/overview")
+    fetch(dataUrl("stats-overview.json"))
       .then((r) => r.json())
       .then(setData);
   }, []);
@@ -89,7 +95,7 @@ function Overview() {
 function ByYearChart() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("/api/stats/by-year?start=2005&end=2026")
+    fetch(dataUrl("stats-by-year.json"))
       .then((r) => r.json())
       .then(setData);
   }, []);
@@ -124,7 +130,7 @@ function ByYearChart() {
 function ByJournalTable({ yearStart, yearEnd }) {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch(`/api/stats/by-journal?start=${yearStart}&end=${yearEnd}`)
+    fetch(dataUrl("stats-by-journal.json"))
       .then((r) => r.json())
       .then(setData);
   }, [yearStart, yearEnd]);
@@ -181,41 +187,42 @@ function PaperBrowser() {
     journal: "",
     status: "",
   });
+  const [allPapers, setAllPapers] = useState([]);
   const [journals, setJournals] = useState([]);
-  const [data, setData] = useState({ items: [], total: 0 });
   const [page, setPage] = useState(0);
   const [selectedDoi, setSelectedDoi] = useState(null);
-  const [detail, setDetail] = useState(null);
   const limit = 25;
 
   useEffect(() => {
-    fetch("/api/journals")
+    fetch(dataUrl("journals.json"))
       .then((r) => r.json())
       .then(setJournals);
+    fetch(dataUrl("papers.json"))
+      .then((r) => r.json())
+      .then(setAllPapers);
   }, []);
 
-  useEffect(() => {
-    const params = new URLSearchParams();
-    if (filters.year_start) params.set("year_start", filters.year_start);
-    if (filters.year_end) params.set("year_end", filters.year_end);
-    if (filters.journal) params.set("journal", filters.journal);
-    if (filters.status) params.set("status", filters.status);
-    params.set("limit", limit);
-    params.set("offset", page * limit);
-    fetch(`/api/papers?${params.toString()}`)
-      .then((r) => r.json())
-      .then(setData);
-  }, [filters, page]);
+  const filtered = useMemo(() => {
+    return allPapers.filter((p) => {
+      if (filters.year_start && p.publication_year < filters.year_start) return false;
+      if (filters.year_end && p.publication_year > filters.year_end) return false;
+      if (filters.journal && p.journal_name !== filters.journal) return false;
+      if (filters.status && p.replication_status !== filters.status) return false;
+      return true;
+    });
+  }, [allPapers, filters]);
 
-  useEffect(() => {
-    if (!selectedDoi) {
-      setDetail(null);
-      return;
-    }
-    fetch(`/api/papers/${encodeURIComponent(selectedDoi)}`)
-      .then((r) => r.json())
-      .then(setDetail);
-  }, [selectedDoi]);
+  const pageItems = useMemo(() => {
+    const start = page * limit;
+    return filtered.slice(start, start + limit);
+  }, [filtered, page]);
+
+  const total = filtered.length;
+
+  const detail = useMemo(() => {
+    if (!selectedDoi) return null;
+    return allPapers.find((p) => p.doi === selectedDoi) || null;
+  }, [selectedDoi, allPapers]);
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
@@ -287,8 +294,8 @@ function PaperBrowser() {
       </div>
 
       <div className="text-xs text-gray-500 mb-2">
-        {data.total.toLocaleString()} matching papers · showing{" "}
-        {page * limit + 1}–{Math.min((page + 1) * limit, data.total)}
+        {total.toLocaleString()} matching papers · showing{" "}
+        {total > 0 ? page * limit + 1 : 0}–{Math.min((page + 1) * limit, total)}
       </div>
 
       <div className="overflow-x-auto">
@@ -302,7 +309,7 @@ function PaperBrowser() {
             </tr>
           </thead>
           <tbody>
-            {data.items.map((p) => (
+            {pageItems.map((p) => (
               <tr
                 key={p.doi}
                 className="border-b border-gray-100 cursor-pointer hover:bg-blue-50"
@@ -333,10 +340,10 @@ function PaperBrowser() {
           ← Prev
         </button>
         <span className="text-gray-500">
-          Page {page + 1} of {Math.ceil(data.total / limit) || 1}
+          Page {page + 1} of {Math.ceil(total / limit) || 1}
         </span>
         <button
-          disabled={(page + 1) * limit >= data.total}
+          disabled={(page + 1) * limit >= total}
           onClick={() => setPage(page + 1)}
           className="px-3 py-1 border border-gray-300 rounded disabled:opacity-40"
         >
