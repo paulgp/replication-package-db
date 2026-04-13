@@ -3,12 +3,15 @@
 Re-visits repos with has_readme=0 and traverses subfolders up to MAX_DEPTH
 levels deep looking for a README. Updates readme_analysis if found.
 
-Connects to a running Chrome instance via CDP (port 9222). Launch Chrome:
-    /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome \\
-        --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-icpsr
+Modes:
+  --offline   Re-scan cached HTML in data/raw/repos/ with the expanded regex.
+              No Chrome needed. Finds READMEs at root level that the original
+              narrow regex missed (e.g. "Read_me.pdf", "READ ME.pdf").
+  (default)   Live deep search via CDP Chrome, BFS through subfolders.
 
 Usage:
-    python scripts/08_deep_readme_search.py
+    python scripts/08_deep_readme_search.py --offline        # fast, no Chrome
+    python scripts/08_deep_readme_search.py                  # live deep search
     python scripts/08_deep_readme_search.py --limit 50
 """
 
@@ -47,7 +50,7 @@ MAX_DEPTH = 3
 PAGE_DELAY = 1.0
 DOWNLOAD_WAIT = 5.0
 
-README_RE = re.compile(r"^readme", re.IGNORECASE)
+README_RE = re.compile(r"read[\s_-]?me", re.IGNORECASE)
 
 
 def configure_logging() -> None:
@@ -146,7 +149,7 @@ def parse_listing(html: str) -> tuple[str | None, str | None, list[str]]:
 
         if "type=folder" in href:
             folders.append(path)
-        elif README_RE.match(fname):
+        elif README_RE.search(fname):
             # Take the first README we find
             if readme_name is None:
                 readme_name = fname
@@ -252,12 +255,93 @@ def download_readme(
 
 
 # ---------------------------------------------------------------------------
+# Offline mode: re-scan cached HTML with expanded regex
+# ---------------------------------------------------------------------------
+def load_cached_html(project_id: str) -> str | None:
+    """Load cached HTML for a project from data/raw/repos/."""
+    html_path = REPOS_RAW_DIR / f"{project_id}.html"
+    if html_path.exists():
+        return html_path.read_text(encoding="utf-8", errors="replace")
+
+    mhtml_path = REPOS_RAW_DIR / f"{project_id}.mhtml"
+    if mhtml_path.exists():
+        import email as _email
+
+        raw = mhtml_path.read_bytes()
+        msg = _email.message_from_bytes(raw)
+        for part in msg.walk():
+            if part.get_content_type() == "text/html":
+                payload = part.get_payload(decode=True)
+                if payload:
+                    return payload.decode(
+                        part.get_content_charset() or "utf-8", errors="replace"
+                    )
+    return None
+
+
+def run_offline(conn, repos: list[dict[str, str]]) -> int:
+    """Re-scan cached root-level HTML with the expanded README regex."""
+    stats = {"scanned": 0, "found": 0, "already_cached": 0, "classified": 0, "no_cache": 0}
+
+    for idx, repo in enumerate(repos, 1):
+        pid = repo["icpsr_project_id"]
+        repo_doi = repo["repo_doi"]
+
+        html = load_cached_html(pid)
+        if html is None:
+            stats["no_cache"] += 1
+            continue
+
+        readme_name, readme_path, _ = parse_listing(html)
+        stats["scanned"] += 1
+
+        if not readme_name:
+            continue
+
+        stats["found"] += 1
+        LOGGER.info("Found README for %s: %s (path=%s)", pid, readme_name, readme_path)
+
+        # Check if we already have the file downloaded
+        for ext in [".pdf", ".txt", ".md", ".docx", ".html", ".doc", ".tex"]:
+            cached = READMES_RAW_DIR / f"{pid}{ext}"
+            if cached.exists():
+                text = extract_readme_text(cached)
+                if text:
+                    classification, flags = classify_data_availability(text)
+                    update_readme_result(conn, repo_doi, text, classification, flags)
+                    stats["classified"] += 1
+                else:
+                    update_readme_result(conn, repo_doi, None, None, [])
+                stats["already_cached"] += 1
+                break
+        else:
+            LOGGER.info(
+                "  README identified but not downloaded — run live mode to fetch: %s",
+                readme_name,
+            )
+
+        if idx % 100 == 0:
+            LOGGER.info("Progress: %d/%d | found=%d", idx, len(repos), stats["found"])
+
+    LOGGER.info("=" * 60)
+    LOGGER.info("Offline scan complete")
+    LOGGER.info("=" * 60)
+    LOGGER.info("Scanned:          %d", stats["scanned"])
+    LOGGER.info("No cached HTML:   %d", stats["no_cache"])
+    LOGGER.info("READMEs found:    %d", stats["found"])
+    LOGGER.info("Already cached:   %d", stats["already_cached"])
+    LOGGER.info("Classified:       %d", stats["classified"])
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main() -> int:
     configure_logging()
     parser = argparse.ArgumentParser(description="Deep README search")
     parser.add_argument("--limit", type=int, default=0, help="Max repos to process")
+    parser.add_argument("--offline", action="store_true", help="Re-scan cached HTML only (no Chrome)")
     args = parser.parse_args()
 
     READMES_RAW_DIR.mkdir(parents=True, exist_ok=True)
@@ -274,6 +358,9 @@ def main() -> int:
         if not repos:
             LOGGER.info("Nothing to do.")
             return 0
+
+        if args.offline:
+            return run_offline(conn, repos)
 
         try:
             from playwright.sync_api import sync_playwright

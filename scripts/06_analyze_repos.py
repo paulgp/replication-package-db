@@ -47,7 +47,7 @@ REQUEST_TIMEOUT_MS = 60_000  # 60s — Cloudflare challenge can be slow
 REPOS_RAW_DIR = RAW_DIR / "repos"
 READMES_RAW_DIR = RAW_DIR / "readmes"
 
-README_RE = re.compile(r"^readme\b", re.IGNORECASE)
+README_RE = re.compile(r"read[\s_-]?me", re.IGNORECASE)
 LARGE_TXT_THRESHOLD = 100 * 1024  # 100KB
 
 
@@ -374,7 +374,7 @@ def extract_files_from_html(html: str) -> list[dict[str, Any]]:
 def classify_file(filename: str, size_bytes: int) -> dict[str, Any]:
     """Classify a file by its extension using FILE_TYPE_CLASSIFICATIONS."""
     ext = Path(filename).suffix.lower()
-    is_readme = bool(README_RE.match(filename))
+    is_readme = bool(README_RE.search(filename))
 
     if is_readme:
         file_type = "documentation"

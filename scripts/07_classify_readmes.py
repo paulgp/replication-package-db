@@ -46,7 +46,7 @@ REPOS_RAW_DIR = RAW_DIR / "repos"
 READMES_RAW_DIR = RAW_DIR / "readmes"
 CDP_URL = "http://localhost:9222"
 
-README_RE = re.compile(r"^readme", re.IGNORECASE)
+README_RE = re.compile(r"read[\s_-]?me", re.IGNORECASE)
 
 # How long to wait between page loads (seconds)
 PAGE_DELAY = 1.0
@@ -293,7 +293,7 @@ def find_readme_in_html(html: str) -> tuple[str | None, str | None, list[str]]:
             folders.append(folder_path)
             continue
 
-        if README_RE.match(fname) and "path=" in href:
+        if README_RE.search(fname) and "path=" in href:
             file_path = href.split("path=")[1].split("&")[0]
             return fname, file_path, folders
 
