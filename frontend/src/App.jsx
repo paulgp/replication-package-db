@@ -93,18 +93,59 @@ function Overview() {
 }
 
 function ByYearChart() {
-  const [data, setData] = useState([]);
+  const [allData, setAllData] = useState([]);
+  const [papers, setPapers] = useState([]);
+  const [journals, setJournals] = useState([]);
+  const [selectedJournal, setSelectedJournal] = useState("");
+
   useEffect(() => {
     fetch(dataUrl("stats-by-year.json"))
       .then((r) => r.json())
-      .then(setData);
+      .then(setAllData);
+    fetch(dataUrl("papers.json"))
+      .then((r) => r.json())
+      .then((p) => {
+        setPapers(p);
+        const js = [...new Set(p.map((x) => x.journal_name).filter(Boolean))].sort();
+        setJournals(js);
+      });
   }, []);
-  if (!data.length) return null;
+
+  const data = useMemo(() => {
+    if (!selectedJournal) return allData;
+    const byYear = {};
+    papers
+      .filter((p) => p.journal_name === selectedJournal && p.publication_year)
+      .forEach((p) => {
+        const y = p.publication_year;
+        if (!byYear[y]) byYear[y] = { year: y, total: 0 };
+        const s = p.replication_status || "unanalyzed_repo";
+        byYear[y][s] = (byYear[y][s] || 0) + 1;
+        byYear[y].total += 1;
+      });
+    return Object.values(byYear).sort((a, b) => a.year - b.year);
+  }, [allData, papers, selectedJournal]);
+
+  if (!allData.length) return null;
   return (
     <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-      <h3 className="text-sm font-semibold text-gray-700 mb-3">
-        Data availability by year
-      </h3>
+      <div className="flex items-center justify-between mb-3">
+        <h3 className="text-sm font-semibold text-gray-700">
+          Data availability by year
+        </h3>
+        <select
+          value={selectedJournal}
+          onChange={(e) => setSelectedJournal(e.target.value)}
+          className="text-xs border border-gray-300 rounded px-2 py-1"
+        >
+          <option value="">All journals</option>
+          {journals.map((j) => (
+            <option key={j} value={j}>
+              {j}
+            </option>
+          ))}
+        </select>
+      </div>
       <ResponsiveContainer width="100%" height={320}>
         <BarChart data={data}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
