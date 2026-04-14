@@ -1,61 +1,54 @@
 {
   "by_journal": {
-    "AEA Papers and Proceedings": {
-      "fully_replicable": 174,
-      "no_repository": 752,
-      "not_replicable": 21,
-      "partially_replicable": 76,
-      "unanalyzed_repo": 121
-    },
     "American Economic Journal Applied Economics": {
-      "fully_replicable": 217,
+      "fully_replicable": 279,
       "no_repository": 77,
-      "not_replicable": 45,
-      "partially_replicable": 139,
-      "unanalyzed_repo": 258
+      "not_replicable": 53,
+      "partially_replicable": 160,
+      "unanalyzed_repo": 167
     },
     "American Economic Journal Economic Policy": {
-      "fully_replicable": 236,
+      "fully_replicable": 285,
       "no_repository": 100,
-      "not_replicable": 57,
-      "partially_replicable": 145,
-      "unanalyzed_repo": 240
+      "not_replicable": 70,
+      "partially_replicable": 163,
+      "unanalyzed_repo": 160
     },
     "American Economic Journal Macroeconomics": {
-      "fully_replicable": 224,
+      "fully_replicable": 247,
       "no_repository": 117,
-      "not_replicable": 27,
-      "partially_replicable": 57,
-      "unanalyzed_repo": 191
+      "not_replicable": 34,
+      "partially_replicable": 62,
+      "unanalyzed_repo": 156
     },
     "American Economic Journal Microeconomics": {
-      "fully_replicable": 104,
+      "fully_replicable": 134,
       "no_repository": 492,
-      "not_replicable": 8,
-      "partially_replicable": 32,
-      "unanalyzed_repo": 98
+      "not_replicable": 10,
+      "partially_replicable": 36,
+      "unanalyzed_repo": 62
     },
     "American Economic Review": {
-      "fully_replicable": 755,
+      "fully_replicable": 960,
       "no_repository": 3188,
-      "not_replicable": 133,
-      "partially_replicable": 275,
-      "unanalyzed_repo": 865
+      "not_replicable": 157,
+      "partially_replicable": 341,
+      "unanalyzed_repo": 570
     },
     "American Economic Review Insights": {
-      "fully_replicable": 61,
+      "fully_replicable": 70,
       "no_repository": 62,
-      "not_replicable": 21,
-      "partially_replicable": 35,
-      "unanalyzed_repo": 40
+      "not_replicable": 22,
+      "partially_replicable": 37,
+      "unanalyzed_repo": 28
     }
   },
   "by_status": {
-    "fully_replicable": 1771,
-    "no_repository": 4788,
-    "not_replicable": 312,
-    "partially_replicable": 759,
-    "unanalyzed_repo": 1813
+    "fully_replicable": 1975,
+    "no_repository": 4036,
+    "not_replicable": 346,
+    "partially_replicable": 799,
+    "unanalyzed_repo": 1143
   },
   "by_year": {
     "1953": {
@@ -147,161 +140,162 @@
       "no_repository": 192
     },
     "2004": {
-      "fully_replicable": 3,
+      "fully_replicable": 5,
       "no_repository": 170,
-      "unanalyzed_repo": 13
+      "unanalyzed_repo": 11
     },
     "2005": {
-      "fully_replicable": 18,
+      "fully_replicable": 19,
       "no_repository": 139,
       "partially_replicable": 2,
-      "unanalyzed_repo": 27
+      "unanalyzed_repo": 26
     },
     "2006": {
-      "fully_replicable": 24,
+      "fully_replicable": 29,
       "no_repository": 166,
-      "not_replicable": 1,
-      "partially_replicable": 4,
-      "unanalyzed_repo": 27
+      "not_replicable": 2,
+      "partially_replicable": 5,
+      "unanalyzed_repo": 20
     },
     "2007": {
-      "fully_replicable": 17,
+      "fully_replicable": 29,
       "no_repository": 177,
+      "not_replicable": 1,
       "partially_replicable": 2,
-      "unanalyzed_repo": 39
+      "unanalyzed_repo": 26
     },
     "2008": {
-      "fully_replicable": 16,
+      "fully_replicable": 27,
       "no_repository": 155,
       "partially_replicable": 4,
-      "unanalyzed_repo": 34
+      "unanalyzed_repo": 23
     },
     "2009": {
-      "fully_replicable": 57,
+      "fully_replicable": 71,
       "no_repository": 191,
       "not_replicable": 4,
-      "partially_replicable": 7,
-      "unanalyzed_repo": 74
+      "partially_replicable": 8,
+      "unanalyzed_repo": 59
     },
     "2010": {
-      "fully_replicable": 61,
+      "fully_replicable": 77,
       "no_repository": 216,
-      "not_replicable": 3,
-      "partially_replicable": 10,
-      "unanalyzed_repo": 81
+      "not_replicable": 4,
+      "partially_replicable": 15,
+      "unanalyzed_repo": 59
     },
     "2011": {
-      "fully_replicable": 66,
+      "fully_replicable": 107,
       "no_repository": 213,
-      "not_replicable": 5,
-      "partially_replicable": 10,
-      "unanalyzed_repo": 121
+      "not_replicable": 7,
+      "partially_replicable": 14,
+      "unanalyzed_repo": 74
     },
     "2012": {
-      "fully_replicable": 75,
+      "fully_replicable": 102,
       "no_repository": 197,
-      "not_replicable": 3,
-      "partially_replicable": 13,
-      "unanalyzed_repo": 116
+      "not_replicable": 6,
+      "partially_replicable": 24,
+      "unanalyzed_repo": 75
     },
     "2013": {
-      "fully_replicable": 104,
+      "fully_replicable": 123,
       "no_repository": 179,
-      "not_replicable": 4,
-      "partially_replicable": 13,
-      "unanalyzed_repo": 117
+      "not_replicable": 5,
+      "partially_replicable": 20,
+      "unanalyzed_repo": 90
     },
     "2014": {
-      "fully_replicable": 115,
+      "fully_replicable": 148,
       "no_repository": 120,
-      "not_replicable": 11,
-      "partially_replicable": 23,
-      "unanalyzed_repo": 114
+      "not_replicable": 12,
+      "partially_replicable": 30,
+      "unanalyzed_repo": 73
     },
     "2015": {
-      "fully_replicable": 122,
+      "fully_replicable": 156,
       "no_repository": 130,
-      "not_replicable": 14,
-      "partially_replicable": 31,
-      "unanalyzed_repo": 135
+      "not_replicable": 18,
+      "partially_replicable": 36,
+      "unanalyzed_repo": 92
     },
     "2016": {
-      "fully_replicable": 114,
+      "fully_replicable": 137,
       "no_repository": 142,
       "not_replicable": 9,
-      "partially_replicable": 32,
-      "unanalyzed_repo": 107
+      "partially_replicable": 41,
+      "unanalyzed_repo": 75
     },
     "2017": {
-      "fully_replicable": 105,
+      "fully_replicable": 122,
       "no_repository": 154,
-      "not_replicable": 12,
-      "partially_replicable": 20,
-      "unanalyzed_repo": 103
+      "not_replicable": 14,
+      "partially_replicable": 32,
+      "unanalyzed_repo": 72
     },
     "2018": {
-      "fully_replicable": 131,
-      "no_repository": 111,
-      "not_replicable": 9,
+      "fully_replicable": 115,
+      "no_repository": 55,
+      "not_replicable": 8,
       "partially_replicable": 35,
-      "unanalyzed_repo": 114
+      "unanalyzed_repo": 50
     },
     "2019": {
-      "fully_replicable": 149,
-      "no_repository": 101,
-      "not_replicable": 13,
-      "partially_replicable": 44,
-      "unanalyzed_repo": 140
+      "fully_replicable": 138,
+      "no_repository": 53,
+      "not_replicable": 17,
+      "partially_replicable": 39,
+      "unanalyzed_repo": 71
     },
     "2020": {
-      "fully_replicable": 100,
-      "no_repository": 224,
-      "not_replicable": 16,
-      "partially_replicable": 35,
-      "unanalyzed_repo": 98
+      "fully_replicable": 110,
+      "no_repository": 116,
+      "not_replicable": 20,
+      "partially_replicable": 37,
+      "unanalyzed_repo": 48
     },
     "2021": {
-      "fully_replicable": 88,
-      "no_repository": 153,
-      "not_replicable": 44,
+      "fully_replicable": 93,
+      "no_repository": 64,
+      "not_replicable": 50,
       "partially_replicable": 54,
-      "unanalyzed_repo": 98
+      "unanalyzed_repo": 41
     },
     "2022": {
-      "fully_replicable": 97,
-      "no_repository": 255,
-      "not_replicable": 36,
-      "partially_replicable": 69,
-      "unanalyzed_repo": 68
+      "fully_replicable": 90,
+      "no_repository": 140,
+      "not_replicable": 41,
+      "partially_replicable": 62,
+      "unanalyzed_repo": 44
     },
     "2023": {
-      "fully_replicable": 96,
-      "no_repository": 222,
-      "not_replicable": 35,
-      "partially_replicable": 89,
-      "unanalyzed_repo": 56
+      "fully_replicable": 84,
+      "no_repository": 108,
+      "not_replicable": 36,
+      "partially_replicable": 84,
+      "unanalyzed_repo": 30
     },
     "2024": {
-      "fully_replicable": 97,
-      "no_repository": 183,
-      "not_replicable": 43,
-      "partially_replicable": 123,
-      "unanalyzed_repo": 68
+      "fully_replicable": 87,
+      "no_repository": 71,
+      "not_replicable": 41,
+      "partially_replicable": 121,
+      "unanalyzed_repo": 45
     },
     "2025": {
-      "fully_replicable": 88,
-      "no_repository": 165,
-      "not_replicable": 43,
-      "partially_replicable": 116,
-      "unanalyzed_repo": 54
+      "fully_replicable": 78,
+      "no_repository": 55,
+      "not_replicable": 44,
+      "partially_replicable": 110,
+      "unanalyzed_repo": 31
     },
     "2026": {
       "fully_replicable": 26,
       "no_repository": 24,
       "not_replicable": 6,
-      "partially_replicable": 23,
-      "unanalyzed_repo": 8
+      "partially_replicable": 24,
+      "unanalyzed_repo": 7
     }
   },
-  "total_papers": 9443
+  "total_papers": 8299
 }
