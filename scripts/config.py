@@ -19,7 +19,7 @@ OPENALEX_EMAIL = os.getenv("OPENALEX_EMAIL")
 AEA_JOURNALS = {
     "American Economic Review": "0002-8282",
     "American Economic Review: Insights": "2640-205X",
-    "AEA Papers and Proceedings": "2574-0768",
+
     "American Economic Journal: Applied Economics": "1945-7782",
     "American Economic Journal: Economic Policy": "1945-7731",
     "American Economic Journal: Macroeconomics": "1945-7707",
