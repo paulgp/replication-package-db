@@ -29,11 +29,11 @@
       "unanalyzed_repo": 62
     },
     "American Economic Review": {
-      "full_data": 507,
+      "full_data": 505,
       "no_data": 193,
-      "no_repository": 1998,
-      "partial_data": 498,
-      "unanalyzed_repo": 456
+      "no_repository": 1480,
+      "partial_data": 497,
+      "unanalyzed_repo": 453
     },
     "American Economic Review Insights": {
       "full_data": 51,
@@ -44,11 +44,11 @@
     }
   },
   "by_status": {
-    "full_data": 1175,
+    "full_data": 1173,
     "no_data": 457,
-    "no_repository": 2846,
-    "partial_data": 1228,
-    "unanalyzed_repo": 1029
+    "no_repository": 2328,
+    "partial_data": 1227,
+    "unanalyzed_repo": 1026
   },
   "by_year": {
     "1953": {
@@ -146,39 +146,39 @@
       "unanalyzed_repo": 11
     },
     "2005": {
-      "full_data": 18,
+      "full_data": 17,
       "no_data": 1,
-      "no_repository": 137,
+      "no_repository": 43,
       "partial_data": 2,
-      "unanalyzed_repo": 26
+      "unanalyzed_repo": 25
     },
     "2006": {
       "full_data": 17,
       "no_data": 2,
-      "no_repository": 154,
+      "no_repository": 56,
       "partial_data": 13,
       "unanalyzed_repo": 15
     },
     "2007": {
-      "full_data": 14,
+      "full_data": 13,
       "no_data": 1,
-      "no_repository": 166,
+      "no_repository": 62,
       "partial_data": 9,
       "unanalyzed_repo": 21
     },
     "2008": {
       "full_data": 13,
       "no_data": 2,
-      "no_repository": 143,
+      "no_repository": 38,
       "partial_data": 9,
-      "unanalyzed_repo": 15
+      "unanalyzed_repo": 14
     },
     "2009": {
       "full_data": 41,
       "no_data": 11,
-      "no_repository": 183,
-      "partial_data": 23,
-      "unanalyzed_repo": 54
+      "no_repository": 66,
+      "partial_data": 22,
+      "unanalyzed_repo": 53
     },
     "2010": {
       "full_data": 54,
@@ -300,5 +300,5 @@
       "unanalyzed_repo": 7
     }
   },
-  "total_papers": 6735
+  "total_papers": 6211
 }
