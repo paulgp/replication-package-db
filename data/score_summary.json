@@ -1,53 +1,53 @@
 {
   "by_journal": {
     "American Economic Journal Applied Economics": {
-      "full_data": 279,
-      "no_data": 53,
+      "full_data": 168,
+      "no_data": 95,
       "no_repository": 77,
-      "partial_data": 160,
+      "partial_data": 229,
       "unanalyzed_repo": 167
     },
     "American Economic Journal Economic Policy": {
-      "full_data": 285,
-      "no_data": 70,
+      "full_data": 141,
+      "no_data": 105,
       "no_repository": 100,
-      "partial_data": 163,
+      "partial_data": 272,
       "unanalyzed_repo": 160
     },
     "American Economic Journal Macroeconomics": {
-      "full_data": 247,
-      "no_data": 34,
+      "full_data": 190,
+      "no_data": 28,
       "no_repository": 117,
-      "partial_data": 62,
+      "partial_data": 125,
       "unanalyzed_repo": 156
     },
     "American Economic Journal Microeconomics": {
-      "full_data": 134,
-      "no_data": 10,
+      "full_data": 118,
+      "no_data": 19,
       "no_repository": 492,
-      "partial_data": 36,
+      "partial_data": 43,
       "unanalyzed_repo": 62
     },
     "American Economic Review": {
-      "full_data": 960,
-      "no_data": 157,
+      "full_data": 634,
+      "no_data": 247,
       "no_repository": 3188,
-      "partial_data": 341,
+      "partial_data": 577,
       "unanalyzed_repo": 570
     },
     "American Economic Review Insights": {
-      "full_data": 70,
-      "no_data": 22,
+      "full_data": 51,
+      "no_data": 17,
       "no_repository": 62,
-      "partial_data": 37,
+      "partial_data": 61,
       "unanalyzed_repo": 28
     }
   },
   "by_status": {
-    "full_data": 1975,
-    "no_data": 346,
+    "full_data": 1302,
+    "no_data": 511,
     "no_repository": 4036,
-    "partial_data": 799,
+    "partial_data": 1307,
     "unanalyzed_repo": 1143
   },
   "by_year": {
@@ -133,167 +133,170 @@
     },
     "2002": {
       "full_data": 1,
-      "no_data": 1,
-      "no_repository": 192
+      "no_repository": 192,
+      "partial_data": 1
     },
     "2003": {
       "no_repository": 192
     },
     "2004": {
-      "full_data": 5,
+      "full_data": 4,
+      "no_data": 1,
       "no_repository": 170,
       "unanalyzed_repo": 11
     },
     "2005": {
-      "full_data": 19,
+      "full_data": 18,
+      "no_data": 1,
       "no_repository": 139,
       "partial_data": 2,
       "unanalyzed_repo": 26
     },
     "2006": {
-      "full_data": 29,
-      "no_data": 2,
+      "full_data": 18,
+      "no_data": 3,
       "no_repository": 166,
-      "partial_data": 5,
+      "partial_data": 15,
       "unanalyzed_repo": 20
     },
     "2007": {
-      "full_data": 29,
-      "no_data": 1,
+      "full_data": 19,
+      "no_data": 2,
       "no_repository": 177,
-      "partial_data": 2,
+      "partial_data": 11,
       "unanalyzed_repo": 26
     },
     "2008": {
-      "full_data": 27,
+      "full_data": 18,
+      "no_data": 2,
       "no_repository": 155,
-      "partial_data": 4,
+      "partial_data": 11,
       "unanalyzed_repo": 23
     },
     "2009": {
-      "full_data": 71,
-      "no_data": 4,
+      "full_data": 47,
+      "no_data": 12,
       "no_repository": 191,
-      "partial_data": 8,
+      "partial_data": 24,
       "unanalyzed_repo": 59
     },
     "2010": {
-      "full_data": 77,
-      "no_data": 4,
+      "full_data": 54,
+      "no_data": 19,
       "no_repository": 216,
-      "partial_data": 15,
+      "partial_data": 23,
       "unanalyzed_repo": 59
     },
     "2011": {
-      "full_data": 107,
-      "no_data": 7,
+      "full_data": 71,
+      "no_data": 16,
       "no_repository": 213,
-      "partial_data": 14,
+      "partial_data": 41,
       "unanalyzed_repo": 74
     },
     "2012": {
-      "full_data": 102,
-      "no_data": 6,
+      "full_data": 67,
+      "no_data": 23,
       "no_repository": 197,
-      "partial_data": 24,
+      "partial_data": 42,
       "unanalyzed_repo": 75
     },
     "2013": {
-      "full_data": 123,
-      "no_data": 5,
+      "full_data": 74,
+      "no_data": 25,
       "no_repository": 179,
-      "partial_data": 20,
+      "partial_data": 49,
       "unanalyzed_repo": 90
     },
     "2014": {
-      "full_data": 148,
-      "no_data": 12,
+      "full_data": 93,
+      "no_data": 35,
       "no_repository": 120,
-      "partial_data": 30,
+      "partial_data": 62,
       "unanalyzed_repo": 73
     },
     "2015": {
-      "full_data": 156,
-      "no_data": 18,
+      "full_data": 95,
+      "no_data": 38,
       "no_repository": 130,
-      "partial_data": 36,
+      "partial_data": 77,
       "unanalyzed_repo": 92
     },
     "2016": {
-      "full_data": 137,
-      "no_data": 9,
+      "full_data": 72,
+      "no_data": 46,
       "no_repository": 142,
-      "partial_data": 41,
+      "partial_data": 69,
       "unanalyzed_repo": 75
     },
     "2017": {
-      "full_data": 122,
-      "no_data": 14,
+      "full_data": 67,
+      "no_data": 45,
       "no_repository": 154,
-      "partial_data": 32,
+      "partial_data": 56,
       "unanalyzed_repo": 72
     },
     "2018": {
-      "full_data": 115,
-      "no_data": 8,
+      "full_data": 57,
+      "no_data": 36,
       "no_repository": 55,
-      "partial_data": 35,
+      "partial_data": 65,
       "unanalyzed_repo": 50
     },
     "2019": {
-      "full_data": 138,
-      "no_data": 17,
+      "full_data": 83,
+      "no_data": 46,
       "no_repository": 53,
-      "partial_data": 39,
+      "partial_data": 65,
       "unanalyzed_repo": 71
     },
     "2020": {
-      "full_data": 110,
-      "no_data": 20,
+      "full_data": 48,
+      "no_data": 18,
       "no_repository": 116,
-      "partial_data": 37,
+      "partial_data": 101,
       "unanalyzed_repo": 48
     },
     "2021": {
-      "full_data": 93,
-      "no_data": 50,
+      "full_data": 67,
+      "no_data": 32,
       "no_repository": 64,
-      "partial_data": 54,
+      "partial_data": 98,
       "unanalyzed_repo": 41
     },
     "2022": {
-      "full_data": 90,
-      "no_data": 41,
+      "full_data": 66,
+      "no_data": 21,
       "no_repository": 140,
-      "partial_data": 62,
+      "partial_data": 106,
       "unanalyzed_repo": 44
     },
     "2023": {
-      "full_data": 84,
-      "no_data": 36,
+      "full_data": 75,
+      "no_data": 24,
       "no_repository": 108,
-      "partial_data": 84,
+      "partial_data": 105,
       "unanalyzed_repo": 30
     },
     "2024": {
-      "full_data": 87,
-      "no_data": 41,
+      "full_data": 98,
+      "no_data": 29,
       "no_repository": 71,
-      "partial_data": 121,
+      "partial_data": 122,
       "unanalyzed_repo": 45
     },
     "2025": {
-      "full_data": 78,
-      "no_data": 44,
+      "full_data": 71,
+      "no_data": 34,
       "no_repository": 55,
-      "partial_data": 110,
+      "partial_data": 127,
       "unanalyzed_repo": 31
     },
     "2026": {
-      "full_data": 26,
-      "no_data": 6,
+      "full_data": 18,
+      "no_data": 3,
       "no_repository": 24,
-      "partial_data": 24,
+      "partial_data": 35,
       "unanalyzed_repo": 7
     }
   },
