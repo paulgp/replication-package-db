@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS replication_scores (
     has_repo BOOLEAN,
     has_data BOOLEAN,
     no_restrictions BOOLEAN,
-    replication_status TEXT, -- 'fully_replicable', 'code_only', 'restricted_data', 'no_repository', 'theoretical'
+    replication_status TEXT, -- 'full_data', 'partial_data', 'no_data', 'unanalyzed_repo', 'no_repository'
     computed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

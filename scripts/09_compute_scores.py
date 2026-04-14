@@ -1,14 +1,14 @@
 """Compute replication scores for all papers.
 
-Joins papers → repo_mappings → readme_analysis to derive a replication
-status per paper, written to the replication_scores table.
+Joins papers → repo_mappings → readme_analysis to derive a data
+availability status per paper, written to the replication_scores table.
 
 Status categories:
-  - fully_replicable:    has repo, README says all data is included
-  - partially_replicable: has repo, README says some data is restricted
-  - not_replicable:      has repo, README says data cannot be shared
-  - unanalyzed_repo:     has repo, but no README found / extraction failed
-  - no_repository:       no entry in repo_mappings
+  - full_data:       has repo, README says all data is included
+  - partial_data:    has repo, README says some data is restricted
+  - no_data:         has repo, README says data cannot be shared
+  - unanalyzed_repo: has repo, but no README found / extraction failed
+  - no_repository:   no entry in repo_mappings
 
 Usage: python scripts/09_compute_scores.py
 """
@@ -56,13 +56,13 @@ def derive_status(
         return "no_repository", False, None, None
 
     if data_availability == "all_data":
-        return "fully_replicable", True, True, True
+        return "full_data", True, True, True
 
     if data_availability == "partial_data":
-        return "partially_replicable", True, True, False
+        return "partial_data", True, True, False
 
     if data_availability == "no_data":
-        return "not_replicable", True, False, False
+        return "no_data", True, False, False
 
     # has_repo but no classification (no README found or extraction failed)
     return "unanalyzed_repo", True, None, None
@@ -165,9 +165,9 @@ def main() -> int:
         LOGGER.info("-" * 40)
         LOGGER.info("Status breakdown:")
         for status in [
-            "fully_replicable",
-            "partially_replicable",
-            "not_replicable",
+            "full_data",
+            "partial_data",
+            "no_data",
             "unanalyzed_repo",
             "no_repository",
         ]:
@@ -179,9 +179,9 @@ def main() -> int:
         LOGGER.info("By journal:")
         for journal in sorted(journal_counts):
             j_total = sum(journal_counts[journal].values())
-            full = journal_counts[journal].get("fully_replicable", 0)
-            partial = journal_counts[journal].get("partially_replicable", 0)
-            none_data = journal_counts[journal].get("not_replicable", 0)
+            full = journal_counts[journal].get("full_data", 0)
+            partial = journal_counts[journal].get("partial_data", 0)
+            none_data = journal_counts[journal].get("no_data", 0)
             LOGGER.info(
                 "  %-50s %4d papers | full=%3d partial=%3d none=%3d",
                 journal[:50],

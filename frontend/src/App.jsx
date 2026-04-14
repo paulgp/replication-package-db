@@ -11,25 +11,25 @@ import {
 } from "recharts";
 
 const STATUS_ORDER = [
-  "fully_replicable",
-  "partially_replicable",
-  "not_replicable",
+  "full_data",
+  "partial_data",
+  "no_data",
   "unanalyzed_repo",
   "no_repository",
 ];
 
 const STATUS_LABELS = {
-  fully_replicable: "Fully replicable",
-  partially_replicable: "Partial data",
-  not_replicable: "No data",
+  full_data: "Full data",
+  partial_data: "Partial data",
+  no_data: "No data",
   unanalyzed_repo: "Has repo, no README",
   no_repository: "No repository",
 };
 
 const STATUS_COLORS = {
-  fully_replicable: "#16a34a",
-  partially_replicable: "#eab308",
-  not_replicable: "#dc2626",
+  full_data: "#16a34a",
+  partial_data: "#eab308",
+  no_data: "#dc2626",
   unanalyzed_repo: "#94a3b8",
   no_repository: "#cbd5e1",
 };
@@ -103,7 +103,7 @@ function ByYearChart() {
   return (
     <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
       <h3 className="text-sm font-semibold text-gray-700 mb-3">
-        Replication status by year
+        Data availability by year
       </h3>
       <ResponsiveContainer width="100%" height={320}>
         <BarChart data={data}>
