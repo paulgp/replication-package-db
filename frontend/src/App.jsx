@@ -437,17 +437,132 @@ function PaperBrowser() {
   );
 }
 
+function Methodology() {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+      <button
+        onClick={() => setOpen(!open)}
+        className="flex items-center gap-2 text-sm font-semibold text-gray-700 w-full text-left"
+      >
+        <span>{open ? "▾" : "▸"}</span>
+        Methodology
+      </button>
+      {open && (
+        <div className="mt-3 text-sm text-gray-700 space-y-3 leading-relaxed">
+          <p>
+            This tracker classifies data availability for articles published in six AEA
+            journals: <em>American Economic Review</em>, <em>AER: Insights</em>,{" "}
+            <em>AEJ: Applied Economics</em>, <em>AEJ: Economic Policy</em>,{" "}
+            <em>AEJ: Macroeconomics</em>, and <em>AEJ: Microeconomics</em>.
+          </p>
+
+          <h4 className="font-semibold text-gray-800">Data collection</h4>
+          <p>
+            Paper metadata is harvested from{" "}
+            <a href="https://openalex.org" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">OpenAlex</a>.
+            Replication packages are linked via{" "}
+            <a href="https://datacite.org" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">DataCite</a>{" "}
+            and{" "}
+            <a href="https://crossref.org" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">CrossRef</a>{" "}
+            DOI mappings to{" "}
+            <a href="https://www.openicpsr.org" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">openICPSR</a>{" "}
+            repositories. README files are downloaded from the repositories using an
+            authenticated browser session (via Chrome DevTools Protocol), with a BFS
+            traversal up to 3 subfolder levels deep to find READMEs that aren't at the
+            repository root.
+          </p>
+
+          <h4 className="font-semibold text-gray-800">Classification</h4>
+          <p>
+            Each README is classified into one of three data availability categories
+            using{" "}
+            <a href="https://www.anthropic.com" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
+              Claude Haiku
+            </a>{" "}
+            (Anthropic's fast, low-cost language model). The model receives the first
+            4,000 characters of the README text and returns a structured classification
+            with a one-sentence rationale. The three categories are:
+          </p>
+          <ul className="list-disc ml-5 space-y-1">
+            <li>
+              <strong>Full data</strong> — All data needed to replicate the paper are
+              included in the repository or freely available at a linked location
+              (e.g., Zenodo, Dataverse, GitHub). No restricted, confidential, or
+              proprietary data is required.
+            </li>
+            <li>
+              <strong>Partial data</strong> — Some data is included or publicly
+              available, but some requires restricted access, purchase, or a data use
+              agreement. Common examples: public data included but WRDS, census, or
+              proprietary data is not.
+            </li>
+            <li>
+              <strong>No data</strong> — No data can be shared. The replication package
+              contains only code, or all data is confidential/proprietary with no
+              public component.
+            </li>
+          </ul>
+
+          <h4 className="font-semibold text-gray-800">Why LLM classification?</h4>
+          <p>
+            An earlier version of this tracker used heuristic phrase matching (searching
+            for keywords like "confidential", "proprietary", "data use agreement"). This
+            approach missed context — for example, a README stating "data is publicly
+            available on Zenodo" could be misclassified if it also mentioned
+            "confidential" data in a different section. The LLM understands the full
+            context of the README and produces more accurate classifications with
+            transparent reasoning for each decision.
+          </p>
+
+          <h4 className="font-semibold text-gray-800">Limitations</h4>
+          <ul className="list-disc ml-5 space-y-1">
+            <li>
+              Coverage is limited to papers with openICPSR replication packages.
+              Papers with repositories hosted elsewhere (GitHub, Zenodo, Dataverse)
+              are not yet tracked.
+            </li>
+            <li>
+              README text is truncated to 4,000 characters. Very long READMEs may
+              lose relevant information from later sections.
+            </li>
+            <li>
+              Classification is based solely on the README — it does not verify
+              whether linked data files actually exist or are accessible.
+            </li>
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-4">
-          <h1 className="text-xl font-bold text-gray-900">
-            AEA Replication Tracker
-          </h1>
-          <p className="text-sm text-gray-500 mt-0.5">
-            Data availability across AEA journal articles
-          </p>
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-xl font-bold text-gray-900">
+                AEA Replication Tracker
+              </h1>
+              <p className="text-sm text-gray-500 mt-0.5">
+                Data availability across AEA journal articles
+              </p>
+            </div>
+            <a
+              href="https://github.com/paulgp/replication-package-db"
+              target="_blank"
+              rel="noreferrer"
+              className="text-gray-400 hover:text-gray-600"
+              title="View source on GitHub"
+            >
+              <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </header>
 
@@ -455,6 +570,7 @@ export default function App() {
         <Overview />
         <ByYearChart />
         <ByJournalTable yearStart={2019} yearEnd={2026} />
+        <Methodology />
         <PaperBrowser />
       </main>
     </div>
