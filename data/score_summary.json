@@ -1,5 +1,12 @@
 {
   "by_journal": {
+    "AEA Papers and Proceedings": {
+      "full_data": 127,
+      "no_data": 54,
+      "no_repository": 1190,
+      "partial_data": 79,
+      "unanalyzed_repo": 114
+    },
     "American Economic Journal Applied Economics": {
       "full_data": 168,
       "no_data": 95,
@@ -29,11 +36,11 @@
       "unanalyzed_repo": 62
     },
     "American Economic Review": {
-      "full_data": 634,
-      "no_data": 247,
-      "no_repository": 3188,
-      "partial_data": 577,
-      "unanalyzed_repo": 570
+      "full_data": 507,
+      "no_data": 193,
+      "no_repository": 1998,
+      "partial_data": 498,
+      "unanalyzed_repo": 456
     },
     "American Economic Review Insights": {
       "full_data": 51,
