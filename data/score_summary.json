@@ -3,42 +3,42 @@
     "American Economic Journal Applied Economics": {
       "full_data": 168,
       "no_data": 95,
-      "no_repository": 77,
+      "no_repository": 75,
       "partial_data": 229,
       "unanalyzed_repo": 167
     },
     "American Economic Journal Economic Policy": {
       "full_data": 141,
       "no_data": 105,
-      "no_repository": 100,
+      "no_repository": 99,
       "partial_data": 272,
       "unanalyzed_repo": 160
     },
     "American Economic Journal Macroeconomics": {
       "full_data": 190,
       "no_data": 28,
-      "no_repository": 117,
+      "no_repository": 115,
       "partial_data": 125,
       "unanalyzed_repo": 156
     },
     "American Economic Journal Microeconomics": {
       "full_data": 118,
       "no_data": 19,
-      "no_repository": 492,
+      "no_repository": 491,
       "partial_data": 43,
       "unanalyzed_repo": 62
     },
     "American Economic Review": {
       "full_data": 505,
       "no_data": 193,
-      "no_repository": 1480,
+      "no_repository": 1475,
       "partial_data": 497,
       "unanalyzed_repo": 453
     },
     "American Economic Review Insights": {
       "full_data": 51,
       "no_data": 17,
-      "no_repository": 62,
+      "no_repository": 61,
       "partial_data": 61,
       "unanalyzed_repo": 28
     }
@@ -46,7 +46,7 @@
   "by_status": {
     "full_data": 1173,
     "no_data": 457,
-    "no_repository": 2328,
+    "no_repository": 2316,
     "partial_data": 1227,
     "unanalyzed_repo": 1026
   },
@@ -288,17 +288,17 @@
     "2025": {
       "full_data": 71,
       "no_data": 34,
-      "no_repository": 55,
+      "no_repository": 51,
       "partial_data": 127,
       "unanalyzed_repo": 31
     },
     "2026": {
       "full_data": 18,
       "no_data": 3,
-      "no_repository": 24,
+      "no_repository": 16,
       "partial_data": 35,
       "unanalyzed_repo": 7
     }
   },
-  "total_papers": 6211
+  "total_papers": 6199
 }
