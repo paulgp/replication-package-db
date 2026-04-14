@@ -112,7 +112,7 @@ function ByYearChart() {
   }, []);
 
   const data = useMemo(() => {
-    if (!selectedJournal) return allData;
+    if (!selectedJournal) return allData.filter((d) => d.year >= 2008);
     const byYear = {};
     papers
       .filter((p) => p.journal_name === selectedJournal && p.publication_year)
@@ -123,7 +123,9 @@ function ByYearChart() {
         byYear[y][s] = (byYear[y][s] || 0) + 1;
         byYear[y].total += 1;
       });
-    return Object.values(byYear).sort((a, b) => a.year - b.year);
+    return Object.values(byYear)
+      .filter((d) => d.year >= 2008)
+      .sort((a, b) => a.year - b.year);
   }, [allData, papers, selectedJournal]);
 
   if (!allData.length) return null;
