@@ -6,7 +6,7 @@ levels deep looking for a README. Updates readme_analysis if found.
 Modes:
   --offline   Re-scan cached HTML in data/raw/repos/ with the expanded regex.
               No Chrome needed. Finds READMEs at root level that the original
-              narrow regex missed (e.g. "Read_me.pdf", "READ ME.pdf").
+              narrow regex missed (e.g. "AER-2015-0681_readme.pdf").
   (default)   Live deep search via CDP Chrome, BFS through subfolders.
 
 Usage:
@@ -50,6 +50,7 @@ MAX_DEPTH = 3
 PAGE_DELAY = 1.0
 DOWNLOAD_WAIT = 5.0
 
+# Matches "readme" anywhere in the filename, with common separators
 README_RE = re.compile(r"read[\s_-]?me", re.IGNORECASE)
 
 
@@ -124,8 +125,31 @@ def update_readme_result(
 
 
 # ---------------------------------------------------------------------------
-# Deep page scraping
+# HTML parsing (shared between offline and live modes)
 # ---------------------------------------------------------------------------
+def load_cached_html(project_id: str) -> str | None:
+    """Load cached HTML for a project from data/raw/repos/."""
+    html_path = REPOS_RAW_DIR / f"{project_id}.html"
+    mhtml_path = REPOS_RAW_DIR / f"{project_id}.mhtml"
+
+    if html_path.exists():
+        return html_path.read_text(encoding="utf-8", errors="replace")
+
+    if mhtml_path.exists():
+        import email as _email
+
+        raw = mhtml_path.read_bytes()
+        msg = _email.message_from_bytes(raw)
+        for part in msg.walk():
+            if part.get_content_type() == "text/html":
+                payload = part.get_payload(decode=True)
+                if payload:
+                    return payload.decode(
+                        part.get_content_charset() or "utf-8", errors="replace"
+                    )
+    return None
+
+
 def parse_listing(html: str) -> tuple[str | None, str | None, list[str]]:
     """Parse a project/folder page. Returns (readme_name, readme_path, subfolders)."""
     soup = BeautifulSoup(html, "html.parser")
@@ -150,7 +174,6 @@ def parse_listing(html: str) -> tuple[str | None, str | None, list[str]]:
         if "type=folder" in href:
             folders.append(path)
         elif README_RE.search(fname) and not fname.startswith("._"):
-            # Take the first README we find
             if readme_name is None:
                 readme_name = fname
                 readme_path = path
@@ -158,6 +181,113 @@ def parse_listing(html: str) -> tuple[str | None, str | None, list[str]]:
     return readme_name, readme_path, folders
 
 
+# ---------------------------------------------------------------------------
+# Offline mode: re-scan cached HTML with broader regex
+# ---------------------------------------------------------------------------
+def run_offline(conn, repos: list[dict[str, str]]) -> int:
+    """Re-scan cached root HTML with the broadened README regex.
+
+    For repos where a README-like file is found at root and already downloaded,
+    extract text and classify. No Chrome needed.
+    """
+    stats = {
+        "processed": 0,
+        "found_at_root": 0,
+        "already_downloaded": 0,
+        "needs_download": 0,
+        "no_cached_html": 0,
+        "still_missing": 0,
+        "all_data": 0,
+        "partial_data": 0,
+        "no_data": 0,
+    }
+
+    needs_download: list[dict] = []
+
+    for idx, repo in enumerate(repos, 1):
+        pid = repo["icpsr_project_id"]
+        repo_doi = repo["repo_doi"]
+
+        html = load_cached_html(pid)
+        if html is None:
+            stats["no_cached_html"] += 1
+            stats["processed"] += 1
+            continue
+
+        readme_name, file_path, folders = parse_listing(html)
+
+        if not readme_name:
+            stats["still_missing"] += 1
+            stats["processed"] += 1
+            continue
+
+        stats["found_at_root"] += 1
+
+        # Check if we already have the README downloaded
+        cache_path = _find_cached_readme(pid)
+        if not cache_path:
+            stats["needs_download"] += 1
+            needs_download.append({
+                "icpsr_project_id": pid,
+                "repo_doi": repo_doi,
+                "readme_name": readme_name,
+                "file_path": file_path,
+            })
+            stats["processed"] += 1
+            continue
+
+        stats["already_downloaded"] += 1
+
+        text = extract_readme_text(cache_path)
+        if text:
+            classification, flags = classify_data_availability(text)
+            update_readme_result(conn, repo_doi, text, classification, flags)
+            stats[classification] += 1
+        else:
+            update_readme_result(conn, repo_doi, None, None, [])
+
+        stats["processed"] += 1
+
+        if idx % 100 == 0:
+            LOGGER.info("Progress: %d/%d", idx, len(repos))
+
+    LOGGER.info("=" * 60)
+    LOGGER.info("Offline deep README search complete")
+    LOGGER.info("=" * 60)
+    LOGGER.info("Processed:          %d", stats["processed"])
+    LOGGER.info("Found at root:      %d", stats["found_at_root"])
+    LOGGER.info("Already downloaded:  %d", stats["already_downloaded"])
+    LOGGER.info("Needs download:     %d", stats["needs_download"])
+    LOGGER.info("No cached HTML:     %d", stats["no_cached_html"])
+    LOGGER.info("Still missing:      %d", stats["still_missing"])
+    LOGGER.info("-" * 40)
+    LOGGER.info("ALL DATA:           %d", stats["all_data"])
+    LOGGER.info("PARTIAL DATA:       %d", stats["partial_data"])
+    LOGGER.info("NO DATA:            %d", stats["no_data"])
+
+    if needs_download:
+        LOGGER.info("")
+        LOGGER.info(
+            "%d repos need Chrome to download their README. "
+            "Run without --offline to fetch them.",
+            len(needs_download),
+        )
+
+    return 0
+
+
+def _find_cached_readme(project_id: str) -> Path | None:
+    """Check if we already have a cached README for this project."""
+    for ext in [".pdf", ".txt", ".md", ".docx", ".doc", ".html", ".tex", ".rtf"]:
+        p = READMES_RAW_DIR / f"{project_id}{ext}"
+        if p.exists():
+            return p
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Live deep page scraping
+# ---------------------------------------------------------------------------
 def fetch_page_html(page: Any, url: str) -> str | None:
     """Fetch a page via Playwright, return HTML or None on failure."""
     try:
@@ -179,8 +309,10 @@ def search_for_readme(
         f"https://www.openicpsr.org/openicpsr/project/{project_id}/version/V1/view"
     )
 
-    # Start with root page
-    html = fetch_page_html(page, base_view)
+    # Try cached HTML first for root page
+    html = load_cached_html(project_id)
+    if html is None:
+        html = fetch_page_html(page, base_view)
     if html is None:
         return None, None
 
@@ -207,7 +339,6 @@ def search_for_readme(
         if readme_name:
             return readme_name, readme_path
 
-        # Add deeper folders to queue
         for sub in subfolders:
             queue.append((sub, depth + 1))
 
@@ -255,82 +386,116 @@ def download_readme(
 
 
 # ---------------------------------------------------------------------------
-# Offline mode: re-scan cached HTML with expanded regex
+# Live mode
 # ---------------------------------------------------------------------------
-def load_cached_html(project_id: str) -> str | None:
-    """Load cached HTML for a project from data/raw/repos/."""
-    html_path = REPOS_RAW_DIR / f"{project_id}.html"
-    if html_path.exists():
-        return html_path.read_text(encoding="utf-8", errors="replace")
+def run_live(conn, repos: list[dict[str, str]]) -> int:
+    """Live deep search via CDP Chrome with BFS through subfolders."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        LOGGER.error("playwright not installed")
+        return 1
 
-    mhtml_path = REPOS_RAW_DIR / f"{project_id}.mhtml"
-    if mhtml_path.exists():
-        import email as _email
+    stats = {
+        "processed": 0,
+        "found": 0,
+        "downloaded": 0,
+        "still_missing": 0,
+        "all_data": 0,
+        "partial_data": 0,
+        "no_data": 0,
+    }
 
-        raw = mhtml_path.read_bytes()
-        msg = _email.message_from_bytes(raw)
-        for part in msg.walk():
-            if part.get_content_type() == "text/html":
-                payload = part.get_payload(decode=True)
-                if payload:
-                    return payload.decode(
-                        part.get_content_charset() or "utf-8", errors="replace"
+    with sync_playwright() as pw:
+        try:
+            browser = pw.chromium.connect_over_cdp(CDP_URL)
+        except Exception as exc:
+            LOGGER.error("Cannot connect to Chrome on %s: %s", CDP_URL, exc)
+            return 1
+
+        context = browser.contexts[0]
+        page = context.new_page()
+
+        cdp = context.new_cdp_session(page)
+        cdp.send(
+            "Browser.setDownloadBehavior",
+            {
+                "behavior": "allowAndName",
+                "downloadPath": str(READMES_RAW_DIR),
+                "eventsEnabled": True,
+            },
+        )
+        LOGGER.info("Connected to Chrome")
+
+        for idx, repo in enumerate(repos, 1):
+            pid = repo["icpsr_project_id"]
+            repo_doi = repo["repo_doi"]
+
+            readme_name, file_path = search_for_readme(page, pid)
+
+            if not readme_name:
+                stats["still_missing"] += 1
+                stats["processed"] += 1
+                if idx % 25 == 0:
+                    LOGGER.info(
+                        "Progress: %d/%d | found=%d still_missing=%d | all=%d partial=%d no=%d",
+                        idx,
+                        len(repos),
+                        stats["found"],
+                        stats["still_missing"],
+                        stats["all_data"],
+                        stats["partial_data"],
+                        stats["no_data"],
                     )
-    return None
+                continue
 
+            stats["found"] += 1
+            LOGGER.info("Found README for %s: %s", pid, readme_name)
 
-def run_offline(conn, repos: list[dict[str, str]]) -> int:
-    """Re-scan cached root-level HTML with the expanded README regex."""
-    stats = {"scanned": 0, "found": 0, "already_cached": 0, "classified": 0, "no_cache": 0}
+            cache_path = download_readme(page, pid, readme_name, file_path)
+            if not cache_path:
+                stats["processed"] += 1
+                LOGGER.warning("Download failed for %s", pid)
+                continue
 
-    for idx, repo in enumerate(repos, 1):
-        pid = repo["icpsr_project_id"]
-        repo_doi = repo["repo_doi"]
+            stats["downloaded"] += 1
 
-        html = load_cached_html(pid)
-        if html is None:
-            stats["no_cache"] += 1
-            continue
+            text = extract_readme_text(cache_path)
+            if text:
+                classification, flags = classify_data_availability(text)
+                update_readme_result(conn, repo_doi, text, classification, flags)
+                stats[classification] += 1
+            else:
+                update_readme_result(conn, repo_doi, None, None, [])
 
-        readme_name, readme_path, _ = parse_listing(html)
-        stats["scanned"] += 1
+            stats["processed"] += 1
 
-        if not readme_name:
-            continue
+            if idx % 25 == 0:
+                LOGGER.info(
+                    "Progress: %d/%d | found=%d still_missing=%d | all=%d partial=%d no=%d",
+                    idx,
+                    len(repos),
+                    stats["found"],
+                    stats["still_missing"],
+                    stats["all_data"],
+                    stats["partial_data"],
+                    stats["no_data"],
+                )
 
-        stats["found"] += 1
-        LOGGER.info("Found README for %s: %s (path=%s)", pid, readme_name, readme_path)
-
-        # Check if we already have the file downloaded
-        for ext in [".pdf", ".txt", ".md", ".docx", ".html", ".doc", ".tex"]:
-            cached = READMES_RAW_DIR / f"{pid}{ext}"
-            if cached.exists():
-                text = extract_readme_text(cached)
-                if text:
-                    classification, flags = classify_data_availability(text)
-                    update_readme_result(conn, repo_doi, text, classification, flags)
-                    stats["classified"] += 1
-                else:
-                    update_readme_result(conn, repo_doi, None, None, [])
-                stats["already_cached"] += 1
-                break
-        else:
-            LOGGER.info(
-                "  README identified but not downloaded — run live mode to fetch: %s",
-                readme_name,
-            )
-
-        if idx % 100 == 0:
-            LOGGER.info("Progress: %d/%d | found=%d", idx, len(repos), stats["found"])
+        page.close()
 
     LOGGER.info("=" * 60)
-    LOGGER.info("Offline scan complete")
+    LOGGER.info("Deep README search complete")
     LOGGER.info("=" * 60)
-    LOGGER.info("Scanned:          %d", stats["scanned"])
-    LOGGER.info("No cached HTML:   %d", stats["no_cache"])
+    LOGGER.info("Processed:        %d", stats["processed"])
     LOGGER.info("READMEs found:    %d", stats["found"])
-    LOGGER.info("Already cached:   %d", stats["already_cached"])
-    LOGGER.info("Classified:       %d", stats["classified"])
+    LOGGER.info("Downloaded:       %d", stats["downloaded"])
+    LOGGER.info("Still missing:    %d", stats["still_missing"])
+    LOGGER.info("-" * 40)
+    LOGGER.info("ALL DATA:         %d", stats["all_data"])
+    LOGGER.info("PARTIAL DATA:     %d", stats["partial_data"])
+    LOGGER.info("NO DATA:          %d", stats["no_data"])
+
     return 0
 
 
@@ -341,7 +506,11 @@ def main() -> int:
     configure_logging()
     parser = argparse.ArgumentParser(description="Deep README search")
     parser.add_argument("--limit", type=int, default=0, help="Max repos to process")
-    parser.add_argument("--offline", action="store_true", help="Re-scan cached HTML only (no Chrome)")
+    parser.add_argument(
+        "--offline",
+        action="store_true",
+        help="Re-scan cached HTML only (no Chrome needed)",
+    )
     args = parser.parse_args()
 
     READMES_RAW_DIR.mkdir(parents=True, exist_ok=True)
@@ -361,116 +530,8 @@ def main() -> int:
 
         if args.offline:
             return run_offline(conn, repos)
-
-        try:
-            from playwright.sync_api import sync_playwright
-        except ImportError:
-            LOGGER.error("playwright not installed")
-            return 1
-
-        stats = {
-            "processed": 0,
-            "found": 0,
-            "downloaded": 0,
-            "still_missing": 0,
-            "all_data": 0,
-            "partial_data": 0,
-            "no_data": 0,
-        }
-
-        with sync_playwright() as pw:
-            try:
-                browser = pw.chromium.connect_over_cdp(CDP_URL)
-            except Exception as exc:
-                LOGGER.error("Cannot connect to Chrome on %s: %s", CDP_URL, exc)
-                return 1
-
-            context = browser.contexts[0]
-            page = context.new_page()
-
-            cdp = context.new_cdp_session(page)
-            cdp.send(
-                "Browser.setDownloadBehavior",
-                {
-                    "behavior": "allowAndName",
-                    "downloadPath": str(READMES_RAW_DIR),
-                    "eventsEnabled": True,
-                },
-            )
-            LOGGER.info("Connected to Chrome")
-
-            for idx, repo in enumerate(repos, 1):
-                pid = repo["icpsr_project_id"]
-                repo_doi = repo["repo_doi"]
-
-                readme_name, file_path = search_for_readme(page, pid)
-
-                if not readme_name:
-                    stats["still_missing"] += 1
-                    stats["processed"] += 1
-                    if idx % 25 == 0:
-                        LOGGER.info(
-                            "Progress: %d/%d | found=%d still_missing=%d | all=%d partial=%d no=%d",
-                            idx,
-                            len(repos),
-                            stats["found"],
-                            stats["still_missing"],
-                            stats["all_data"],
-                            stats["partial_data"],
-                            stats["no_data"],
-                        )
-                    continue
-
-                stats["found"] += 1
-                LOGGER.info("Found README for %s: %s", pid, readme_name)
-
-                # Download
-                cache_path = download_readme(page, pid, readme_name, file_path)
-                if not cache_path:
-                    stats["processed"] += 1
-                    LOGGER.warning("Download failed for %s", pid)
-                    continue
-
-                stats["downloaded"] += 1
-
-                # Extract and classify
-                text = extract_readme_text(cache_path)
-                if text:
-                    classification, flags = classify_data_availability(text)
-                    update_readme_result(conn, repo_doi, text, classification, flags)
-                    stats[classification] += 1
-                else:
-                    update_readme_result(conn, repo_doi, None, None, [])
-
-                stats["processed"] += 1
-
-                if idx % 25 == 0:
-                    LOGGER.info(
-                        "Progress: %d/%d | found=%d still_missing=%d | all=%d partial=%d no=%d",
-                        idx,
-                        len(repos),
-                        stats["found"],
-                        stats["still_missing"],
-                        stats["all_data"],
-                        stats["partial_data"],
-                        stats["no_data"],
-                    )
-
-            page.close()
-
-        LOGGER.info("=" * 60)
-        LOGGER.info("Deep README search complete")
-        LOGGER.info("=" * 60)
-        LOGGER.info("Processed:        %d", stats["processed"])
-        LOGGER.info("READMEs found:    %d", stats["found"])
-        LOGGER.info("Downloaded:       %d", stats["downloaded"])
-        LOGGER.info("Still missing:    %d", stats["still_missing"])
-        LOGGER.info("-" * 40)
-        LOGGER.info("ALL DATA:         %d", stats["all_data"])
-        LOGGER.info("PARTIAL DATA:     %d", stats["partial_data"])
-        LOGGER.info("NO DATA:          %d", stats["no_data"])
-
-        return 0
+        else:
+            return run_live(conn, repos)
 
     except KeyboardInterrupt:
         LOGGER.info("Interrupted by user")

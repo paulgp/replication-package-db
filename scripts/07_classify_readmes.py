@@ -130,6 +130,69 @@ RESTRICTION_PHRASES = [
 ]
 
 
+_TABLE_NOT_PROVIDED_RE = re.compile(
+    r"\b(no|not provided|not included|not available|restricted)\b",
+    re.IGNORECASE,
+)
+_TABLE_PROVIDED_RE = re.compile(
+    r"\b(yes|provided|included|available)\b",
+    re.IGNORECASE,
+)
+
+
+def _parse_data_availability_table(text: str) -> str | None:
+    """Detect SSDE-style data availability tables and classify from them.
+
+    Looks for pipe-delimited or whitespace-aligned tables with columns like
+    "Data source | Provided" and classifies based on the yes/no entries.
+    Returns 'all_data', 'partial_data', 'no_data', or None if no table found.
+    """
+    lines = text.split("\n")
+    in_table = False
+    provided_col_idx = -1
+    yes_count = 0
+    no_count = 0
+
+    for line in lines:
+        if "|" not in line:
+            if in_table:
+                break
+            continue
+
+        cells = [c.strip() for c in line.split("|")]
+
+        if not in_table:
+            cells_lower = [c.lower() for c in cells]
+            for i, cell in enumerate(cells_lower):
+                if any(
+                    kw in cell
+                    for kw in ("provided", "included", "available", "access")
+                ):
+                    provided_col_idx = i
+                    break
+            if provided_col_idx >= 0 and "data" in " ".join(cells_lower):
+                in_table = True
+            continue
+
+        if all(c in ("-", ":", "") for c in cells):
+            continue
+
+        if provided_col_idx < len(cells):
+            val = cells[provided_col_idx]
+            if _TABLE_NOT_PROVIDED_RE.search(val):
+                no_count += 1
+            elif _TABLE_PROVIDED_RE.search(val):
+                yes_count += 1
+
+    if yes_count + no_count == 0:
+        return None
+    if no_count == 0:
+        return "all_data"
+    if yes_count == 0:
+        return "no_data"
+    return "partial_data"
+
+
 def classify_data_availability(text: str) -> tuple[str, list[str]]:
     """Classify README text into data availability categories.
 
@@ -139,6 +202,12 @@ def classify_data_availability(text: str) -> tuple[str, list[str]]:
       - 'all_data': all data is included
     """
     tl = text.lower()
+
+    # Check for SSDE-style structured data availability table first
+    table_result = _parse_data_availability_table(text)
+    if table_result:
+        restrictions = [p for p in RESTRICTION_PHRASES if p in tl]
+        return table_result, restrictions
 
     # Check explicit partial-data statements first (most specific)
     for phrase in PARTIAL_DATA_PHRASES:
