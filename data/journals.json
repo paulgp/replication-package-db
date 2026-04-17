@@ -61,5 +61,29 @@
     "issn": "0895-3309",
     "openalex_id": "S72880728",
     "works_count": 2424
+  },
+  {
+    "display_name": "The Journal of Finance",
+    "homepage_url": "https://onlinelibrary.wiley.com/journal/15406261",
+    "issn": "0022-1082",
+    "openalex_id": "S5353659",
+    "works_count": 16087,
+    "policy_start_year": 2019
+  },
+  {
+    "display_name": "Journal of Financial Economics",
+    "homepage_url": "https://www.sciencedirect.com/journal/journal-of-financial-economics",
+    "issn": "0304-405X",
+    "openalex_id": "S149240962",
+    "works_count": 4841,
+    "policy_start_year": 2019
+  },
+  {
+    "display_name": "The Review of Financial Studies",
+    "homepage_url": "https://academic.oup.com/rfs",
+    "issn": "0893-9454",
+    "openalex_id": "S170137484",
+    "works_count": 3259,
+    "policy_start_year": 2020
   }
 ]

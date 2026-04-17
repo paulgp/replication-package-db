@@ -38,13 +38,15 @@ CREATE TABLE IF NOT EXISTS repo_mappings (
     paper_doi TEXT REFERENCES papers(doi),
     repo_doi TEXT,
     icpsr_project_id TEXT,
-    source TEXT,            -- 'aea_mapping', 'datacite', 'crossref'
+    repo_host TEXT,         -- 'openicpsr','dataverse','zenodo','mendeley','figshare','osf','github','other'
+    source TEXT,            -- 'aea_mapping','datacite','crossref','rfs_dataverse','crossref_relation','datacite_finance'
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS repo_files (
     id INTEGER PRIMARY KEY,
     repo_doi TEXT,
+    repo_host TEXT,
     filename TEXT,
     extension TEXT,
     file_type TEXT,         -- 'data', 'code', 'documentation', 'archive', 'other'
@@ -54,6 +56,7 @@ CREATE TABLE IF NOT EXISTS repo_files (
 CREATE TABLE IF NOT EXISTS readme_analysis (
     id INTEGER PRIMARY KEY,
     repo_doi TEXT UNIQUE,
+    repo_host TEXT,
     has_readme BOOLEAN,
     readme_text TEXT,
     restriction_flags TEXT,    -- JSON array of matched phrases

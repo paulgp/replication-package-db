@@ -60,12 +60,15 @@ def configure_logging() -> None:
     )
 
 
-def get_readmes_to_classify(conn) -> list[dict]:
+def get_readmes_to_classify(conn, include_classified: bool = False) -> list[dict]:
+    filter_clause = (
+        "" if include_classified else " AND data_availability IS NULL"
+    )
     rows = conn.execute(
-        """
+        f"""
         SELECT repo_doi, readme_text
         FROM readme_analysis
-        WHERE has_readme = 1 AND readme_text IS NOT NULL
+        WHERE has_readme = 1 AND readme_text IS NOT NULL{filter_clause}
         ORDER BY repo_doi
         """
     ).fetchall()
@@ -162,6 +165,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="LLM-based README classification")
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--include-classified",
+        action="store_true",
+        help="Re-classify READMEs that already have a data_availability value",
+    )
     args = parser.parse_args()
 
     api_key = os.getenv("ANTHROPIC_API_KEY")
@@ -172,7 +180,7 @@ def main() -> int:
     conn = get_connection(init_db())
 
     try:
-        readmes = get_readmes_to_classify(conn)
+        readmes = get_readmes_to_classify(conn, include_classified=args.include_classified)
         if args.limit > 0:
             readmes = readmes[: args.limit]
         LOGGER.info("READMEs to classify: %d", len(readmes))

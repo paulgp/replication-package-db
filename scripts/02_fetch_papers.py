@@ -6,6 +6,7 @@ import argparse
 import json
 import logging
 import os
+import re
 import shutil
 import sqlite3
 import sys
@@ -16,6 +17,22 @@ from pathlib import Path
 from typing import Any
 
 import requests
+
+# Editorial / front-back-matter titles to drop. Matches observed JoF/JFE/RFS
+# noise (Report of the Editor, Issue Information, Editorial Board, etc.).
+EDITORIAL_TITLE_PATTERN = re.compile(
+    r"(?i)"
+    r"\bissue\s+information\b|"
+    r"\b(?:front|back)\s+matter\b|"
+    r"\bmasthead\b|"
+    r"\b(?:errata|erratum|corrigendum|corrigenda)\b|"
+    r"\bcall\s+for\s+papers\b|"
+    r"\bin\s+memoriam\b|\bobituary\b|"
+    r"\bminutes\s+of\s+the\b|"
+    r"\breport\s+of\s+the\s+editor\b|"
+    r"^\s*editor['\u2019]?s?\s+(?:note|report)\b|"
+    r"^\s*editorial\s+board\s*$"
+)
 
 # ---------------------------------------------------------------------------
 # sys.path / import setup — same pattern as 01_fetch_journals.py
@@ -49,9 +66,9 @@ except ImportError:  # pragma: no cover
 
 LOGGER = logging.getLogger(__name__)
 REQUEST_TIMEOUT_SECONDS = 30
-MAX_RETRIES = 3
-BASE_BACKOFF_SECONDS = 1.0
-RATE_LIMIT_SLEEP_SECONDS = 0.12  # ~8 req/s, safely under 10
+MAX_RETRIES = 6
+BASE_BACKOFF_SECONDS = 3.0
+RATE_LIMIT_SLEEP_SECONDS = 0.25  # ~4 req/s, well under polite pool limit
 PER_PAGE = 200  # OpenAlex max
 
 JOURNALS_PATH = DATA_DIR / "journals.json"
@@ -313,6 +330,9 @@ def transform_work(work: dict, journal_name: str, journal_issn: str) -> tuple | 
 
     doi = normalize_doi(work.get("doi"))
     title = work.get("title")
+    if title and EDITORIAL_TITLE_PATTERN.search(title):
+        LOGGER.debug("Skipping editorial: %s", title)
+        return None
     authors = extract_authors(work.get("authorships") or [])
     pub_date = work.get("publication_date")
     pub_year = work.get("publication_year")
@@ -457,7 +477,17 @@ def main() -> int:
         action="store_true",
         help="Re-fetch all papers (ignore incremental state)",
     )
+    parser.add_argument(
+        "--only",
+        default=None,
+        help="Comma-separated list of ISSNs to fetch (others skipped)",
+    )
     args = parser.parse_args()
+    only_issns: set[str] | None = (
+        {s.strip() for s in args.only.split(",") if s.strip()}
+        if args.only
+        else None
+    )
 
     journals = load_journals()
     db_path = init_db()
@@ -488,23 +518,38 @@ def main() -> int:
                 LOGGER.warning("Skipping %s — no openalex_id", display_name)
                 continue
 
-            # Determine extra filter for incremental mode
-            extra_filter: str | None = None
+            if only_issns is not None and issn not in only_issns:
+                continue
+
+            # Build extra filters: policy window + incremental timestamp
+            extra_parts: list[str] = []
+            policy_year = journal.get("policy_start_year")
+            if policy_year:
+                extra_parts.append(f"from_publication_date:{int(policy_year)}-01-01")
+
             if not args.full:
                 last_fetched = get_journal_last_fetched(state, issn)
                 if last_fetched:
-                    extra_filter = f"from_updated_date:{last_fetched}"
+                    extra_parts.append(f"from_updated_date:{last_fetched}")
                     LOGGER.info(
-                        "Fetching %s (%s) — incremental from %s",
+                        "Fetching %s (%s) — incremental from %s%s",
                         display_name, issn, last_fetched,
+                        f", policy_start={policy_year}" if policy_year else "",
                     )
                 else:
                     LOGGER.info(
-                        "Fetching %s (%s) — no prior state, doing full fetch",
+                        "Fetching %s (%s) — no prior state, doing full fetch%s",
                         display_name, issn,
+                        f" (policy_start={policy_year})" if policy_year else "",
                     )
             else:
-                LOGGER.info("Fetching %s (%s) — full mode", display_name, issn)
+                LOGGER.info(
+                    "Fetching %s (%s) — full mode%s",
+                    display_name, issn,
+                    f" (policy_start={policy_year})" if policy_year else "",
+                )
+
+            extra_filter: str | None = ",".join(extra_parts) if extra_parts else None
 
             try:
                 count = fetch_and_store_works(
