@@ -25,3 +25,6 @@ logs/*.log
 
 # macOS
 .DS_Store
+
+# DB backups
+*.db.bak_*

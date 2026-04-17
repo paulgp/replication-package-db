@@ -2724,21 +2724,6 @@
     "repo_host": "dataverse",
     "status": "unanalyzed_repo"
   },
-  "10.1111/jofi.13011": {
-    "repo_doi": "10.3886/icpsr02896",
-    "repo_host": "icpsr",
-    "status": "unanalyzed_repo"
-  },
-  "10.1111/jofi.13080": {
-    "repo_doi": "10.3886/icpsr03912",
-    "repo_host": "icpsr",
-    "status": "unanalyzed_repo"
-  },
-  "10.1111/jofi.13166": {
-    "repo_doi": "10.3886/icpsr00042",
-    "repo_host": "icpsr",
-    "status": "unanalyzed_repo"
-  },
   "10.1257/000282802762024557": {
     "icpsr_id": "116021",
     "reason": "The archive includes some data (generating unit info, NOx prices, emissions rates, fuel costs) but requires purchase of proprietary daily natural gas price data from NGI to fully reproduce the paper's results, though free monthly averages are available as a substitute.",

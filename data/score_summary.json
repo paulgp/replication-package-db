@@ -49,10 +49,6 @@
       "partial_data": 56,
       "unanalyzed_repo": 129
     },
-    "The Journal of Finance": {
-      "no_repository": 645,
-      "unanalyzed_repo": 3
-    },
     "The Review of Financial Studies": {
       "full_data": 23,
       "no_data": 35,
@@ -64,9 +60,9 @@
   "by_status": {
     "full_data": 1415,
     "no_data": 526,
-    "no_repository": 4101,
+    "no_repository": 3456,
     "partial_data": 1406,
-    "unanalyzed_repo": 1042
+    "unanalyzed_repo": 1039
   },
   "by_year": {
     "1953": {
@@ -264,59 +260,59 @@
     "2019": {
       "full_data": 107,
       "no_data": 49,
-      "no_repository": 280,
+      "no_repository": 191,
       "partial_data": 68,
       "unanalyzed_repo": 42
     },
     "2020": {
       "full_data": 55,
       "no_data": 18,
-      "no_repository": 480,
+      "no_repository": 393,
       "partial_data": 103,
       "unanalyzed_repo": 42
     },
     "2021": {
       "full_data": 78,
       "no_data": 37,
-      "no_repository": 478,
+      "no_repository": 399,
       "partial_data": 106,
-      "unanalyzed_repo": 51
+      "unanalyzed_repo": 49
     },
     "2022": {
       "full_data": 79,
       "no_data": 29,
-      "no_repository": 341,
+      "no_repository": 266,
       "partial_data": 117,
-      "unanalyzed_repo": 62
+      "unanalyzed_repo": 61
     },
     "2023": {
       "full_data": 81,
       "no_data": 42,
-      "no_repository": 310,
+      "no_repository": 210,
       "partial_data": 121,
       "unanalyzed_repo": 64
     },
     "2024": {
       "full_data": 111,
       "no_data": 37,
-      "no_repository": 261,
+      "no_repository": 159,
       "partial_data": 161,
       "unanalyzed_repo": 104
     },
     "2025": {
       "full_data": 91,
       "no_data": 51,
-      "no_repository": 197,
+      "no_repository": 110,
       "partial_data": 182,
       "unanalyzed_repo": 121
     },
     "2026": {
       "full_data": 19,
       "no_data": 5,
-      "no_repository": 57,
+      "no_repository": 31,
       "partial_data": 44,
       "unanalyzed_repo": 38
     }
   },
-  "total_papers": 8490
+  "total_papers": 7842
 }
