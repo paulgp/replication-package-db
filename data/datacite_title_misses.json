@@ -1,0 +1,6351 @@
+[
+  {
+    "doi": "10.1257/aer.20240246",
+    "title": "Robust Misspecified Models",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20240763",
+    "title": "Games on Multiplex Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20241056",
+    "title": "Similarity of Information and Collective Action",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20250119",
+    "title": "On the Programmability and Uniformity of Digital Currencies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20220361",
+    "title": "Wealth, Marriage, and Sex Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20220034",
+    "title": "Management and Misallocation in Mexico",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220124",
+    "title": "On Dynamic Pricing",
+    "reason": "low_similarity",
+    "best_score": 0.42
+  },
+  {
+    "doi": "10.1257/mic.20230263",
+    "title": "How to Allocate Money?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240068",
+    "title": "Cardinality and Utilitarianism through Social Interactions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240310",
+    "title": "The Limits of Limited Commitment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240361",
+    "title": "Backward Induction Reasoning beyond Backward Induction",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240429",
+    "title": "Attitudes toward Success and Failure",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240437",
+    "title": "Asymmetric Models of Sales",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.115.6.1709",
+    "title": "Nobel Lecture: Institutions, Technology, and Prosperity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.115.6.1787",
+    "title": "Nobel Lecture: Paths to the Periphery",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.115.6.2093",
+    "title": "Report of Independent Auditor",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20191950",
+    "title": "Robust Monopoly Regulation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211137",
+    "title": "Hedging When Applying: Simultaneous Search with Correlation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20220665",
+    "title": "Strategic Voting in Two-Party Legislative Elections",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230455",
+    "title": "Nested Bundling",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230983",
+    "title": "Monetary Policy and Rational Asset Price Bubbles: Comment",
+    "reason": "low_similarity",
+    "best_score": 0.62
+  },
+  {
+    "doi": "10.1257/aer.20231394",
+    "title": "Sequential Learning under Informational Ambiguity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20231407",
+    "title": "Test-Optional Admissions",
+    "reason": "low_similarity",
+    "best_score": 0.3
+  },
+  {
+    "doi": "10.1257/aer.20231529",
+    "title": "Risk Aversion and Insurance Propensity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20231569",
+    "title": "Anatomy of the Phillips Curve: Micro Evidence and Macro Implications",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20231597",
+    "title": "Optimal Security Design for Risk-Averse Investors",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20240010",
+    "title": "A Model of Populism as a Conspiracy Theory",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20240339",
+    "title": "Allocation Mechanisms with Mixture-Averse Preferences",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20230589",
+    "title": "When Big Data Enables Behavioral Manipulation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20240061",
+    "title": "Sustainability in a Risky World",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20240216",
+    "title": "Information Acquisition and Time-Risk Preference",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20240332",
+    "title": "A Theory of Fair CEO Pay",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20240456",
+    "title": "Growth and Redistribution: The Hedging Perspective",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/aeri.20240581",
+    "title": "Long-Term and Lasting Impacts of Personal Initiative Training on Entrepreneurial Success",
+    "reason": "low_similarity",
+    "best_score": 0.39
+  },
+  {
+    "doi": "10.1257/mic.20220133",
+    "title": "Optimal Voting Mechanisms on Generalized Single-Peaked Domains",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220191",
+    "title": "Persistent Protests",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220267",
+    "title": "Severance Pay in an Optimal Contract",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220362",
+    "title": "Asymmetric Players in a Meritocracy: A Case for Affirmative Action",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220374",
+    "title": "Reputation and Efficiency: Information Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230019",
+    "title": "Optimal Trade Mechanisms with Adverse Selection and Inferential Na\u00efvety",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230049",
+    "title": "Dynamic Screening and the Dual Roles of Monitoring",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230095",
+    "title": "Price and Choose",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230115",
+    "title": "One Man, One Vote",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230116",
+    "title": "Simple Manipulations in School Choice Mechanisms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230142",
+    "title": "Asymptotic Learning with Ambiguous Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230179",
+    "title": "Free Riding and Unequal Pay in Symmetric Teams",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230208",
+    "title": "Commitment and Conflict in Unanimity Bargaining",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230233",
+    "title": "Unraveling and Inefficient Matching",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230255",
+    "title": "A Random Dictator Is All You Need",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230282",
+    "title": "Holding Platforms Liable",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230326",
+    "title": "Social Learning and Strategic Pricing with Rating Systems",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240034",
+    "title": "Bargaining and Information Acquisition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240078",
+    "title": "Market Segmentation and Product Steering",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240109",
+    "title": "Heterogeneous Noise and Stable Miscoordination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240190",
+    "title": "(Pro-)Social Learning and Strategic Disclosure",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240197",
+    "title": "On the Alignment of Consumer Surplus and Total Surplus under Competitive Price Discrimination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20240240",
+    "title": "Monitoring Team Members: Information Waste and the Transparency Trap",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20220434",
+    "title": "Electronic Payment Technology and Tax Compliance: Evidence from Uruguay\u2019s Financial Inclusion Reform",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.114.6.1515",
+    "title": "Nobel Lecture: An Evolving Economic Force",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181851",
+    "title": "Aiming for the Goal: Contribution Dynamics of Crowdfunding",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20210410",
+    "title": "Welfare Comparisons for Biased Learning",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211025",
+    "title": "Generalized Social Marginal Welfare Weights Imply Inconsistent Comparisons of Tax Policies",
+    "reason": "low_similarity",
+    "best_score": 0.68
+  },
+  {
+    "doi": "10.1257/aer.20221149",
+    "title": "Prolonged Learning and Hasty Stopping: The Wald Problem with Ambiguity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20221297",
+    "title": "Information Choice in Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20221524",
+    "title": "Personalized Pricing and Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230015",
+    "title": "Dynamic Outside Options and Optimal Negotiation Strategies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230033",
+    "title": "Learning by Necessity: Government Demand, Capacity Constraints, and Productivity Growth",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230114",
+    "title": "Repeated Trading: Transparency and Market Structure",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230233",
+    "title": "Experimentation in Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230330",
+    "title": "Monotone Function Intervals: Theory and Applications",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230430",
+    "title": "Comparisons of Signals",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230478",
+    "title": "Data, Competition, and Digital Platforms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230814",
+    "title": "Quality Is in the Eye of the Beholder: Taste Projection in Markets with Observational Learning",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20230914",
+    "title": "Buying from a Group",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20220698",
+    "title": "The Irrelevance of Fee Structures for Certification",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20230085",
+    "title": "Moderate Utility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20230286",
+    "title": "Trade and Trees",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20230402",
+    "title": "Repression and Repertoires",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20230617",
+    "title": "Noise-Tolerant Community Enforcement and the Strength of Small Stakes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20190686",
+    "title": "Activated History: The Case of the Turkish Sieges of Vienna",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20210117",
+    "title": "Optimal Foreign Reserves and Central Bank Policy under Financial Stress",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20210120",
+    "title": "Why Didn\u2019t the College Premium Rise Everywhere? Employment Protection and On-the-Job Investment in Skills",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200285",
+    "title": "Selling Dreams: Endogenous Optimism in Lending Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210372",
+    "title": "Strategic Incentives and the Optimal Sale of Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220016",
+    "title": "Technology Transfer in Global Value Chains",
+    "reason": "low_similarity",
+    "best_score": 0.43
+  },
+  {
+    "doi": "10.1257/mic.20220056",
+    "title": "Social Connectedness and Information Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220089",
+    "title": "A Random Reference Model",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220114",
+    "title": "Constructive versus Toxic Argumentation in Debates",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220138",
+    "title": "Innovation in Decentralized Markets: Technology versus Synthetic Products",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220166",
+    "title": "Communicating about Confidence: Cheap Talk with an Ambiguity-Averse Receiver",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220194",
+    "title": "Coordination in the Fight against Collusion",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220242",
+    "title": "(Reverse) Price Discrimination with Information Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220260",
+    "title": "Monitoring Teams",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220344",
+    "title": "Dual Moral Hazard and the Tyranny of Success",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220350",
+    "title": "Weighted Utility and Optimism/Pessimism: A Decision-Theoretic Foundation of Various Stochastic Dominance Orders",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230040",
+    "title": "Consumer Search and Product Returns in E-Commerce",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230051",
+    "title": "Anticompetitive Bundling When Buyers Compete",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20230169",
+    "title": "On Optimal Scheduling",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20220506",
+    "title": "Real-Time Pricing and the Cost of Clean Power",
+    "reason": "low_similarity",
+    "best_score": 0.35
+  },
+  {
+    "doi": "10.1257/aer.113.5.1143",
+    "title": "Nobel Lecture: Banking, Credit, and Economic Fluctuations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.113.6.1686",
+    "title": "Report of Independent Auditor",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190185",
+    "title": "The Cost of Information: The Case of Constant Marginal Costs",
+    "reason": "low_similarity",
+    "best_score": 0.71
+  },
+  {
+    "doi": "10.1257/aer.20200780",
+    "title": "The Political Economy of International Regulatory Cooperation",
+    "reason": "low_similarity",
+    "best_score": 0.34
+  },
+  {
+    "doi": "10.1257/aer.20210476",
+    "title": "Is There Too Much Benchmarking in Asset Management?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20210710",
+    "title": "Regulation Design in Insurance Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211051",
+    "title": "Happy Times: Measuring Happiness Using Response Times",
+    "reason": "low_similarity",
+    "best_score": 0.34
+  },
+  {
+    "doi": "10.1257/aer.20211478",
+    "title": "Occupational Exposure to Capital-Embodied Technical Change",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20220199",
+    "title": "Nonlinear Pricing with Underutilization: A Theory of Multi-part Tariffs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20220357",
+    "title": "Smart Contracts and the Coase Conjecture",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20221247",
+    "title": "Optimal Insurance: Dual Utility, Random Losses, and Adverse Selection",
+    "reason": "low_similarity",
+    "best_score": 0.46
+  },
+  {
+    "doi": "10.1257/aer.20221578",
+    "title": "Who Controls the Agenda Controls the Legislature",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20221605",
+    "title": "Competing to Commit: Markets with Rational Inattention",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210275",
+    "title": "Isolating Personal Knowledge Spillovers: Coinventor Deaths and Spatial Citation Differentials",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210643",
+    "title": "Robust Information Transmission",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210672",
+    "title": "Macroeconomic Dynamics with Rigid Wage Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20220056",
+    "title": "A Characterization for Optimal Bundling of Products with Nonadditive Values",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20220091",
+    "title": "Status Quo Property Protection in Politico-Legal Systems",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20220303",
+    "title": "A Minimalist Model for the Ruble during the Russian Invasion of Ukraine",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20220412",
+    "title": "Herd Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20220456",
+    "title": "Decision Theory and Stochastic Growth",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20210002",
+    "title": "Human Capital Accumulation at Work: Estimates for the World and Implications for Development",
+    "reason": "low_similarity",
+    "best_score": 0.22
+  },
+  {
+    "doi": "10.1257/mac.20210101",
+    "title": "Information Dynamics and Macro Fluctuations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20210137",
+    "title": "Product Variety, the Cost of Living, and Welfare across Countries",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20210333",
+    "title": "Collective Moral Hazard and the Interbank Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170407",
+    "title": "At the Helm, Kirk or Spock? The Pros and Cons of Charismatic Leadership",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190287",
+    "title": "Information Spillover in Multi-Good Adverse Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200071",
+    "title": "Two-Stage Contests with Private Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200192",
+    "title": "Learning by Choosing: Career Concerns with Observable Actions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200204",
+    "title": "When Is a Contrarian Adviser Optimal?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200266",
+    "title": "Censorship and Reputation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200300",
+    "title": "Product Quality and Consumer Search",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200309",
+    "title": "Compatibility Choices, Switching Costs, and Data Portability",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200325",
+    "title": "Relative Wealth Concerns, Executive Compensation, and Managerial Risk-Taking",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200352",
+    "title": "Sequential Learning",
+    "reason": "low_similarity",
+    "best_score": 0.21
+  },
+  {
+    "doi": "10.1257/mic.20200356",
+    "title": "Dynamic Information Design under Constrained Communication Rules",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200378",
+    "title": "Moral Hazard and Efficiency in a Frictional Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200400",
+    "title": "An Information Theory of Efficient Differential Treatment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200411",
+    "title": "A Theory of Stability in Matching with Incomplete Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200422",
+    "title": "Contest Design with Stochastic Performance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200427",
+    "title": "Implications of Unequal Discounting in Dynamic Contracting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200447",
+    "title": "Misbehavior in Common Value Auctions: Bidding Rings and Shills",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200472",
+    "title": "Too Good to Be True? Retention Rules for Noisy Agents",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210007",
+    "title": "Biased Beliefs in Search Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210099",
+    "title": "Monopolistic Competition and Efficiency under Firm Heterogeneity and Nonadditive Preferences",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210100",
+    "title": "Dynamic Privacy Choices",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210109",
+    "title": "Stable and Efficient Resource Allocation with Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210112",
+    "title": "Markets with Within-Type Adverse Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210114",
+    "title": "The Good, the Bad, and the Complex: Product Design with Imperfect Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210126",
+    "title": "Optimal Task Scheduling under Adverse Selection and Hidden Actions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210190",
+    "title": "Optimal Nonlinear Pricing with Data-Sensitive Consumers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210191",
+    "title": "A Buyer Power Theory of Exclusive Dealing and Exclusionary Bundling",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210204",
+    "title": "Self-Reported Signaling",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210214",
+    "title": "Disclosure in Markets for Ratings",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210259",
+    "title": "Competition for Attention and News Quality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210299",
+    "title": "Working for References",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210324",
+    "title": "Multihoming and Oligopolistic Platform Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210387",
+    "title": "Influence Campaigns",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210391",
+    "title": "Equilibrium Screening and Categorical Inequality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20210392",
+    "title": "Bargaining over Treatment Choice under Disagreement",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220046",
+    "title": "Bid Caps in Noisy Contests",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220049",
+    "title": "Similarity Nash Equilibria in Statistical Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220100",
+    "title": "Judicial Mechanism Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20220107",
+    "title": "A Model of Sequential Crisis Management",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20200311",
+    "title": "Implications of Tax Loss Asymmetry for Owners of S Corporations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20210812",
+    "title": "Information and Spillovers from Targeting Policy in Peru\u2019s Anchoveta Fishery",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.112.4.1075",
+    "title": "Who Set Your Wage?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.112.5.1395",
+    "title": "A Special Introduction",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.112.6.1773",
+    "title": "Design-Based Research in Empirical Microeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.112.6.2083",
+    "title": "REPORT OF INDEPENDENT AUDITOR",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190486",
+    "title": "Dispersed Behavior and Perceptions in Assortative Societies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20200212",
+    "title": "Designing Deadlines",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20200505",
+    "title": "Sentiment and Speculation in a Market with Heterogeneous Beliefs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20201026",
+    "title": "Bargaining over Contingent Contracts under Incomplete Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20201063",
+    "title": "Macroeconomic Implications of COVID-19: Can Negative Supply Shocks Cause Demand Shortages?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20201092",
+    "title": "Incomplete Information Bargaining with Applications to Mergers, Investment, and Vertical Integration",
+    "reason": "low_similarity",
+    "best_score": 0.41
+  },
+  {
+    "doi": "10.1257/aer.20201098",
+    "title": "Screening Inattentive Buyers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20201529",
+    "title": "Effective Demand Failures and the Limits of Monetary Stabilization Policy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20201718",
+    "title": "Bargaining over a Divisible Good in the Market for Lemons",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20210240",
+    "title": "Efficient Matching in the School Choice Problem",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20210616",
+    "title": "Selling Consumer Data for Profit: Optimal Market-Segmentation Design and Its Consequences",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20210626",
+    "title": "Bargaining with Mechanisms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20210879",
+    "title": "Experimental Cost of Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211069",
+    "title": "Separating Ownership and Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211125",
+    "title": "Demagogues and the Economic Fragility of Democracies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211158",
+    "title": "Learning from Manipulable Signals",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211428",
+    "title": "Dynamic Amnesty Programs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20211524",
+    "title": "Unobserved-Offers Bargaining",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210007",
+    "title": "Persuasion with Correlation Neglect: A Full Manipulation Result",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210123",
+    "title": "Centralized Matching with Incomplete Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210144",
+    "title": "Robust Predictions in Coasian Bargaining",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210169",
+    "title": "Polarization, Valence, and Policy Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210341",
+    "title": "The Commitment Benefit of Consols in Government Debt Management",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210426",
+    "title": "The Limits of Multiproduct Price Discrimination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210494",
+    "title": "Getting Permission",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20210504",
+    "title": "Optimal Information Disclosure in Classic Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20180721",
+    "title": "Time to Repay or Time to Delay? The Effect of Having More Time before a Payday Loan Is Due",
+    "reason": "low_similarity",
+    "best_score": 0.26
+  },
+  {
+    "doi": "10.1257/app.20200306",
+    "title": "Using Individual-Level Randomized Treatment to Learn about Market Structure",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20200448",
+    "title": "Employer Responses to Family Leave Programs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20200054",
+    "title": "Mind the Gap! Stylized Dynamic Facts and Structural Models",
+    "reason": "low_similarity",
+    "best_score": 0.13
+  },
+  {
+    "doi": "10.1257/mac.20200119",
+    "title": "Neo-Fisherian Policies and Liquidity Traps",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20200283",
+    "title": "Cournot Fire Sales",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170139",
+    "title": "Strategic Teaching and Learning in Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180313",
+    "title": "Trust Building in Credence Goods Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190059",
+    "title": "Acquisition, Aggregation, and Sharing of Information in Sequential-Move Aggregative Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190089",
+    "title": "Negotiations with Limited Specifiability",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190125",
+    "title": "Paths to the Frontier",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190133",
+    "title": "Which Findings Should Be Published?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190187",
+    "title": "Regulating Product Communication",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190203",
+    "title": "Learning in Relational Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190218",
+    "title": "False Positives and Transparency",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190262",
+    "title": "Preference Conditions for Invertible Demand Functions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190279",
+    "title": "Start-up Search Costs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190295",
+    "title": "How Bayesian Persuasion Can Help Reduce Illegal Parking and Other Socially Undesirable Behavior",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190296",
+    "title": "Tractable Model of Dynamic Many-to-Many Matching",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190307",
+    "title": "Platform Governance",
+    "reason": "low_similarity",
+    "best_score": 0.24
+  },
+  {
+    "doi": "10.1257/mic.20190337",
+    "title": "Optimal Nonlinear Pricing by a Dominant Firm under Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190338",
+    "title": "Transforming Ordinal Riskless Utility into Cardinal Risky Utility: A Comment on Chung, Glimcher, and Tymula\u00a0(2019)",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190339",
+    "title": "A Theory of Crime and Vigilance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190369",
+    "title": "Second-Degree Price Discrimination by a Two-Sided Monopoly Platform",
+    "reason": "low_similarity",
+    "best_score": 0.1
+  },
+  {
+    "doi": "10.1257/mic.20190372",
+    "title": "Group Hug: Platform Competition with User Groups",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190379",
+    "title": "Bad News Turned Good: Reversal under Censorship",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200027",
+    "title": "Competitive Information Disclosure to an Auctioneer",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200041",
+    "title": "Political Competition with Endogenous Party Formation and Citizen Activists",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200059",
+    "title": "Class Actions and Private Antitrust Litigation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200070",
+    "title": "Experience Goods and Consumer Search",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200106",
+    "title": "Learning in Games and the Interpretation of Natural Experiments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200111",
+    "title": "The Focal Luce Model",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200115",
+    "title": "Investment and Information Acquisition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200121",
+    "title": "Substitution Effects in Intertemporal Problems",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200134",
+    "title": "Attention Oligopoly",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200138",
+    "title": "A Theory of One-Size-Fits-All Recommendations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200148",
+    "title": "Robust Minimal Instability of the Top Trading Cycles Mechanism",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200171",
+    "title": "Sequential Screening with Type-Enhancing Investment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200174",
+    "title": "On the Foundations of Ex Post Incentive-Compatible Mechanisms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200186",
+    "title": "Accountability and Grand Corruption",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200200",
+    "title": "Too Much Data: Prices and Inefficiencies in Data Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200206",
+    "title": "Deposit Requirements in Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200215",
+    "title": "What Should a Firm Know? Protecting Consumers\u2019 Privacy Rents",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200218",
+    "title": "Reporting Sexual Misconduct in the #MeToo Era",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200227",
+    "title": "Transition Dynamics in Equilibrium Search",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200230",
+    "title": "Disclosure and Favoritism in Sequential Elimination Contests",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200284",
+    "title": "Screening Dominance: A Comparison of Noisy Signals",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200296",
+    "title": "Communication and Cooperation in Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200311",
+    "title": "Making Elections Work: Accountability with Selection and Control",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200314",
+    "title": "Crime Chains",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200379",
+    "title": "Crime, Broken Families, and Punishment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200391",
+    "title": "Games Played by Teams of Players",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20190579",
+    "title": "Mentoring and the Dynamics of Affirmative Action",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20200713",
+    "title": "Engaging Teachers with Technology Increased Achievement, Bypassing Teachers Did Not",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.21985/n2-syc9-ek19",
+    "title": "Optimal pricing with intermodal competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.111.5.1383",
+    "title": "Auction Research Evolving: Theorems and Market Designs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.111.6.2049",
+    "title": "REPORT OF INDEPENDENT AUDITOR",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150004",
+    "title": "Bargaining under the Illusion of Transparency",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20180517",
+    "title": "The Risk-Adjusted Carbon Price",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190189",
+    "title": "Entry-Proofness and Discriminatory Pricing under Adverse Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190390",
+    "title": "A Theory of Chosen Preferences",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20191321",
+    "title": "Mediation in Reputational Bargaining",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20200555",
+    "title": "Rank Uncertainty in Organizations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20200829",
+    "title": "Market Fragmentation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20201214",
+    "title": "Digital Dystopia",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20201692",
+    "title": "Justified Communication Equilibrium",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20210496",
+    "title": "Counterfactuals with Latent Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20190536",
+    "title": "Tariff Pass-Through at the Border and at the Store: Evidence from US Trade Policy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20200012",
+    "title": "Information Design and Strategic Communication",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20200311",
+    "title": "The Difficulty of Easy Projects",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20200408",
+    "title": "A Behavioral Characterization of the Likelihood Ratio Order",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20200635",
+    "title": "Cheating with Models",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20190091",
+    "title": "Air Pollution and Criminal Activity: Microgeographic Evidence from Chicago",
+    "reason": "low_similarity",
+    "best_score": 0.64
+  },
+  {
+    "doi": "10.1257/mac.20180014",
+    "title": "Fewer but Better: Sudden Stops, Firm Entry, and Financial Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20180427",
+    "title": "Monetary Policy and Bubbles in a New Keynesian Model with Overlapping Generations",
+    "reason": "low_similarity",
+    "best_score": 0.37
+  },
+  {
+    "doi": "10.1257/mac.20200073",
+    "title": "Capital Controls for Crisis Management Policy in a Global Economy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170234",
+    "title": "Fair Utilitarianism",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180065",
+    "title": "Sequential Preference Revelation in Incomplete Information Settings",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180170",
+    "title": "Fees, Reputation, and Information Production in the Credit Rating Industry",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180184",
+    "title": "Full Implementation under Ambiguity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180234",
+    "title": "A Leverage Theory of Tying in Two-Sided Markets with Nonnegative Price Constraints",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180240",
+    "title": "Prediction: The Long and the Short of It",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/mic.20180272",
+    "title": "Coordinating Public Good Provision by Mediated Communication",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180301",
+    "title": "Exponential Satisficing",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180314",
+    "title": "Connecting Disconnected Financial Markets?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180326",
+    "title": "Experimentation with Self-Serving Attribution Biases",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180339",
+    "title": "Vertical Agreements and User Access",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180344",
+    "title": "Utilitarian Aggregation with Heterogeneous Beliefs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180359",
+    "title": "Communities, Co-ops, and Clubs: Social Capital and Incentives in Large Collective Organizations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190008",
+    "title": "A Delegation-Based Theory of Expertise",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190019",
+    "title": "A Bargaining-Based Model of Security Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190023",
+    "title": "Policy Experimentation in Committees: A Case against Veto Rights under Redistributive Constraints",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190091",
+    "title": "Fair Social Ordering, Egalitarianism, and Animal Welfare",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190114",
+    "title": "Orchestrating Information Acquisition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200039",
+    "title": "Prosecutor Quality, Witness Participation, Crime, and Reform",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20200050",
+    "title": "The Market for Online Influence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20200103",
+    "title": "Market Power and Income Taxation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.110.6.1921",
+    "title": "REPORT OF INDEPENDENT AUDITOR",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.110.7.1937",
+    "title": "Field Experiments and the Practice of Economics",
+    "reason": "low_similarity",
+    "best_score": 0.32
+  },
+  {
+    "doi": "10.1257/aer.110.7.1952",
+    "title": "Field Experiments and the Practice of Policy",
+    "reason": "low_similarity",
+    "best_score": 0.37
+  },
+  {
+    "doi": "10.1257/aer.110.7.1974",
+    "title": "Experimentation, Innovation, and Economics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151147",
+    "title": "The Distributional Consequences of Public School Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20161491",
+    "title": "Endogenous Monitoring in a Partnership Game",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170476",
+    "title": "Voter Turnout with Peer Punishment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170620",
+    "title": "Ultimatum Bargaining with Rational Inattention",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20171553",
+    "title": "Strategyproof Choice of Social Acts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20180427",
+    "title": "Relational Contracting, Negotiation, and External Enforcement",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181012",
+    "title": "Escalation of Scrutiny: The Gains from Dynamic Enforcement of Environmental Regulations",
+    "reason": "low_similarity",
+    "best_score": 0.43
+  },
+  {
+    "doi": "10.1257/aer.20181052",
+    "title": "Online Privacy and Information Disclosure by Consumers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181135",
+    "title": "The Reach of Radio: Ending Civil Conflict through Rebel Demobilization",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/aer.20181186",
+    "title": "Stability and Bayesian Consistency in Two-Sided Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181316",
+    "title": "Bargaining and News",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181396",
+    "title": "Expert-Captured Democracies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181478",
+    "title": "Outsourcing Education: Experimental Evidence from Liberia",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181495",
+    "title": "Gambling over Public Opinion",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181606",
+    "title": "The Race to the Base",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181798",
+    "title": "Acquiring Information through Peers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190080",
+    "title": "Learning under Diverse World Views: Model-Based Inference",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190234",
+    "title": "Raising Capital from Heterogeneous Investors",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190283",
+    "title": "A Model of Complex Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20190780",
+    "title": "Job Matching under Constraints",
+    "reason": "low_similarity",
+    "best_score": 0.54
+  },
+  {
+    "doi": "10.1257/aer.20191099",
+    "title": "A Model of Competing Narratives",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20200068",
+    "title": "A Few Bad Apples Spoil the Barrel: An Anti-Folk Theorem for Anonymous Repeated Games with Incomplete Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20220699",
+    "title": "Choice Screen Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20190051",
+    "title": "The Relation between Behavior under Risk and over Time",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20190165",
+    "title": "Attention Management",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20190252",
+    "title": "Statistical Nonsignificance in Empirical Economics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20190272",
+    "title": "Nonlinear Pricing with Average-Price Bias",
+    "reason": "low_similarity",
+    "best_score": 0.42
+  },
+  {
+    "doi": "10.1257/aeri.20190387",
+    "title": "Optimal Quality Certification",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20190494",
+    "title": "Bitcoin: An Axiomatic Approach and an Impossibility Theorem",
+    "reason": "low_similarity",
+    "best_score": 0.23
+  },
+  {
+    "doi": "10.1257/aeri.20200029",
+    "title": "School Effects on Socioemotional Development, School-Based Arrests, and Educational Attainment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20200178",
+    "title": "Strategy-Proofness, Independence of Irrelevant Alternatives, and Majority Rule",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20180474",
+    "title": "Energy Cost Pass-Through in US Manufacturing: Estimates and Implications for Carbon Taxes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20180732",
+    "title": "The Black-White Gap in Noncognitive Skills among Elementary School Children",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20160140",
+    "title": "Optimal Capital Requirements over the Business and Financial Cycles",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20170203",
+    "title": "Consumer Imperfect Information and Endogenous Price Rigidity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20180030",
+    "title": "Non-Neutrality of Open-Market Operations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20180449",
+    "title": "Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20180484",
+    "title": "Quantitative Easing, Collateral Constraints, and Financial Spillovers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20190008",
+    "title": "A Central Bank Theory of Price Level Determination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20190169",
+    "title": "Fighting Crises with Secrecy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160250",
+    "title": "Imitation Perfection\u2014A Simple Rule to Prevent Discrimination in Procurement",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170102",
+    "title": "History-Bound Reelections",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170183",
+    "title": "The Economics of Crowdfunding",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170226",
+    "title": "Pricing Network Effects: Competition",
+    "reason": "low_similarity",
+    "best_score": 0.22
+  },
+  {
+    "doi": "10.1257/mic.20170400",
+    "title": "Biased-Belief Equilibrium",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170411",
+    "title": "Experimenting with Career Concerns",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180038",
+    "title": "The Importance of Commitment Power in Games with Imperfect Evidence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180052",
+    "title": "Image versus Information: Changing Societal Norms and Optimal Privacy",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/mic.20180077",
+    "title": "Revealed Preference Implications of Backward Induction and Subgame Perfection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180107",
+    "title": "Hybrid All-Pay and Winner-Pay Contests",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180220",
+    "title": "Codiffusion of Technologies in Social Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180225",
+    "title": "The Value of Incumbency When Platforms Face Heterogeneous Customers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180231",
+    "title": "Credibility of Crime Allegations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180285",
+    "title": "Promotion Signaling and Human Capital Investments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180299",
+    "title": "Voting and Contributing when the Group Is Watching",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180302",
+    "title": "Incomplete Information Games with Ambiguity Averse Players",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20180315",
+    "title": "Searching for Service",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20190132",
+    "title": "Job Insecurity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.109.6.1991",
+    "title": "Climate Change: The Ultimate Challenge for Economics",
+    "reason": "low_similarity",
+    "best_score": 0.5
+  },
+  {
+    "doi": "10.1257/aer.109.6.2015",
+    "title": "Can We Control Carbon Dioxide? (from 1975)",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.109.6.2368",
+    "title": "Report of Independent Auditor",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160216",
+    "title": "A Model of Safe Asset Determination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160404",
+    "title": "Differentiated Durable Goods Monopoly: A Robust Coase Conjecture",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20161109",
+    "title": "Delegated Expertise, Authority, and Communication",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170110",
+    "title": "Are Low Interest Rates Deflationary? A Paradox of Perfect-Foresight Analysis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170159",
+    "title": "Crises: Equilibrium Shifts and Large Shocks",
+    "reason": "low_similarity",
+    "best_score": 0.27
+  },
+  {
+    "doi": "10.1257/aer.20170334",
+    "title": "Selling to Advised Buyers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170882",
+    "title": "Auctions with Limited Commitment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170995",
+    "title": "Financing Durable Assets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20171034",
+    "title": "Diffusing Coordination Risk",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20171534",
+    "title": "Bayesian Identification: A Theory for State-Dependent Utilities",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20171722",
+    "title": "Test Design and Minimum Standards",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20171919",
+    "title": "Research and the Approval Process: The Organization of Persuasion",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20171939",
+    "title": "Training and Effort Dynamics in Apprenticeship",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20180145",
+    "title": "Monetary Policy and Rational Asset Price Bubbles: Comment",
+    "reason": "low_similarity",
+    "best_score": 0.62
+  },
+  {
+    "doi": "10.1257/aer.20180601",
+    "title": "Diffusion Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20180688",
+    "title": "Deliberately Stochastic",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20180773",
+    "title": "Revenue Guarantee Equivalence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20180998",
+    "title": "Liquidity Sentiments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20181897",
+    "title": "Quantifying Information and Uncertainty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20170006",
+    "title": "Lerner Symmetry: A Modern Treatment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20170036",
+    "title": "Robot Arithmetic: New Technology and Wages",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20180200",
+    "title": "The Culture of Overconfidence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20180227",
+    "title": "Honesty via Choice-Matching",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20180578",
+    "title": "A Bias of Screening",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aeri.20180581",
+    "title": "Discriminating against Captive Customers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20170167",
+    "title": "\u201cWhatever It Takes\u201d Is All You Need: Monetary Policy and Debt Fragility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20170335",
+    "title": "Optimal Forward Guidance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160202",
+    "title": "Impressionable Voters",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160217",
+    "title": "Teamwork as a Self-Disciplining Device",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160257",
+    "title": "Laboratories of Democracy: Policy Experimentation under Decentralization",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160347",
+    "title": "Make and Buy: Outsourcing, Vertical Integration, and Cost Reduction",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160350",
+    "title": "Market Share Contracts, Exclusive Dealing, and the Integer Problem",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160359",
+    "title": "The Risk of Failure: Trial and Error Learning and Long-Run Performance",
+    "reason": "low_similarity",
+    "best_score": 0.28
+  },
+  {
+    "doi": "10.1257/mic.20170007",
+    "title": "Behavioral Economics and the Atheoretical Style",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170076",
+    "title": "Strategic Ignorance in Sequential Procurement",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170085",
+    "title": "Coercive Trade Policy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170131",
+    "title": "Dominance and Competitive Bundling",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170154",
+    "title": "Cream Skimming and Information Design in Matching Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170158",
+    "title": "The Comparative Statics of Optimal Hierarchies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170181",
+    "title": "Policies in Relational Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170192",
+    "title": "Cadet-Branch Matching in a Kelso-Crawford Economy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170217",
+    "title": "Collective Choice in Dynamic Public Good Provision",
+    "reason": "low_similarity",
+    "best_score": 0.45
+  },
+  {
+    "doi": "10.1257/mic.20170294",
+    "title": "Relational Contracts with Private Information on the Future Value of the Relationship: The Upside of Implicit Downsizing Costs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170322",
+    "title": "Multidimensional Reasoning in Games: Framework, Equilibrium, and Applications",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20170351",
+    "title": "Information Design",
+    "reason": "low_similarity",
+    "best_score": 0.27
+  },
+  {
+    "doi": "10.1257/pol.20170484",
+    "title": "Peer Preferences, School Competition, and the Effects of Public School Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1184/r1/6704792",
+    "title": "Controlling Contradictions Among Regulations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1184/r1/6706835",
+    "title": "Mitigating Strategies for Carbon Dioxide Problems",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1184/r1/6708347",
+    "title": "The Cost of Automobile Safety and Emissions Regulation to the Consumer: Some Preliminary Results",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1184/r1/6708467",
+    "title": "The Explanation of Inflation: Some International Evidence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.108.6.1265",
+    "title": "From Cashews to Nudges: The Evolution of Behavioral Economics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.108.6.1598",
+    "title": "Independent Auditor\u2019s Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.108.7.1609",
+    "title": "Marketplaces, Markets, and Market Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20141388",
+    "title": "The Limits to Partial Banking Unions: A Political Economy Approach",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151180",
+    "title": "Fiscal Rules and Discretion in a World Economy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160177",
+    "title": "Just Starting Out: Learning and Equilibrium in a New Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160782",
+    "title": "Asset Bubbles and Credit Constraints",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160945",
+    "title": "Inference in Regression Discontinuity Designs with a Discrete Running Variable",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160970",
+    "title": "An Efficient Ascending-Bid Auction for Multiple Objects: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20161492",
+    "title": "Certified Random: A New Order for Coauthorship",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20161696",
+    "title": "Investment Strategy and Selection Bias: An Equilibrium Perspective on Overoptimism",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20161749",
+    "title": "Marking to Market versus Taking to Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20161863",
+    "title": "Taking a Financial Position in Your Opponent in Litigation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20161996",
+    "title": "Forward Guidance without Common Knowledge",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170299",
+    "title": "Evaluating Strategic Forecasters",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20170914",
+    "title": "Learning from Others' Outcomes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20171408",
+    "title": "An Efficient Ascending-Bid Auction for Multiple Objects: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20172018",
+    "title": "A Price Theory of Multi-Sided Platforms: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20180478",
+    "title": "A Price Theory of Multi-Sided Platforms: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20140075",
+    "title": "Entry and Exit, Multiproduct Firms, and Allocative Distortions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20140154",
+    "title": "The Possibility of Ideological Bias in Structural Macroeconomic Models",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20150035",
+    "title": "Low Real Interest Rates, Collateral Misrepresentation, and Monetary Policy",
+    "reason": "low_similarity",
+    "best_score": 0.48
+  },
+  {
+    "doi": "10.1257/mac.20160343",
+    "title": "The Role of Annuitized Wealth in Post-retirement Behavior",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150147",
+    "title": "Two-Sided Investment and Matching with Multidimensional Cost Types and Attributes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150235",
+    "title": "Choice, Consideration Sets, and Attribute Filters",
+    "reason": "low_similarity",
+    "best_score": 0.19
+  },
+  {
+    "doi": "10.1257/mic.20150242",
+    "title": "Political Kludges",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150259",
+    "title": "A Pseudo-Market Approach to Allocation with Priorities",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150283",
+    "title": "Matching with Moral Hazard: Assigning Attorneys to Poor Defendants",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150307",
+    "title": "Electoral Accountability and Interdistrict Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150309",
+    "title": "When to Confront: The Role of Patience",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160058",
+    "title": "Partial Vertical Integration, Ownership Structure, and Foreclosure",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160129",
+    "title": "Markets with Multidimensional Private Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160178",
+    "title": "Honest Equilibria in Reputation Games: The Role of Time Preferences",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160187",
+    "title": "Reverse Bayesianism: A Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160190",
+    "title": "Preferences and Social Influence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160222",
+    "title": "A Foundation for Efficiency Wage Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160230",
+    "title": "Contracts with Framing",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160237",
+    "title": "A Theory of Organizational Dynamics: Internal Politics and Efficiency",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160247",
+    "title": "Disclosure to a Psychological Audience",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160253",
+    "title": "Multiple Activities in Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160277",
+    "title": "Career Concerns and the Nature of Skills",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160278",
+    "title": "Should First-Price Auctions Be Transparent?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160282",
+    "title": "Dynamic Certification and Reputation for Quality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160290",
+    "title": "A Theory of Indicative Bidding",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160337",
+    "title": "Why Voting? A Welfare Analysis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160345",
+    "title": "A Mechanism for Eliciting Second-Order Beliefs and the Inclination to Choose",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20150369",
+    "title": "Paternalism against Veblen: Optimal Taxation and Non-respected Preferences for Social Comparisons",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20160298",
+    "title": "Cash-on-Hand and College Enrollment: Evidence from Population Tax Data and the Earned Income Tax Credit",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.107.4.967",
+    "title": "Narrative Economics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.107.6.1718",
+    "title": "Independent Auditor's Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.107.7.1731",
+    "title": "Incomplete Contracts and Control",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.107.7.1753",
+    "title": "Pay For Performance and Beyond",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20110433",
+    "title": "The Social Cost of Near-Rational Investment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20131057",
+    "title": "Bidder Solicitation, Adverse Selection, and the Failure of Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140359",
+    "title": "Price Cutting and Business Stealing in Imperfect Cartels",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140494",
+    "title": "Optimal Allocation with Ex Post Verification and Limited Penalties",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140605",
+    "title": "Unplanned Purchases and Retail Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140759",
+    "title": "Decentralized Exchange",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140782",
+    "title": "Banks as Secret Keepers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150755",
+    "title": "Competing for Loyalty: The Dynamics of Rallying Support",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150913",
+    "title": "Evidence Games: Truth and Commitment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150947",
+    "title": "A Comprehensive Approach to Revealed Preference Theory",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151462",
+    "title": "Full Implementation and Belief Restrictions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151579",
+    "title": "Search at the Margin",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151700",
+    "title": "A Theory of Crowdfunding: A Mechanism Design Approach with Demand Uncertainty and Moral Hazard",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151714",
+    "title": "Information Spillovers in Asset Markets with Correlated Values",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151739",
+    "title": "Balanced Growth Despite Uzawa",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151743",
+    "title": "Discriminatory Information Disclosure",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160093",
+    "title": "Correlation Misperception in Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160145",
+    "title": "Buyer-Optimal Learning and Monopoly Pricing",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160175",
+    "title": "Not So Demanding: Demand Structure and Firm Behavior",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160277",
+    "title": "Content-Based Agendas and Qualified Majorities in Sequential Voting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160665",
+    "title": "Gresham's Law of Model Averaging",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20160913",
+    "title": "How to Control Controlled School Choice: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.20160180",
+    "title": "Saving Soviet Science: The Impact of Grants When Government R&amp;D Funding Disappears",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20150073",
+    "title": "Safe Assets, Liquidity, and Monetary Policy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140182",
+    "title": "If Many Seek, Ye Shall Find: Search Externalities and New Goods",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140189",
+    "title": "Wheat or Strawberries? Intermediated Trade with Limited Contracting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140212",
+    "title": "Aggregate Uncertainty Can Lead to Incorrect Herds",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140272",
+    "title": "Disclosure and Legal Advice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140276",
+    "title": "Public Goods in Endogenous Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140280",
+    "title": "Resale Price Maintenance with Secret Contracts and Retail Service Externalities",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140283",
+    "title": "Conditional Retrospective Voting in Large Elections",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150003",
+    "title": "A Theory of Patent Portfolios",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150031",
+    "title": "Bargaining over Entry with a Compulsory License Deadline: Price Spillovers and Surplus Expansion",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150105",
+    "title": "Procurement Design with Corruption",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150119",
+    "title": "Incentives for Quality in Friendly and Hostile Informational Environments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150121",
+    "title": "Discrimination via Symmetric Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150138",
+    "title": "Power Dynamics in Organizations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150139",
+    "title": "How Important Can the Non-Violation Clause Be for the GATT/WTO?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150151",
+    "title": "From Peer Pressure to Biased Norms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150183",
+    "title": "Dynamic Assignment of Objects to Queuing Agents",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150199",
+    "title": "Bend Them but Don't Break Them: Passionate Workers, Skeptical Managers, and Decision Making in Organizations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150236",
+    "title": "Choice and Matching",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150253",
+    "title": "Centralized Decision Making and Informed Lobbying",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150254",
+    "title": "Strategic Vote Trading in Power Sharing Systems",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150296",
+    "title": "The Good Samaritan and Traffic on the Road to Jericho",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150298",
+    "title": "Dynamic Agenda Setting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150299",
+    "title": "The Double Diamond Paradox",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150349",
+    "title": "Accountability and Information in Elections",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160010",
+    "title": "Welfare Consequences of Information Aggregation and Optimal Market Size",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160016",
+    "title": "Partner Uncertainty and the Dynamic Boundary of the Firm",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160079",
+    "title": "Persistence and Change in Culture and Institutions under Autarchy, Trade, and Factor Mobility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160082",
+    "title": "Social Status in Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160087",
+    "title": "Efficient Procurement Auctions with Increasing Returns",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160088",
+    "title": "Simultaneous Search and Efficiency of Entry and Search Intensity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160107",
+    "title": "Comparing Voting by Committees According to Their Manipulability",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160200",
+    "title": "More Haste, Less Speed? Signaling through Investment Timing",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160201",
+    "title": "The Coevolution of Segregation, Polarized Beliefs, and Discrimination: The Case of Private versus State Education",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160305",
+    "title": "Management Quality and Firm Hierarchy in Industry Equilibrium",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20140254",
+    "title": "Heterogeneity, Demand for Insurance, and Adverse Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20140396",
+    "title": "Fiscal Externalities and Optimal Unemployment Insurance",
+    "reason": "low_similarity",
+    "best_score": 0.6
+  },
+  {
+    "doi": "10.1257/pol.20150293",
+    "title": "Beggar-Thy-Neighbor Effects of Exchange Rates: A Study of the Renminbi",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.106.6.1221",
+    "title": "Measuring and Understanding Behavior, Welfare, and Poverty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.106.6.1566",
+    "title": "Independent Auditor's Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.106.7.1577",
+    "title": "Behavioral Economics: Past, Present, and Future",
+    "reason": "low_similarity",
+    "best_score": 0.66
+  },
+  {
+    "doi": "10.1257/aer.20120978",
+    "title": "Experiments on Decisions under Uncertainty: A Theoretical Framework",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130768",
+    "title": "Ostracism and Forgiveness",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20131082",
+    "title": "The Allocation of Future Business: Dynamic Relational Contracts with Multiple Agents",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140105",
+    "title": "The Evolution of Strategic Sophistication",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140131",
+    "title": "Discounts as a Barrier to Entry",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140316",
+    "title": "The Politics of Compromise",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140662",
+    "title": "Asymmetric Information and Intermediation Chains",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140737",
+    "title": "Persuading Voters",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140741",
+    "title": "Rational Inattention and Organizational Focus",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140772",
+    "title": "Managerial Attention and Worker Performance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140883",
+    "title": "Tracing Value-Added and Double Counting in Gross Exports: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140973",
+    "title": "A Behavioral Analysis of Stochastic Reference Dependence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20141141",
+    "title": "Perceiving Prospects Properly",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20141198",
+    "title": "Adverse Selection and Auction Design for Internet Display Advertising",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20141215",
+    "title": "Dynamic Delegation of Experimentation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20141469",
+    "title": "On Communication and Collusion",
+    "reason": "low_similarity",
+    "best_score": 0.62
+  },
+  {
+    "doi": "10.1257/aer.20141727",
+    "title": "Group Strategy-Proofness in Private Good Economies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150076",
+    "title": "Search Design and Broad Matching",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150157",
+    "title": "Bailouts, Time Inconsistency, and Optimal Regulation: A Macroeconomic View",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150218",
+    "title": "Beeps",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150275",
+    "title": "Dynamic Procurement under Uncertainty: Optimal Design and Implications for Incomplete Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150416",
+    "title": "Timing Decisions in Organizations: Communication and Authority in a Dynamic Environment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20150635",
+    "title": "Networks, Markets, and Inequality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151181",
+    "title": "Breakthroughs, Deadlines, and Self-Reported Progress: Contracting for Multistage Projects",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20151538",
+    "title": "Endogenous Entry to Security-Bid Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20120112",
+    "title": "Dynamic Signaling with Dropout Risk",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130036",
+    "title": "Flip-Flopping, Primary Visibility, and the Selection of Candidates",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130138",
+    "title": "Search Advertising",
+    "reason": "low_similarity",
+    "best_score": 0.21
+  },
+  {
+    "doi": "10.1257/mic.20130253",
+    "title": "Social Learning with Costly Search",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130270",
+    "title": "Delegating Multiple Decisions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140103",
+    "title": "A Theory of Rational Demand for Index Insurance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140110",
+    "title": "Investing in Skill and Searching for Coworkers: Endogenous Participation in a Matching Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140135",
+    "title": "Strategic Information Acquisition and Transmission",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140137",
+    "title": "Entry Deterrence in Dynamic Second-Price Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140138",
+    "title": "Exploitative Innovation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140143",
+    "title": "Just Enough or All: Selling a Firm",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140151",
+    "title": "News Aggregators and Competition among Newspapers on the Internet",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140190",
+    "title": "Keeping Secrets: The Economics of Access Deterrence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140204",
+    "title": "Don't Demotivate, Discriminate",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140232",
+    "title": "Exchange Efficiency with Weak Ownership Rights",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140237",
+    "title": "Screening for Good Patent Pools through Price Caps on Individual Licenses",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140238",
+    "title": "The Utilitarian Relevance of the Aggregation Theorem",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140241",
+    "title": "Character Endorsements and Electoral Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140244",
+    "title": "Generalized Systematic Risk",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140262",
+    "title": "Reallocation Costs and Efficiency",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150009",
+    "title": "The (Human) Sampler's Curses",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150019",
+    "title": "Either or Both Competition: A \u201cTwo-Sided\u201d Theory of Advertising with Overlapping Viewerships",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150020",
+    "title": "Bid Takers or Market Makers? The Effect of Auctioneers on Auction Outcome",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150035",
+    "title": "Manipulability of Stable Mechanisms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150056",
+    "title": "Comparative Risk Aversion in the Presence of Ambiguity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150072",
+    "title": "Naked Exclusion and the Volatility of Innovation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150083",
+    "title": "Inducing Leaders to Take Risky Decisions: Dismissal, Tenure, and Term Limits",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150116",
+    "title": "An Alternative to Signaling: Directed Search and Substitution",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20150332",
+    "title": "Naked Exclusion with Private Offers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20160018",
+    "title": "Achieving Efficiency in Dynamic Contribution Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20150050",
+    "title": "Property Taxation, Zoning, and Efficiency in a Dynamic Tiebout Model",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.15000024",
+    "title": "Market Failures and Public Policy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.15000025",
+    "title": "INDEPENDENT AUDITOR\u2019S REPORT",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20101552",
+    "title": "Efficient Matching under Distributional Constraints: Theory and Applications",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20110865",
+    "title": "Real Rigidity, Nominal Rigidity, and the Social Value of Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20111046",
+    "title": "Revealed (P)Reference Theory",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20120881",
+    "title": "Price Reaction to Information with Heterogeneous Beliefs and Wealth Effects: Underreaction, Momentum, and Reversal",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20121248",
+    "title": "Country Solidarity in Sovereign Crises",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20121282",
+    "title": "The Virtues of Hesitation: Optimal Timing in a Non-Stationary World",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20121317",
+    "title": "Consumer Search and Double Marginalization",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20121469",
+    "title": "Team Contests with Multiple Pairwise Battles",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20121640",
+    "title": "Vertical Contracting with Informational Opportunism",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130047",
+    "title": "Rational Inattention to Discrete Choices: A New Foundation for the Multinomial Logit Model",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130250",
+    "title": "Competitive Policy Development",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130332",
+    "title": "Reputation and School Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130456",
+    "title": "Systemic Risk and Stability in Financial Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130712",
+    "title": "Non-Optimal Mechanism Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130848",
+    "title": "The Limits of Price Discrimination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130896",
+    "title": "Until the Bitter End: On Prospect Theory in a Dynamic Context",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130929",
+    "title": "How to Control Controlled School Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20130930",
+    "title": "Self-Confirming Equilibrium and Model Uncertainty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20131030",
+    "title": "Preferences for Flexibility and Randomization under Uncertainty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20131159",
+    "title": "Robustness and Linear Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20131306",
+    "title": "Government Policy with Time Inconsistent Voters",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20131580",
+    "title": "On Discrimination in Auctions with Endogenous Entry",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20131664",
+    "title": "Exclusive Contracts and Market Dominance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140117",
+    "title": "Revealed Preference, Rational Inattention, and Costly Information Acquisition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140134",
+    "title": "Correlation Neglect, Voting Behavior, and Information Aggregation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20140270",
+    "title": "Back to Fundamentals: Equilibrium in Abstract Economies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.20141271",
+    "title": "Feedback Effects, Asymmetric Trading, and the Limits to Arbitrage",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20130143",
+    "title": "A Behavioral Model of the Popularity and Regulation of Demandable Liabilities",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20130212",
+    "title": "Aggregate Implications of a Credit Crunch: The Importance of Heterogeneity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20140054",
+    "title": "International Credit Flows and Pecuniary Externalities",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20100029",
+    "title": "A Continuous-Time Model of Multilateral Bargaining",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20110077",
+    "title": "Repeated Interaction and Rating Inflation: A Model of Double Reputation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20120027",
+    "title": "Expanding \u201cChoice\u201d in School Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20120109",
+    "title": "Distributional Preferences, Reciprocity-Like Behavior, and Efficiency in Bilateral Exchange",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20120232",
+    "title": "Optimal Design of Trade Agreements in the Presence of Renegotiation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130006",
+    "title": "Information and Extremism in Elections",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130027",
+    "title": "Searching for a Bargain: Power of Strategic Commitment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130031",
+    "title": "Preferences over Equality in the Presence of Costly Income Sorting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130067",
+    "title": "Collusion and the Organization of the Firm",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130080",
+    "title": "Grading Standards and Education Quality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130089",
+    "title": "The Core Matchings of Markets with Transfers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130098",
+    "title": "Inefficiencies in Networked Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130100",
+    "title": "Organizing to Adapt and Compete",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130118",
+    "title": "Inferring Rationales from Choice: Identification for Rational Shortlist Methods",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130139",
+    "title": "Bankruptcy: Is It Enough to Forgive or Must We Also Forget?",
+    "reason": "low_similarity",
+    "best_score": 0.43
+  },
+  {
+    "doi": "10.1257/mic.20130146",
+    "title": "Learning from Others? Decision Rights, Strategic Communication, and Reputational Concerns",
+    "reason": "low_similarity",
+    "best_score": 0.36
+  },
+  {
+    "doi": "10.1257/mic.20130162",
+    "title": "Net Neutrality, Business Models, and Internet Interconnection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130168",
+    "title": "Pricing and Efficiency in the Market for IP Addresses",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130188",
+    "title": "Evolution of Impatience: The Example of the Farmer-Sheriff Game",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130221",
+    "title": "State Censorship",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130226",
+    "title": "Becoming the Neighbor Bidder: Endogenous Winner\u2019s Curse in Dynamic Mechanisms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130250",
+    "title": "Subjective Evaluations: Discretionary Bonuses and Feedback Credibility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130272",
+    "title": "Two-Sided Matching with Endogenous Preferences",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130277",
+    "title": "Formal versus Informal Monitoring in Teams",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140011",
+    "title": "Beneficial Long Communication in the Multiplayer Electronic Mail Game",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140031",
+    "title": "When Is It Optimal to Delegate: The Theory of Fast-Track Authority",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140038",
+    "title": "Majority Rule and Utilitarian Welfare",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140054",
+    "title": "Antitrust Leniency with Multiproduct Colluders",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140056",
+    "title": "Achieving Cooperation under Privacy Concerns",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140155",
+    "title": "Selling Cookies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140161",
+    "title": "Collective Dynamic Choice: The Necessity of Time Inconsistency",
+    "reason": "low_similarity",
+    "best_score": 0.64
+  },
+  {
+    "doi": "10.1257/mic.20140173",
+    "title": "Mechanisms for Repeated Trade",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20140252",
+    "title": "Group Polarization in a Model of Information Aggregation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.20120360",
+    "title": "The Tax Gradient: Spatial Aspects of Fiscal Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.10.2941",
+    "title": "Mandatory versus Discretionary Spending: The Status Quo Effect",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.10.2975",
+    "title": "Behavioral Implementation",
+    "reason": "low_similarity",
+    "best_score": 0.27
+  },
+  {
+    "doi": "10.1257/aer.104.10.3288",
+    "title": "Efficient Entry in Competing Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.11.3459",
+    "title": "Asset Demand Based Tests of Expected Utility Maximization",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.11.3481",
+    "title": "A Biological Theory of Social Discounting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.11.3725",
+    "title": "Claim Validation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.11.3737",
+    "title": "The Power of Communication",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.12.3779",
+    "title": "Optimal Allocation with Costly Verification",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.12.3814",
+    "title": "Ambiguity Aversion with Three or More Outcomes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.12.4027",
+    "title": "Reputation and Persistence of Adverse Selection in Secondary Loan Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.2.343",
+    "title": "Collateral Crises",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.2.609",
+    "title": "Time Allocation and Task Juggling",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.2.656",
+    "title": "Outside Options and the Failure of the Coase Conjecture",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.2.672",
+    "title": "Raising Retailers\u2019 Profits: On Vertical Practices and the Exclusion of Rivals",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.3.1040",
+    "title": "Risk and Precautionary Saving in Two-Person Households",
+    "reason": "low_similarity",
+    "best_score": 0.67
+  },
+  {
+    "doi": "10.1257/aer.104.3.721",
+    "title": "Monetary Policy and Rational Asset Price Bubbles",
+    "reason": "low_similarity",
+    "best_score": 0.62
+  },
+  {
+    "doi": "10.1257/aer.104.3.898",
+    "title": "Strategic Interaction and Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.4.1350",
+    "title": "Cycles of Conflict: An Economic Model",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.7.1875",
+    "title": "Dynamic Adverse Selection: A Theory of Illiquidity, Fire Sales, and Flight to Quality",
+    "reason": "low_similarity",
+    "best_score": 0.33
+  },
+  {
+    "doi": "10.1257/aer.104.7.2014",
+    "title": "Auctions, Actions, and the Failure of Information Aggregation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.8.2303",
+    "title": "The Axiomatic Structure of Empirical Content",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.8.2552",
+    "title": "The Effect of Third-Party Funding of Plaintiffs on Settlement",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.9.2858",
+    "title": "Dynamic Free Riding with Irreversible Investments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.9.2900",
+    "title": "Fraudulent Claims and Nitpicky Insurers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.9.2918",
+    "title": "Multiproduct Search and the Joint Search Effect",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.6.3.73",
+    "title": "Public Communication and Information Acquisition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.1",
+    "title": "At Least Do No Harm: The Use of Scarce Data",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.134",
+    "title": "Overconfidence and Diversification",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.154",
+    "title": "On the Political Economy of Urban Growth: Homeownership versus Affordability",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/mic.6.1.205",
+    "title": "Optimal Tax and Expenditure Policy with Aggregate Uncertainty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.23",
+    "title": "Pooling with Essential and Nonessential Patents",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.258",
+    "title": "House Allocation with Overlapping Generations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.315",
+    "title": "Financing Experimentation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.5",
+    "title": "Extension Rules or What Would the Sage Do?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.1.58",
+    "title": "Risk-Taking and Risk-Sharing Incentives under Moral Hazard",
+    "reason": "low_similarity",
+    "best_score": 0.44
+  },
+  {
+    "doi": "10.1257/mic.6.2.131",
+    "title": "When Is a Risky Asset \u201cUrgently Needed\u201d?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.2.163",
+    "title": "Delay and Deadlines: Freeriding and Information Revelation in Partnerships",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.2.205",
+    "title": "Candidates, Character, and Corruption",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.2.37",
+    "title": "Information Acquisition in a War of Attrition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.2.79",
+    "title": "Inefficiency Measurement",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.1",
+    "title": "Nonlinear Pricing of Storable Goods",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.106",
+    "title": "Vertical Bargaining and Countervailing Power",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.157",
+    "title": "Selection into Trade and Wage Inequality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.203",
+    "title": "An Economic Theory of the Evolutionary Emergence of Property Rights",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.227",
+    "title": "Optimal Project Selection Mechanisms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.265",
+    "title": "Sequential Kidney Exchange",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.35",
+    "title": "Competitive Framing",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.3.59",
+    "title": "Asymmetric Contests with Head Starts and Nonmonotonic Costs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.4.1",
+    "title": "Credit Market Speculation and the Cost of Capital",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.4.162",
+    "title": "The Strategic Dis/advantage of Voting Early",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.4.203",
+    "title": "Voter Preferences, Polarization, and Electoral Policies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.4.237",
+    "title": "Pride and Diversity in Social Economies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.4.272",
+    "title": "Competitive Altruism, Mentalizing, and Signaling",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.4.293",
+    "title": "(Good and Bad) Reputation for a Servant of Two Masters",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.6.4.362",
+    "title": "The Day Care Assignment: A Dynamic Matching Problem",
+    "reason": "low_similarity",
+    "best_score": 0.37
+  },
+  {
+    "doi": "10.1257/mic.6.4.74",
+    "title": "Strategic Private Experimentation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.6.2.126",
+    "title": "Entrepreneurial Taxation with Endogenous Entry",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.6.3.155",
+    "title": "Taxation of Couples under Assortative Mating",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.1.335",
+    "title": "Making Sense of Nonbinding Retail-Price Recommendations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.1.360",
+    "title": "Entropy and the Value of Information for Investors",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.1.47",
+    "title": "Pandering to Persuade",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.1.501",
+    "title": "Submission Fees and Response Times in Academic Publishing",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.1.80",
+    "title": "School Admissions Reform in Chicago and England: Comparing Mechanisms by their Vulnerability to Manipulation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.1.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.103.2.1006",
+    "title": "Merger Policy with Merger Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.2.1034",
+    "title": "Inferior Good and Giffen Behavior for Investing and Borrowing",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.2.1091",
+    "title": "A Theory of Charitable Fund-Raising with Costly Solicitations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.2.585",
+    "title": "Designing Random Allocation Mechanisms: Theory and Applications",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.2.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.103.3.117",
+    "title": "Growth Forecast Errors and Fiscal Multipliers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.3.135",
+    "title": "The Mystique Surrounding the Central Bank's Balance Sheet, Applied to the European Crisis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.4.1463",
+    "title": "Lemons Markets and the Transmission of Aggregate Shocks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.4.1490",
+    "title": "Placebo Reforms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.4.1529",
+    "title": "Even (Mixed) Risk Lovers are Prudent",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.4.1536",
+    "title": "Even (Mixed) Risk Lovers are Prudent: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.4.1540",
+    "title": "Independent Auditor's Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.4.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.103.5.1728",
+    "title": "Asset Prices and Institutional Investors",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.5.2050",
+    "title": "Matching with Contracts: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.5.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.103.6.2328",
+    "title": "Managing Conflicts in Relational Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.6.2384",
+    "title": "Competition with Exclusive Contracts and Market-Share Discounts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.6.2412",
+    "title": "Spontaneous Discrimination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.6.2466",
+    "title": "Word-of-Mouth Communication and Percolation in Social Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.6.2554",
+    "title": "Trading Away Wide Brands for Cheap Brands",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.6.2585",
+    "title": "Surplus Maximization and Optimality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.6.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.103.7.2752",
+    "title": "Two Perspectives on Preferences and Structural Transformation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.7.2790",
+    "title": "\u201cReverse Bayesianism\u201d: A Choice-Based Theory of Growing Awareness",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.7.2811",
+    "title": "Dynamic Deception",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.7.3071",
+    "title": "Polarization and Ambiguity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.7.3084",
+    "title": "Social Preferences under Risk: Equality of Opportunity versus Equality of Outcome",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.103.7.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.104.1.291",
+    "title": "Partnerships versus Corporations: Moral Hazard, Sorting, and Ownership Structure",
+    "reason": "low_similarity",
+    "best_score": 0.39
+  },
+  {
+    "doi": "10.1257/aer.104.1.308",
+    "title": "Social Ideology and Taxes in a Differentiated Candidates Framework",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.104.1.66",
+    "title": "Aligned Delegation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.5.1.i",
+    "title": "January 2013: Volume 5, Number 1",
+    "reason": "low_similarity",
+    "best_score": 0.36
+  },
+  {
+    "doi": "10.1257/app.5.2.i",
+    "title": "April 2013: Volume 5, Number 2",
+    "reason": "low_similarity",
+    "best_score": 0.42
+  },
+  {
+    "doi": "10.1257/app.5.3.i",
+    "title": "July 2013: Volume 5, Number 3",
+    "reason": "low_similarity",
+    "best_score": 0.55
+  },
+  {
+    "doi": "10.1257/app.5.4.i",
+    "title": "October 2013: Volume 5, Number 4",
+    "reason": "low_similarity",
+    "best_score": 0.57
+  },
+  {
+    "doi": "10.1257/mac.20150346",
+    "title": "Sustainable Shadow Banking",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.5.1.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.5.2.187",
+    "title": "Monetary Commitment and Fiscal Discretion: The Optimal Policy Mix",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.5.2.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.5.3.75",
+    "title": "The Financial Crisis: Lessons for International Macroeconomics",
+    "reason": "low_similarity",
+    "best_score": 0.21
+  },
+  {
+    "doi": "10.1257/mac.5.3.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.1.147",
+    "title": "Social Learning with Coarse Inference",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.1.175",
+    "title": "The Welfare Effects of Use-or-Lose Provisions in Markets with Dominant Firms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.1.28",
+    "title": "Revealed Preference in a Discrete Consumption Space",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.1.63",
+    "title": "On the Relationship between Preferential and Multilateral Trade Liberalization: The Case of Customs Unions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.1.i",
+    "title": "February 2013 Volume 5, Number 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.2.1",
+    "title": "Strategic Immunization and Group Structure",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.2.164",
+    "title": "Assignment of Arrival Slots",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.2.186",
+    "title": "Go Figure: The Strategy of Nonliteral Speech",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.2.213",
+    "title": "Trust, Reciprocity, and Favors in Cooperative Relationships",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.2.73",
+    "title": "Why People Vote: Ethical Motives and Social Incentives",
+    "reason": "low_similarity",
+    "best_score": 0.53
+  },
+  {
+    "doi": "10.1257/mic.5.2.99",
+    "title": "Preference Signaling in Matching Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.2.i",
+    "title": "May 2013 Volume 5, Number 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.3.180",
+    "title": "Behavioral Welfare Economics and Redistribution",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.3.22",
+    "title": "Platform Competition under Asymmetric Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.3.69",
+    "title": "Homophily in Peer Groups",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.3.i",
+    "title": "August 2013 Volume 5, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.4.120",
+    "title": "Incentive-Compatible Matching Mechanisms: Consistency with Various Stability Notions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.4.188",
+    "title": "The First-Order Approach to Merger Analysis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.4.219",
+    "title": "Bargaining with Deadlines and Private Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.4.31",
+    "title": "Strategic Tournaments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.4.55",
+    "title": "Optimal Contract under Moral Hazard with Soft Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.4.81",
+    "title": "Middlemen Margins and Globalization",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.4.i",
+    "title": "November 2013 Volume 5, Number 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.5.1.i",
+    "title": "February 2013 Volume 5, Number 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.5.2.i",
+    "title": "May 2013 Volume 5, Number 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.5.3.i",
+    "title": "August 2013 Volume 5, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.5.4.270",
+    "title": "Bank Bailouts, International Linkages, and Cooperation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.5.4.i",
+    "title": "November 2013 Volume 5, Number 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.1.1",
+    "title": "Optimal Interventions in Markets with Adverse Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.1.29",
+    "title": "Overcoming Adverse Selection: How Public Intervention Can Restore Market Functioning",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.1.594",
+    "title": "Contracts versus Salaries in Matching",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.1.60",
+    "title": "Collective Moral Hazard, Maturity Mismatch, and Systemic Bailouts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.1.94",
+    "title": "New Trade Models, Same Old Gains?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.1.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.102.2.617",
+    "title": "Comparing Real Wage Rates",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.2.750",
+    "title": "Relational Contracts and the Value of Relationships",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.2.780",
+    "title": "Competition through Commissions and Kickbacks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.2.914",
+    "title": "Carrot or Stick? The Evolution of Reciprocal Preferences in a Haystack Model",
+    "reason": "low_similarity",
+    "best_score": 0.67
+  },
+  {
+    "doi": "10.1257/aer.102.2.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.102.4.1187",
+    "title": "Statistical Modeling of Monetary Policy and Its Effects",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.4.1279",
+    "title": "Selective Trials: A Principal-Agent Approach to Randomized Controlled Experiments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.4.1446",
+    "title": "Dynamics and Stability of Constitutions, Coalitions, and Clubs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.4.1764",
+    "title": "Independent Auditor's Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.5.1805",
+    "title": "Pay for Percentile",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.5.1957",
+    "title": "Bundling and Competition for Slots",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.5.1986",
+    "title": "Fund Managers, Career Concerns, and Asset Price Volatility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.5.2183",
+    "title": "Revealed Attention",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.5.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.102.6.2410",
+    "title": "Modeling the Change of Paradigm: Non-Bayesian Reactions to Unexpected News",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.6.2570",
+    "title": "Liquidity, Monetary Policy, and the Financial Crisis: A New Monetarist Approach",
+    "reason": "low_similarity",
+    "best_score": 0.57
+  },
+  {
+    "doi": "10.1257/aer.102.6.2767",
+    "title": "But Who Will Monitor the Monitor?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.6.2897",
+    "title": "The Strategy of Manipulating Conflict",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.6.3004",
+    "title": "Credit Traps",
+    "reason": "low_similarity",
+    "best_score": 0.38
+  },
+  {
+    "doi": "10.1257/aer.102.6.3033",
+    "title": "Economic Growth with Bubbles",
+    "reason": "low_similarity",
+    "best_score": 0.46
+  },
+  {
+    "doi": "10.1257/aer.102.7.3140",
+    "title": "Offshoring and the Role of Trade Agreements",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.7.3439",
+    "title": "Who Matters in Coordination Problems?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.7.3462",
+    "title": "Loss Leading as an Exploitative Practice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.7.3674",
+    "title": "Self-Fulfilling Risk Panics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.102.7.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/app.4.1.1",
+    "title": "The Short- and Long-Term Career Effects of Graduating in a Recession",
+    "reason": "low_similarity",
+    "best_score": 0.66
+  },
+  {
+    "doi": "10.1257/app.4.1.i",
+    "title": "January 2012: Volume 4, Number 1",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/app.4.2.i",
+    "title": "April 2012: Volume 4, Number 2",
+    "reason": "low_similarity",
+    "best_score": 0.42
+  },
+  {
+    "doi": "10.1257/app.4.3.i",
+    "title": "July 2012: Volume 4, Number 3",
+    "reason": "low_similarity",
+    "best_score": 0.3
+  },
+  {
+    "doi": "10.1257/app.4.4.i",
+    "title": "October 2012: Volume 4, Number 4",
+    "reason": "low_similarity",
+    "best_score": 0.38
+  },
+  {
+    "doi": "10.1257/mac.4.1.266",
+    "title": "The Optimal Conduct of Monetary Policy with Interest on Reserves",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.4.1.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.4.2.184",
+    "title": "Imperfect Competition in the Interbank Market for Liquidity as a Rationale for Central Banking",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.4.2.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.4.3.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.4.4.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130055",
+    "title": "Mobility and Conflict",
+    "reason": "low_similarity",
+    "best_score": 0.27
+  },
+  {
+    "doi": "10.1257/mic.4.1.142",
+    "title": "Competitive Nonlinear Taxation and Constitutional Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.1.176",
+    "title": "Matching in Networks with Bilateral Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.1.70",
+    "title": "Partially Specified Probabilities: Decisions and Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.1.i",
+    "title": "February 2012 Volume 4, Number 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.2.104",
+    "title": "Contracting in Vague Environments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.2.27",
+    "title": "Ideologues Beat Idealists",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.2.50",
+    "title": "Contracting with Heterogeneous Externalities",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.2.i",
+    "title": "May 2012 Volume 4, Number 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.3.1",
+    "title": "Monopoly and the Incentive to Innovate When Adoption Involves Switchover Disruptions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.3.121",
+    "title": "Religious Beliefs, Religious Participation, and Cooperation",
+    "reason": "low_similarity",
+    "best_score": 0.27
+  },
+  {
+    "doi": "10.1257/mic.4.3.171",
+    "title": "Employee Initiative and Managerial Control",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.3.34",
+    "title": "Bonus Payments versus Efficiency Wages in the Repeated Principal-Agent Model with Subjective Evaluations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.3.57",
+    "title": "Public Disagreement",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.3.i",
+    "title": "August 2012 Volume 4, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.4.1",
+    "title": "A Theory of Occupational Choice with Endogenous Fertility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.4.107",
+    "title": "Auctions in Markets: Common Outside Options and the Continuation Value Effect",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.4.131",
+    "title": "Equity Aversion: Social Norms and the Desire to be Ahead",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.4.172",
+    "title": "The Evolutionary Basis of Time Preference: Intergenerational Transfers and Sex",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.4.202",
+    "title": "Competition, Comparative Performance, and Market Transparency",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.4.65",
+    "title": "Information Acquisition in Competitive Markets: An Application to the US Mortgage Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.4.i",
+    "title": "November 2012 Volume 4, Number 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.4.1.i",
+    "title": "February 2012 Volume 4, Number 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.4.2.i",
+    "title": "May 2012 Volume 4, Number 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.4.3.i",
+    "title": "August 2012 Volume 4, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.4.4.125",
+    "title": "Innovation and Climate Change Policy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.4.4.i",
+    "title": "November 2012 Volume 4, Number 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.1.1",
+    "title": "100 Years of the <i>American Economic Review</i>: The Top 20 Articles",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.1.129",
+    "title": "Is Tiger Woods Loss Averse? Persistent Bias in the Face of Experience, Competition, and High Stakes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.1.36",
+    "title": "Some Unsettled Problems of Irrigation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.1.399",
+    "title": "Resolving Conflicting Preferences in School Choice: The \u201cBoston Mechanism\u201d Reconsidered",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.1.49",
+    "title": "Reflections on \u201cSome Unsettled Problems of Irrigation\u201d",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.1.64",
+    "title": "Institutional Path Dependence in Climate Adaptation: Coman's \u201cSome Unsettled Problems of Irrigation\u201d",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.1.9",
+    "title": "The Economic History of the <i>American Economic Review</i>: A Century's Explosion of Economics Research",
+    "reason": "low_similarity",
+    "best_score": 0.39
+  },
+  {
+    "doi": "10.1257/aer.101.1.i",
+    "title": "The American Economic Association",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/aer.101.2.632",
+    "title": "Collaborating",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.2.724",
+    "title": "Procedural Analysis of Choice Rules with Applications to Bounded Rationality",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.2.788",
+    "title": "Falsifiability",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.2.i",
+    "title": "The American Economic Association",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/aer.101.3.212",
+    "title": "Sale Rates and Price Movements in Art Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.3.499",
+    "title": "Fertility and the Plough",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1045",
+    "title": "Unemployment, Vacancies, Wages",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1073",
+    "title": "Markets with Search Friction and the DMP Model",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1092",
+    "title": "Equilibrium in the Labor Market with Search Frictions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1345",
+    "title": "Linking Conflict to Inequality and Polarization",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1547",
+    "title": "Ambiguity Models and the Machina Paradoxes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1561",
+    "title": "Optimal Policy Intervention and the Social Value of Public Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1575",
+    "title": "Why Do Payment Card Networks Charge Proportional Fees?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1591",
+    "title": "Information and Prices with Capacity Constraints",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.1637",
+    "title": "Independent Auditor's Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.4.i",
+    "title": "The American Economic Association",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/aer.101.5.1806",
+    "title": "Competition among Sellers in Securities Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.5.2042",
+    "title": "Bargaining in Stationary Networks",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.5.2182",
+    "title": "Barriers to Investment in Polarized Societies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.5.2271",
+    "title": "Strotz Meets Allais: Diminishing Impatience and the Certainty Effect: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.5.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.101.6.2425",
+    "title": "Private Monitoring and Communication in Cartels: Explaining Recent Collusive Practices",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.6.2590",
+    "title": "Bayesian Persuasion",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.6.2796",
+    "title": "Currency Misalignments and Optimal Monetary Policy: A Reexamination",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.6.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.101.7.2873",
+    "title": "Frictional Wage Dispersion in Search Models: A Quantitative Assessment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.7.2955",
+    "title": "Endogenous Information Flows and the Clustering of Announcements",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.7.3349",
+    "title": "Relational Contracts and the Value of Loyalty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.101.7.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/app.3.1.i",
+    "title": "January 2011: Volume 3, Number 1",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/app.3.2.i",
+    "title": "April 2011: Volume 3, Number 2",
+    "reason": "low_similarity",
+    "best_score": 0.42
+  },
+  {
+    "doi": "10.1257/app.3.3.i",
+    "title": "July 2011: Volume 3, Number 3",
+    "reason": "low_similarity",
+    "best_score": 0.39
+  },
+  {
+    "doi": "10.1257/app.3.4.i",
+    "title": "October 2011: Volume 3, Number 4",
+    "reason": "low_similarity",
+    "best_score": 0.38
+  },
+  {
+    "doi": "10.1257/mac.3.1.1",
+    "title": "Simple Analytics of the Government Expenditure Multiplier",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.3.1.212",
+    "title": "Housing Bubbles",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.3.1.242",
+    "title": "Exclusive Goods and Formal-Sector Employment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.3.1.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.3.2.163",
+    "title": "Product Market Regulation and Market Work: A Benchmark Analysis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.3.2.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.3.3.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.3.4.i",
+    "title": "American Economic Journal Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20120032",
+    "title": "Innovation, Trade, and Finance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.20130111",
+    "title": "Formal Contracts, Relational Contracts, and the Threat-Point Effect",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.1.129",
+    "title": "Testable Implications of Gross Substitutes in Demand for Two Goods",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.1.174",
+    "title": "A Welfare Analysis of Arbitration",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.1.214",
+    "title": "Sex Selection and Gender Balance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.1.245",
+    "title": "Ensuring Sales: A Theory of Inter-Firm Credit",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.1.307",
+    "title": "\u201cPersonal Influence\u201d: Social Context and Political Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.1.37",
+    "title": "Experimentation, Patents, and Innovation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.1.78",
+    "title": "Incentives and Innovation: A Multitasking Approach",
+    "reason": "low_similarity",
+    "best_score": 0.69
+  },
+  {
+    "doi": "10.1257/mic.3.1.i",
+    "title": "February 2011 VOLUME 3, NUMBER 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.2.1",
+    "title": "Bankruptcy, Finance Constraints, and the Value of the Firm",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.2.139",
+    "title": "Taboos and Identity: Considering the Unthinkable",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.2.165",
+    "title": "The Economics of Contingent Re-Auctions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.2.194",
+    "title": "Exclusive Contracts, Innovation, and Welfare",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.2.38",
+    "title": "A Theory of Outsourcing and Wage Decline",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.2.89",
+    "title": "The Principal-Agent Approach to Testing Experts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.2.i",
+    "title": "May 2011 VOLUME 3, NUMBER 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.3.124",
+    "title": "Menu Pricing and Learning",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.3.210",
+    "title": "Kludged",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.3.34",
+    "title": "Risk, Delay, and Convex Self-Control Costs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.3.i",
+    "title": "August 2011 Volume 3, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.4.1",
+    "title": "Platform Siphoning: Ad-Avoidance and Media Content",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.4.143",
+    "title": "Hyperbolic Discounting and the Sustainability of Rotational Savings Arrangements",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.4.172",
+    "title": "Subjective Probabilities on a State Space",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.4.186",
+    "title": "Competition in Multi-Sided Markets: Divide and Conquer",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.3.4.i",
+    "title": "November 2011 Volume 3, Number 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.3.1.54",
+    "title": "Transfer Program Complexity and the Take-Up of Social Benefits",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.3.1.i",
+    "title": "February 2011 VOLUME 3, NUMBER 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.3.2.1",
+    "title": "Gender-Based Taxation and the Division of Family Chores",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.3.2.i",
+    "title": "May 2011 VOLUME 3, NUMBER 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.3.3.i",
+    "title": "August 2011 Volume 3, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.3.4.i",
+    "title": "November 2011 Volume 3, Number 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.4.2.214",
+    "title": "The Effects of Tax Shocks on Output: Not So Large, But Not Small Either",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.274",
+    "title": "Robustly Optimal Monetary Policy with Near-Rational Expectations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.448",
+    "title": "Building Routines: Learning, Cooperation, and the Dynamics of Incomplete Relational Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.466",
+    "title": "Interpersonal Authority in a Theory of the Firm",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.5",
+    "title": "Price Indexes, Inequality, and the Measurement of World Poverty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.625",
+    "title": "All-or-Nothing Monitoring: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.634",
+    "title": "Excellence in Refereeing Award",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.100.2.573",
+    "title": "Growth in a Time of Debt",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.3.1136",
+    "title": "Peddling Influence through Intermediaries",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.3.1261",
+    "title": "Policy Reversal",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.3.1285",
+    "title": "Independent Auditor's Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.3.673",
+    "title": "Transaction Cost Economics: The Natural Progression",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.3.802",
+    "title": "Bargaining with Arrival of New Traders",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.3.925",
+    "title": "Technology Adoption with Exit in Imperfectly Informed Equity Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.3.i",
+    "title": "The American Economic Association",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/aer.100.4.1299",
+    "title": "Morally Motivated Self-Regulation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.1468",
+    "title": "The Law of the Few",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.1523",
+    "title": "Sovereign Risk and Secondary Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.1601",
+    "title": "Monopoly Price Discrimination and Demand Curvature",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.1616",
+    "title": "Strategic Redistricting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.1642",
+    "title": "A Price Theory of Multi-Sided Platforms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.1695",
+    "title": "When Does Communication Improve Coordination?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.1875",
+    "title": "Financing Development: The Role of Information Costs",
+    "reason": "low_similarity",
+    "best_score": 0.23
+  },
+  {
+    "doi": "10.1257/aer.100.4.1929",
+    "title": "Bidding with Securities: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.4.i",
+    "title": "The American Economic Association",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/aer.100.5.2230",
+    "title": "Asymmetric Contests with Conditional Investments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.5.2279",
+    "title": "Exploiting Na\u00efvete about Self-Control in the Credit Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.5.2361",
+    "title": "Persuasion by Cheap Talk",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.5.2532",
+    "title": "Negative Marginal Tax Rates and Heterogeneity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.5.i",
+    "title": "The American Economic Association",
+    "reason": "low_similarity",
+    "best_score": 0.4
+  },
+  {
+    "doi": "10.1257/app.2.2.147",
+    "title": "Information, Preferences, and Public Benefit Participation: Experimental Evidence from the Advance EITC and 401(k) Savings",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.2.2.i",
+    "title": "April 2010 Volume 2, Number 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.2.3.158",
+    "title": "US Environmental Regulation and FDI: Evidence from a Panel of US-Based Multinational Firms",
+    "reason": "low_similarity",
+    "best_score": 0.57
+  },
+  {
+    "doi": "10.1257/app.2.3.i",
+    "title": "July 2010 Volume 2, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.2.4.i",
+    "title": "October 2010: Volume 2, Number 4",
+    "reason": "low_similarity",
+    "best_score": 0.38
+  },
+  {
+    "doi": "10.1257/mac.2.2.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.2.3.1",
+    "title": "Amplification Mechanisms in Liquidity Crises",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.2.3.235",
+    "title": "Central Bank Communication and Expectations Stabilization",
+    "reason": "low_similarity",
+    "best_score": 0.62
+  },
+  {
+    "doi": "10.1257/mac.2.3.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.2.4.281",
+    "title": "Risk-Sensitive Consumption and Savings under Rational Inattention",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.2.4.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.1",
+    "title": "A Theory of Deception",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.100",
+    "title": "Information Percolation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.112",
+    "title": "Na\u00efve Learning in Social Networks and the Wisdom of Crowds",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.150",
+    "title": "Optimal Sales Schemes against Interdependent Buyers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.204",
+    "title": "The Strategic Value of Quantity Forcing Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.21",
+    "title": "Investor Sentiments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.58",
+    "title": "Noise, Information, and the Favorite-Longshot Bias in Parimutuel Predictions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.1.i",
+    "title": "February 2010 VOLUME 2, NUMBER 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.1",
+    "title": "Resource Allocation and Organizational Form",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.132",
+    "title": "Truthful Revelation Mechanisms for Simultaneous Common Agency Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.191",
+    "title": "Public Goods, Social Pressure, and the Choice Between Privacy and Publicity",
+    "reason": "low_similarity",
+    "best_score": 0.33
+  },
+  {
+    "doi": "10.1257/mic.2.2.222",
+    "title": "The Pricing of Academic Journals: A Two-Sided Market Perspective",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.256",
+    "title": "Forthcoming articles for the American Economic Journal",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.34",
+    "title": "Information Disclosure and Unraveling in Matching Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.64",
+    "title": "Open Access and Dynamic Efficiency",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.97",
+    "title": "Are Speculators Unwelcome in Multi-Object Auctions?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.2.i",
+    "title": "May 2010 VOLUME 2, NUMBER 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.3.106",
+    "title": "Which Inequality? The Inequality of Endowments versus the Inequality of Rewards",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.3.138",
+    "title": "Preventing Crime Waves",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.3.160",
+    "title": "Ascending Prices and Package Bidding: A Theoretical and Experimental Analysis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.3.85",
+    "title": "Why Tie a Product Consumers Do Not Use?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.3.i",
+    "title": "August 2010 VOLUME 2, NUMBER 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.4.115",
+    "title": "Intergenerational Cultural Transmission as an Evolutionary Game",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.4.137",
+    "title": "Security Price Informativeness with Delegated Traders",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.4.171",
+    "title": "Hicksian Welfare Measures and the Normative Endowment Effect",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.4.38",
+    "title": "Inequality and Markets: Some Implications of Occupational Diversity",
+    "reason": "low_similarity",
+    "best_score": 0.48
+  },
+  {
+    "doi": "10.1257/mic.2.4.i",
+    "title": "November 2010 VOLUME 2, NUMBER 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.5.3.206",
+    "title": "Pricing Payment Cards",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.1.31",
+    "title": "Tagging and Income Taxation: Theory and an Application",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.1.77",
+    "title": "Tax Competition for Heterogeneous Firms with Endogenous Entry",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.1.i",
+    "title": "February 2010 VOLUME 2, NUMBER 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.2.216",
+    "title": "Forthcoming articles for the American Economic Journal",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.2.i",
+    "title": "May 2010 VOLUME 2, NUMBER 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.3.1",
+    "title": "Dividend and Corporate Taxation in an Agency Model of the Firm",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.3.i",
+    "title": "August 2010 VOLUME 2, NUMBER 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.2.4.148",
+    "title": "Appropriation, Property Rights Institutions, and International Trade",
+    "reason": "low_similarity",
+    "best_score": 0.48
+  },
+  {
+    "doi": "10.1257/pol.2.4.i",
+    "title": "November 2010 VOLUME 2, NUMBER 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.1.216",
+    "title": "Taxes and Employment Subsidies in Optimal Redistribution Programs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.1.265",
+    "title": "Cognition and Incomplete Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.1.385",
+    "title": "Risk, Ambiguity, and the Rank-Dependence Axioms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.1.458",
+    "title": "Excise Taxes with Multiproduct Transactions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.1.472",
+    "title": "Diversity in the Workplace",
+    "reason": "low_similarity",
+    "best_score": 0.32
+  },
+  {
+    "doi": "10.1257/aer.99.1.5",
+    "title": "Governance Institutions and Economic Activity",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.1.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.99.2.116",
+    "title": "Approaches to Estimating the Health State Dependence of the Utility Function",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.2.184",
+    "title": "Winter Heating or Clean Air? Unintended Impacts of China's Huai River Policy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.2.573",
+    "title": "Is Monetary Policy Effective During Financial Crises?",
+    "reason": "low_similarity",
+    "best_score": 0.37
+  },
+  {
+    "doi": "10.1257/aer.99.4.1119",
+    "title": "Portfolio Claustrophobia: Asset Pricing in Markets with Illiquid Assets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.4.1544",
+    "title": "Why Do Sellers (Usually) Prefer Auctions?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.4.1576",
+    "title": "Learning about the Future and Dynamic Efficiency",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.4.1588",
+    "title": "Bank Runs and Institutions: The Perils of Intervention",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.4.1608",
+    "title": "Expectation Damages, Divisible Contracts, and Bilateral Investment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.4.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/aer.99.5.1925",
+    "title": "The Evolution of Time Preference with Aggregate Uncertainty",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.5.2129",
+    "title": "Surprised by the Parimutuel Odds?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.5.2193",
+    "title": "Endogenous Verifiability and Relational Contracting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.5.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/app.1.1.1",
+    "title": "Educational Debt Burden and Career Choice: Evidence from a Financial Aid Experiment at NYU Law School",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.1.1.183",
+    "title": "Biological Gender Differences, Absenteeism, and the Earnings Gap",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.1.1.i",
+    "title": "January 2009 Volume 1, Number 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.1.1.ii",
+    "title": "Editor's Note",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.1.1.iii",
+    "title": "Editor's Note",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.1.2.176",
+    "title": "History Matters: The Long-Term Impact of Colonial Public Investments in French West Africa",
+    "reason": "low_similarity",
+    "best_score": 0.28
+  },
+  {
+    "doi": "10.1257/app.1.2.i",
+    "title": "April 2009 Volume 1, Number 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.1.3.i",
+    "title": "July 2009 Volume 1, Number 3",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.1.4.i",
+    "title": "October 2009 Volume 1, Number 4",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.2.1.229",
+    "title": "Forthcoming articles for the American Economic Journal",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/app.2.1.i",
+    "title": "January 2010 Volume 2, Number 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.1.1.1",
+    "title": "Trade and the Diffusion of the Industrial Revolution",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.1.1.146",
+    "title": "Culture: An Empirical Investigation of Beliefs, Work, and Fertility",
+    "reason": "low_similarity",
+    "best_score": 0.26
+  },
+  {
+    "doi": "10.1257/mac.1.1.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.1.1.iii",
+    "title": "Editor's Note",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.1.2.155",
+    "title": "The International Diversification Puzzle When Goods Prices Are Sticky: It's Really about Exchange-Rate Hedging, Not Equity Portfolios",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.1.2.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.2.1.1",
+    "title": "A Theory of Military Dictatorships",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.2.1.189",
+    "title": "Why Does Misallocation Persist?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.2.1.i",
+    "title": "American Economic Journal: Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.1.1",
+    "title": "Assessing Strategic Risk",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.1.101",
+    "title": "Moral Hazard and Customer Loyalty Programs",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.1.17",
+    "title": "Asymmetric Networks in Two-Sided Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.1.182",
+    "title": "Veto Constraint in Mechanism Design: Inefficiency with Correlated Types",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.1.75",
+    "title": "Contracting with Third Parties",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.1.i",
+    "title": "February 2009 VOLUME 1, NUMBER 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.1.iii",
+    "title": "Editor's Note",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.1",
+    "title": "On the Potential of Neuroeconomics: A Critical (but Hopeful) Appraisal",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.133",
+    "title": "Incentive Reversal",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.148",
+    "title": "A \u201cDual Self\u201d Representation for Stochastic Temptation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.168",
+    "title": "Dynamic Revenue Maximization with Heterogeneous Objects: A Mechanism Design Approach",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.220",
+    "title": "Corruptible Advice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.42",
+    "title": "A Comment on Bernheim's Appraisal of Neuroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.48",
+    "title": "Is There a Method of Neuroeconomics?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.60",
+    "title": "Neuroeconomics: A Comment on Bernheim",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.68",
+    "title": "Sniping and Squatting in Auction Markets",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.95",
+    "title": "Assignment Messages and Exchanges",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.1.2.i",
+    "title": "August 2009 VOLUME 1, NUMBER 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.1.1.1",
+    "title": "Optimal Tax Design and Enforcement with an Informal Sector",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.1.1.28",
+    "title": "A Theory of Urban Squatting and Land-Tenure Formalization in Developing Countries",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.1.1.i",
+    "title": "February 2009 VOLUME 1, NUMBER 1",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.1.1.iii",
+    "title": "Editor's Note",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/pol.1.2.31",
+    "title": "Is the Taxable Income Elasticity Sufficient to Calculate Deadweight Loss? The Implications of Evasion and Avoidance",
+    "reason": "low_similarity",
+    "best_score": 0.32
+  },
+  {
+    "doi": "10.1257/pol.1.2.i",
+    "title": "August 2009 VOLUME 1, NUMBER 2",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.113",
+    "title": "Optimal Gerrymandering: Sometimes Pack, But Never Crack",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.180",
+    "title": "On the Empirical Content of Quantal Response Equilibrium",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.201",
+    "title": "A Dynamic Theory of Public Spending, Taxation, and Debt",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.267",
+    "title": "Persistence of Power, Elites, and Institutions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.333",
+    "title": "The Mystery of Monogamy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.496",
+    "title": "A Simple Auction Mechanism for the Optimal Allocation of the Commons",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.5",
+    "title": "Evolution and Intelligent Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.534",
+    "title": "Collective Memory, Cultural Transmission, and Investments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.561",
+    "title": "Bureaucrats or Politicians? Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.72",
+    "title": "Rational Expectations in Games",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.1.87",
+    "title": "Asymmetric Auctions with Resale",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.2.256",
+    "title": "The Ins and Outs of European Unemployment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.2.339",
+    "title": "Is the 2007 U.S. Sub-Prime Financial Crisis So Different? An International Historical Comparison",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1211",
+    "title": "Leverage Cycles and the Anxious Economy",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1245",
+    "title": "Competition and Price Variation when Consumers Are Loss Averse",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1269",
+    "title": "Behavioral Equilibrium in Economies with Adverse Selection",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1292",
+    "title": "Language, Meaning, and Games: A Model of Communication, Coordination, and Evolution",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1312",
+    "title": "The Brain as a Hierarchical Organization",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1347",
+    "title": "How Strong Are Weak Patents?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1413",
+    "title": "Tracing the Impact of Bank Liquidity Shocks: Evidence from an Emerging Market",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1443",
+    "title": "The Power of Focal Points Is Limited: Even Minute Payoff Asymmetry May Yield Large Coordination Failures",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1459",
+    "title": "Optimal Contracting with Endogenous Social Norms",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1619",
+    "title": "All-or-Nothing Monitoring",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1629",
+    "title": "Commitment and Conflict in Bilateral Bargaining",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1636",
+    "title": "Leveling the Playing Field: Sincere and Sophisticated Players in the Boston Mechanism",
+    "reason": "low_similarity",
+    "best_score": 0.64
+  },
+  {
+    "doi": "10.1257/aer.98.4.1707",
+    "title": "Distorted Gravity: The Intensive and Extensive Margins of International Trade",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1722",
+    "title": "A Note on Different Approaches to Index Number Theory",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.4.1731",
+    "title": "Testing for a Reference Consumer in International Comparisons of Living Standards",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.5.1978",
+    "title": "Trading Tasks: A Simple Theory of Offshoring",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.5.2066",
+    "title": "Stocks as Lotteries: The Implications of Probability Weighting for Security Prices",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.5.2127",
+    "title": "Contextual Inference in Markets: On the Informational Content of Product Lines",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.5.2150",
+    "title": "Conversations among Competitors",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.5.2185",
+    "title": "On the Salience of Ethnic Conflict",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.98.5.i",
+    "title": "The American Economic Review",
+    "reason": "low_similarity",
+    "best_score": 0.47
+  },
+  {
+    "doi": "10.1257/mac.2.1.93",
+    "title": "Why Are Saving Rates of Urban Households in China Rising?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mac.20170303",
+    "title": "Monopoly Power and Endogenous Product Variety: Distortions and Remedies",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.2.4.1",
+    "title": "Optimal Provision of Multiple Excludable Public Goods",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/mic.4.2.146",
+    "title": "Contractual and Organizational Structure with Reciprocal Agents",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323352",
+    "title": "Conditional Cash Transfers, Public Provision of Private Goods, and Income Redistribution",
+    "reason": "low_similarity",
+    "best_score": 0.45
+  },
+  {
+    "doi": "10.1257/000282807780323361",
+    "title": "Credible Commitment to Optimal Escape from a Liquidity Trap: The Role of the Balance Sheet of an Independent Central Bank",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323389",
+    "title": "Credible Sales Mechanisms and Intermediaries",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323398",
+    "title": "Decision Making in Committees: Transparency, Reputation, and Voting Rules",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323415",
+    "title": "Testing for Indeterminacy: An Application to U.S. Monetary Policy: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323424",
+    "title": "Inefficiency in Legislative Policymaking: A Dynamic Analysis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323433",
+    "title": "Simple Cost-Sharing Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323451",
+    "title": "Testing for Indeterminacy: An Application to U.S. Monetary Policy: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323488",
+    "title": "The Missing Motivation in Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323497",
+    "title": "Competence Implies Credibility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323523",
+    "title": "Internet Advertising and the Generalized Second-Price Auction: Selling Billions of Dollars Worth of Keywords",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323532",
+    "title": "The Motivation and Bias of Bureaucrats",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323541",
+    "title": "Modeling the Transition to a New Economy: Lessons from Two Technological Revolutions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323578",
+    "title": "Bureaucrats or Politicians? Part I: A Single Policy Task",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282807780323587",
+    "title": "Credit Traps and Credit Cycles",
+    "reason": "low_similarity",
+    "best_score": 0.55
+  },
+  {
+    "doi": "10.1257/000282807780323622",
+    "title": "Abstracts",
+    "reason": "low_similarity",
+    "best_score": 0.22
+  },
+  {
+    "doi": "10.1257/000282807780323631",
+    "title": "Secession and the Limits of Taxation: Toward a Theory of Internal Exit: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.118",
+    "title": "Inefficiency in Legislative Policymaking: A Dynamic Analysis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.150",
+    "title": "Decision Making in Committees: Transparency, Reputation, and Voting Rules",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.169",
+    "title": "Bureaucrats or Politicians? Part I: A Single Policy Task",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.180",
+    "title": "The Motivation and Bias of Bureaucrats",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.242",
+    "title": "Internet Advertising and the Generalized Second-Price Auction: Selling Billions of Dollars Worth of Keywords",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.260",
+    "title": "Credible Sales Mechanisms and Intermediaries",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.37",
+    "title": "Competence Implies Credibility",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.419",
+    "title": "Simple Cost-Sharing Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.474",
+    "title": "Credible Commitment to Optimal Escape from a Liquidity Trap: The Role of the Balance Sheet of an Independent Central Bank",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.491",
+    "title": "Conditional Cash Transfers, Public Provision of Private Goods, and Income Redistribution",
+    "reason": "low_similarity",
+    "best_score": 0.45
+  },
+  {
+    "doi": "10.1257/aer.97.1.5",
+    "title": "The Missing Motivation in Macroeconomics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.503",
+    "title": "Credit Traps and Credit Cycles",
+    "reason": "low_similarity",
+    "best_score": 0.55
+  },
+  {
+    "doi": "10.1257/aer.97.1.524",
+    "title": "Testing for Indeterminacy: An Application to U.S. Monetary Policy: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.530",
+    "title": "Testing for Indeterminacy: An Application to U.S. Monetary Policy: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.1.64",
+    "title": "Modeling the Transition to a New Economy: Lessons from Two Technological Revolutions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.2.215",
+    "title": "Slow Moving Capital",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.2.266",
+    "title": "Backing, the Quantity Theory, and the Transition to the U.S. Dollar, 1723-1850",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.2.362",
+    "title": "Pricing-to-Market in a Ricardian Model of International Trade",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.4.1047",
+    "title": "Reference-Dependent Risk Attitudes",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.4.1102",
+    "title": "Subjective Expectations and Asset-Return Puzzles",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.4.1217",
+    "title": "Projection Bias in Catalog Orders",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.4.1305",
+    "title": "Naked Exclusion, Efficient Breach, and Downstream Competition",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.4.1321",
+    "title": "Do Vertical Mergers Facilitate Upstream Collusion?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.4.1353",
+    "title": "Political Bias and War",
+    "reason": "low_similarity",
+    "best_score": 0.33
+  },
+  {
+    "doi": "10.1257/aer.97.4.1488",
+    "title": "Individual Consumption Risk and the Welfare Cost of Business Cycles",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.5.1611",
+    "title": "Trade Liberalization, Intermediate Inputs, and Productivity: Evidence from Indonesia",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.5.1703",
+    "title": "Antitrust in Innovative Industries",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.5.1794",
+    "title": "Impossibility of Collusion under Imperfect Monitoring with Flexible Production",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.5.1824",
+    "title": "Sequentially Rationalizable Choice",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.5.1840",
+    "title": "Vertical Control of Price and Inventory",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.5.1877",
+    "title": "Consensus Building: How to Persuade a Group",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.5.1994",
+    "title": "Overconfidence, Insurance, and Paternalism",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.99.4.1206",
+    "title": "Think Locally, Act Locally: Spillovers, Spillbacks, and Efficient Decentralized Policymaking",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157533",
+    "title": "Inequality, Lobbying, and Resource Allocation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157542",
+    "title": "Free Markets and Fettered Consumers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157551",
+    "title": "The <i>New York Times</i> and the Market for Local Newspapers",
+    "reason": "low_similarity",
+    "best_score": 0.44
+  },
+  {
+    "doi": "10.1257/000282806776157597",
+    "title": "Social Value of Public Information: Morris and Shin (2002) Is Actually Pro-Transparency, Not Con: Reply",
+    "reason": "low_similarity",
+    "best_score": 0.54
+  },
+  {
+    "doi": "10.1257/000282806776157605",
+    "title": "Persistent Distortionary Policies with Asymmetric Information",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157632",
+    "title": "Advertising Content",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157650",
+    "title": "Social Value of Public Information: Comment: Morris and Shin (2002) Is Actually Pro-Transparency, Not Con",
+    "reason": "low_similarity",
+    "best_score": 0.54
+  },
+  {
+    "doi": "10.1257/000282806776157669",
+    "title": "The Evolution of Managerial Expertise: How Corporate Culture Can Run Amok",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157696",
+    "title": "Odious Debt",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157722",
+    "title": "Information Gathering, Transaction Costs, and the Property Rights Approach",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157759",
+    "title": "Money in a Theory of Banking",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157768",
+    "title": "National Treatment in the GATT",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806776157777",
+    "title": "Putting Risk in Its Proper Place",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806777212251",
+    "title": "The Greenspan Era: Discretion, Rather Than Rules",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806777212350",
+    "title": "The Quiet Revolution That Transformed Women's Employment, Education, and Family",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468418",
+    "title": "Credibility of Optimal Monetary Delegation: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468463",
+    "title": "Stock Prices, News, and Economic Fluctuations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468472",
+    "title": "What Is Discrimination? Gender in the American Economic Association, 1935\u20132004",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468481",
+    "title": "An Astonishing Sixty Years: The Legacy of Hiroshima",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468490",
+    "title": "Caps on Political Lobbying: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468517",
+    "title": "Caps on Political Lobbying: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468526",
+    "title": "A Model of Forum Shopping",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468571",
+    "title": "A Theory of Participation in Elections",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468580",
+    "title": "Choice Shifts in Groups: A Decision-Theoretic Basis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468616",
+    "title": "Cardinality versus Ordinality: A Suggested Compromise",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282806779468625",
+    "title": "Abstracts",
+    "reason": "low_similarity",
+    "best_score": 0.22
+  },
+  {
+    "doi": "10.1257/000282806779468634",
+    "title": "Self-Enforcing Voting in International Organizations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.100.1.394",
+    "title": "Trade Agreements as Endogenously Incomplete Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1091",
+    "title": "A Model of Forum Shopping",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1114",
+    "title": "Cardinality versus Ordinality: A Suggested Compromise",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1137",
+    "title": "Self-Enforcing Voting in International Organizations",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1271",
+    "title": "A Theory of Participation in Elections",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1321",
+    "title": "Choice Shifts in Groups: A Decision-Theoretic Basis",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1351",
+    "title": "Caps on Political Lobbying: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1355",
+    "title": "Caps on Political Lobbying: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.1361",
+    "title": "Credibility of Optimal Monetary Delegation: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.4.929",
+    "title": "An Astonishing Sixty Years: The Legacy of Hiroshima",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.5.1373",
+    "title": "Quantitative Aggregate Economics",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.5.1449",
+    "title": "A Dual-Self Model of Impulse Control",
+    "reason": "low_similarity",
+    "best_score": 0.21
+  },
+  {
+    "doi": "10.1257/aer.96.5.1652",
+    "title": "Incentives and Prosocial Behavior",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.5.1706",
+    "title": "Storable Good Monopoly: The Role of Commitment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.5.1769",
+    "title": "Self-Fulfilling Currency Crises: The Role of Interest Rates",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.5.1821",
+    "title": "A New Method of Estimating Risk Aversion",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.96.5.1924",
+    "title": "Does European Unemployment Prop Up American Wages? National Labor Markets and Global Trade: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828053828437",
+    "title": "Demand Reduction in Multi-Unit Auctions: Evidence from a Sportscard Field Experiment: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828053828482",
+    "title": "Employment Fluctuations with Equilibrium Wage Stickiness",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828053828527",
+    "title": "How to Protect Future Generations Using Tax-Base Restrictions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828053828536",
+    "title": "Demand Reduction in Multi-Unit Auctions: Evidence from a Sportscard Field Experiment: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828053828545",
+    "title": "Rethinking Social Insurance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828053828608",
+    "title": "Are Delays in Academic Publishing Necessary?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828053828662",
+    "title": "Deception: The Role of Consequences",
+    "reason": "low_similarity",
+    "best_score": 0.29
+  },
+  {
+    "doi": "10.1257/0002828053828707",
+    "title": "In Search of the Holy Grail: Policy Convergence, Experimentation, and Economic Performance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201260",
+    "title": "Conglomerate Entrenchment under Optimal Financial Contracting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201279",
+    "title": "International Unions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201288",
+    "title": "Heterogeneous Patience and the Term Structure of Real Interest Rates",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201341",
+    "title": "William Allen Brock",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201369",
+    "title": "Long-Term Contracting with Markovian Consumers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201404",
+    "title": "The Evolution of High Incomes in Northern America: Lessons from Canadian Evidence",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201413",
+    "title": "Competition and Incentives with Motivated Agents",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201422",
+    "title": "Equilibrium Investment and Asset Prices under Imperfect Corporate Control",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201440",
+    "title": "Independent Auditors' Report",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054201495",
+    "title": "State \u201cCurrencies\u201d and the Transition to the U.S. Dollar: Clarifying Some Confusions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825466",
+    "title": "Matching with Contracts",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825475",
+    "title": "Bidding with Securities: Auctions and Security Design",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825510",
+    "title": "Does Britain or the United States Have the Right Gasoline Tax?",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825547",
+    "title": "Racial Discrimination in Labor Markets with Posted Wage Offers",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825592",
+    "title": "Meetings with Costly Participation: Reply",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825619",
+    "title": "The Market for News",
+    "reason": "low_similarity",
+    "best_score": 0.37
+  },
+  {
+    "doi": "10.1257/0002828054825628",
+    "title": "Meetings with Costly Participation: Comment",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825637",
+    "title": "Uncertainty and Hyperbolic Discounting",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825664",
+    "title": "State \u201cCurrencies\u201d and the Transition to the U.S. Dollar: Reply\u2014Including a New View from Canada",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825673",
+    "title": "Secrecy and Safety",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/0002828054825682",
+    "title": "Homeownership, Community Interactions, and Segregation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014245",
+    "title": "A Model of Positive Self-Image in Subjective Assessments",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014254",
+    "title": "Crises and Capital Requirements in Banking",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014308",
+    "title": "Fact-Free Learning",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014335",
+    "title": "Services as Experience Goods: An Empirical Examination of Consumer Learning in Automobile Insurance",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014344",
+    "title": "On the Irrelevance of Input Prices for Make-or-Buy Decisions",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014371",
+    "title": "A Spatial Theory of Trade",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014416",
+    "title": "Manufacturer Liability for Harms Caused by Consumers to Others",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014425",
+    "title": "The Macroeconomics of Child Labor Regulation",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/000282805775014452",
+    "title": "Contracting on Time",
+    "reason": "low_similarity",
+    "best_score": 0.41
+  },
+  {
+    "doi": "10.1257/000282805775014461",
+    "title": "Tax-Motivated Trading by Individual Investors",
+    "reason": "no_candidates"
+  },
+  {
+    "doi": "10.1257/aer.97.4.1374",
+    "title": "A Political-Economy Theory of Trade Agreements",
+    "reason": "low_similarity",
+    "best_score": 0.29
+  }
+]

@@ -2902,6 +2902,12 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/0002828053828617": {
+    "icpsr_id": "112310",
+    "repo_doi": "10.3886/e112310v1-88960",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/0002828053828626": {
     "icpsr_id": "116043",
     "reason": "Some data are included in the repository (trade, wages, PPP conversion files) and some are publicly available (UNIDO, World Bank), but Bankscope data is proprietary and cannot be shared, requiring purchase or direct contact with the distributor.",
@@ -2912,6 +2918,12 @@
   "10.1257/0002828053828635": {
     "icpsr_id": "112311",
     "repo_doi": "10.3886/e112311v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/0002828053828644": {
+    "icpsr_id": "112310",
+    "repo_doi": "10.3886/e112310v1-88960",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -2997,6 +3009,12 @@
   "10.1257/0002828054201431": {
     "icpsr_id": "116052",
     "repo_doi": "10.3886/e116052v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/0002828054201459": {
+    "icpsr_id": "112316",
+    "repo_doi": "10.3886/e112316",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -3204,6 +3222,159 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/000282806779468409": {
+    "icpsr_id": "116232",
+    "repo_doi": "10.3886/e116232",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282806779468427": {
+    "icpsr_id": "116237",
+    "repo_doi": "10.3886/e116237",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/000282806779468445": {
+    "icpsr_id": "116236",
+    "reason": "All key data used in the paper (NELS:88 and SAT data) are restricted and require special licenses or permission from NCES and College Board, making it impossible for users to independently reproduce the results without obtaining restricted access directly from the data providers.",
+    "repo_doi": "10.3886/e116236v1",
+    "repo_host": "openicpsr",
+    "status": "no_data"
+  },
+  "10.1257/000282806779468463": {
+    "icpsr_id": "116234",
+    "repo_doi": "10.3886/e116234",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282806779468472": {
+    "icpsr_id": "116233",
+    "reason": "All three datasets (STATA and EXCEL files) used to replicate the paper's tables and figures are included in the repository.",
+    "repo_doi": "10.3886/e116233v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/000282806779468508": {
+    "icpsr_id": "116235",
+    "reason": "The appendix describes estimation procedures and methodological details with reference to an accompanying spreadsheet (matrix.xls), and all data appear to be derived from the authors' own sample of 821 individuals that is included or referenced in the replication package, with no mention of restricted or proprietary data requirements.",
+    "repo_doi": "10.3886/e116235v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/000282806779468535": {
+    "icpsr_id": "116239",
+    "reason": "The replication package includes CPS data extract and Stata code, but the core experimental data comes from MDRC public-use files that researchers must separately request and obtain from MDRC, making this a partial data availability scenario.",
+    "repo_doi": "10.3886/e116239v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/000282806779468544": {
+    "icpsr_id": "231424",
+    "repo_doi": "10.3886/e231424",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282806779468562": {
+    "icpsr_id": "116228",
+    "repo_doi": "10.3886/e116228",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282806779468599": {
+    "icpsr_id": "116230",
+    "repo_doi": "10.3886/e116230v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282806779468607": {
+    "icpsr_id": "116231",
+    "repo_doi": "10.3886/e116231",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/000282806779468643": {
+    "icpsr_id": "116238",
+    "reason": "The replication package includes processed datasets (cpsed.dta, edyrly.dta, censused.dta) but relies on restricted or proprietary source data from CPS, Census, NCES, WHEB, and Grapevine that are not included in the repository and require independent access.",
+    "repo_doi": "10.3886/e116238v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/000282806779468652": {
+    "icpsr_id": "116229",
+    "reason": "The replication package contains only Matlab code that performs computational simulations and theoretical calculations with no external data requirements; all necessary data are generated internally by the programs based on mathematical parameters and distributions described in the paper.",
+    "repo_doi": "10.3886/e116229v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/000282807780323370": {
+    "icpsr_id": "116262",
+    "repo_doi": "10.3886/e116262v1-23623",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282807780323406": {
+    "icpsr_id": "116258",
+    "repo_doi": "10.3886/e116258v1-84160",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282807780323442": {
+    "icpsr_id": "116256",
+    "reason": "The replication package includes US County Business Patterns data (publicly available) and population data, but the main French ESE data requires restricted access and permission from INSEE with potential fees, making full replication impossible without obtaining this proprietary dataset.",
+    "repo_doi": "10.3886/e116256v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/000282807780323479": {
+    "icpsr_id": "116259",
+    "reason": "The replication package includes processed data files (dta-files) and code to reproduce results, but actual messenger IDs and other confidential business and personal information have been removed or replaced to protect privacy, making complete independent replication impossible without access to the original confidential data.",
+    "repo_doi": "10.3886/e116259v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/000282807780323514": {
+    "icpsr_id": "116263",
+    "reason": "The README indicates that all necessary files for replication are included in the repository: the two Fortran 90 codes, the input file, and the input documentation file, with no mention of external data dependencies.",
+    "repo_doi": "10.3886/e116263v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/000282807780323550": {
+    "icpsr_id": "113215",
+    "repo_doi": "10.3886/e113215",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282807780323569": {
+    "icpsr_id": "116260",
+    "repo_doi": "10.3886/e116260v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282807780323596": {
+    "icpsr_id": "116265",
+    "repo_doi": "10.3886/e116265",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/000282807780323604": {
+    "icpsr_id": "116261",
+    "repo_doi": "10.3886/e116261v1-184881",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282807780323613": {
+    "icpsr_id": "116257",
+    "repo_doi": "10.3886/e116257v1-128382",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/000282807780323640": {
+    "icpsr_id": "116266",
+    "repo_doi": "10.3886/e116266",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.100.1.130": {
     "icpsr_id": "112322",
     "reason": "The README explicitly states that the original data are proprietary and not included in the repository; researchers must access data through a secure workstation at the University of Chicago with a data exemption.",
@@ -3310,6 +3481,25 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/aer.100.1.608": {
+    "icpsr_id": "116270",
+    "reason": "The replication package includes all necessary code (MSV_soln.m, markov.m, and gensys program) to generate simulated data internally; no external datasets are required as the analysis uses simulated time series rather than empirical data.",
+    "repo_doi": "10.3886/e116270v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/aer.100.1.618": {
+    "icpsr_id": "116270",
+    "repo_doi": "10.3886/e116270",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/aer.100.1.628": {
+    "icpsr_id": "113229",
+    "repo_doi": "10.3886/e113229",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
   "10.1257/aer.100.1.70": {
     "icpsr_id": "112339",
     "reason": "All data used in the analysis are restricted Census Bureau data that require special permission to access and cannot be included in the replication package.",
@@ -3370,12 +3560,25 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.100.3.1269": {
+    "icpsr_id": "112353",
+    "reason": "The replication package includes some data files (distance/location data) but requires restricted access to three additional data files containing station-specific gasoline prices from OPIS, which are only available upon request from the corresponding author for replication purposes.",
+    "repo_doi": "10.3886/e112353v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
   "10.1257/aer.100.3.1277": {
     "icpsr_id": "112353",
     "reason": "The replication package includes some data files (distance/location data) but requires restricted access to three additional data files containing station-specific gasoline prices from OPIS, which are only available upon request from the corresponding author for replication purposes.",
     "repo_doi": "10.3886/e112353v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.100.3.1280": {
+    "icpsr_id": "112354",
+    "repo_doi": "10.3886/e112354v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.100.3.1283": {
     "icpsr_id": "112354",
@@ -3726,6 +3929,12 @@
   "10.1257/aer.101.2.1029": {
     "icpsr_id": "112403",
     "repo_doi": "10.3886/e112403v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.101.2.1041": {
+    "icpsr_id": "112403",
+    "repo_doi": "10.3886/e112403",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -4390,6 +4599,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.102.1.602": {
+    "icpsr_id": "113331",
+    "repo_doi": "10.3886/e113331v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.102.1.608": {
     "icpsr_id": "112503",
     "reason": "The README indicates that all necessary supporting data and scripts are provided in the repository to replicate the summary statistics and t-tests reported in the paper.",
@@ -5052,6 +5267,18 @@
   "10.1257/aer.103.1.532": {
     "icpsr_id": "112597",
     "repo_doi": "10.3886/e112597v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.103.1.549": {
+    "icpsr_id": "116061",
+    "repo_doi": "10.3886/e116061v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.103.1.554": {
+    "icpsr_id": "116061",
+    "repo_doi": "10.3886/e116061",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -6136,6 +6363,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.110.4.943": {
+    "icpsr_id": "117206",
+    "repo_doi": "10.3886/e117206v1-94220",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.113.6.1395": {
     "icpsr_id": "185843",
     "repo_doi": "10.3886/e185843v1-142304",
@@ -6148,6 +6381,12 @@
     "repo_doi": "10.3886/E152002V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.115.4.1059": {
+    "icpsr_id": "231021",
+    "repo_doi": "10.3886/e231021v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.115.5.1369": {
     "icpsr_id": "231021",
@@ -6659,6 +6898,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.20130420": {
+    "icpsr_id": "112950",
+    "repo_doi": "10.3886/e112950",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
   "10.1257/aer.20130470": {
     "icpsr_id": "231364",
     "reason": "The README describes a complete computational model implemented in MATLAB with all necessary code files, parameter definitions, and equilibrium solvers included in the repository; no external data sources or restricted datasets are mentioned as required for replication.",
@@ -6679,6 +6924,12 @@
     "repo_doi": "10.3886/e112919v1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/aer.20130564": {
+    "icpsr_id": "112682",
+    "repo_doi": "10.3886/e112682v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20130570": {
     "icpsr_id": "112920",
@@ -6753,6 +7004,13 @@
     "repo_doi": "10.3886/e112927v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20130779": {
+    "icpsr_id": "112594",
+    "reason": "The replication package includes both the Stata code (.do file) and the complete dataset (.csv file) needed to reproduce all results, with no mention of restricted or external data sources.",
+    "repo_doi": "10.3886/e112594v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
   },
   "10.1257/aer.20130817": {
     "icpsr_id": "112928",
@@ -7293,6 +7551,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20140883": {
+    "icpsr_id": "112734",
+    "repo_doi": "10.3886/e112734v1-100120",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20140890": {
     "icpsr_id": "112996",
     "repo_doi": "10.3886/e112996v1",
@@ -7311,6 +7575,12 @@
     "repo_doi": "10.3886/e116160v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20141017": {
+    "icpsr_id": "112594",
+    "repo_doi": "10.3886/e112594",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20141070": {
     "icpsr_id": "112998",
@@ -7682,6 +7952,13 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.20150311": {
+    "icpsr_id": "112950",
+    "reason": "The README describes two complete Stata datasets (Data CTB pool.dta and Data CTB individual.dta) with detailed variable definitions, and indicates that do-files are provided to generate figures and tables, suggesting all data needed for replication are included in the repository.",
+    "repo_doi": "10.3886/e112950v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
   "10.1257/aer.20150313": {
     "icpsr_id": "113044",
     "reason": "The replication package includes primary datasets on firms and bribes, but the trade flows and trade gaps data are sourced from the UN Comtrade Database, which requires external access and may have usage restrictions.",
@@ -8028,6 +8305,13 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/aer.20151233": {
+    "icpsr_id": "112982",
+    "reason": "proprietary",
+    "repo_doi": "10.3886/e112982v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
   "10.1257/aer.20151260": {
     "icpsr_id": "113092",
     "reason": "The replication package includes some constructed data files (Excel/Stata files) and uses publicly available sources (March CPS, BLS data), but requires access to restricted or proprietary datasets such as WRDS or Census Bureau data that are not included in the repository.",
@@ -8075,6 +8359,12 @@
     "repo_doi": "10.3886/e113099v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20151372": {
+    "icpsr_id": "112411",
+    "repo_doi": "10.3886/e112411",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20151398": {
     "icpsr_id": "113100",
@@ -8535,6 +8825,12 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/aer.20161124": {
+    "icpsr_id": "113167",
+    "repo_doi": "10.3886/e113167v1-88060",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20161151": {
     "icpsr_id": "113151",
     "reason": "The replication package includes all necessary data files (digitalized NAFTA/CUSFTA rules, IO tables, and constructed datasets) with Stata code to reproduce all results, and no mention is made of restricted or proprietary data requirements.",
@@ -8562,6 +8858,12 @@
     "repo_doi": "10.3886/e113152v1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/aer.20161290": {
+    "icpsr_id": "120529",
+    "repo_doi": "10.3886/e120529v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20161329": {
     "icpsr_id": "113153",
@@ -8610,6 +8912,12 @@
     "repo_doi": "10.3886/e113159v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20161441": {
+    "icpsr_id": "148242",
+    "repo_doi": "10.3886/e148242v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20161457": {
     "icpsr_id": "231384",
@@ -8808,6 +9116,13 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20170108": {
+    "icpsr_id": "113018",
+    "reason": "The raw data files are restricted-use and must be obtained from the North Carolina Education Research Data Center via a data use license; only code and documentation are included in the distribution archive.",
+    "repo_doi": "10.3886/e113018v1",
+    "repo_host": "openicpsr",
+    "status": "no_data"
+  },
   "10.1257/aer.20170116": {
     "icpsr_id": "113176",
     "reason": "All raw data needed for replication are publicly available from the Fuelwatch historical data archive (retail prices and terminal gate prices), with complete code and replication instructions provided.",
@@ -8868,6 +9183,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20170370": {
+    "icpsr_id": "118183",
+    "repo_doi": "10.3886/e118183v1-43828",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20170404": {
     "icpsr_id": "113180",
     "reason": "While some data sources are publicly available (World Values Survey, Susewind GPS coordinates), the core administrative datasets from Bihar's Office of the CEO and census shapefiles have licensing restrictions that prevent full sharing, and survey data from officers and voters appears to be confidential.",
@@ -8890,6 +9211,12 @@
   "10.1257/aer.20170458": {
     "icpsr_id": "116192",
     "repo_doi": "10.3886/e116192v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20170471": {
+    "icpsr_id": "132641",
+    "repo_doi": "10.3886/e132641v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -8939,6 +9266,18 @@
     "repo_doi": "10.3886/e208551v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20170666": {
+    "icpsr_id": "117466",
+    "repo_doi": "10.3886/e117466v4",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20170690": {
+    "icpsr_id": "115321",
+    "repo_doi": "10.3886/e115321v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20170725": {
     "icpsr_id": "185081",
@@ -9001,6 +9340,12 @@
     "repo_doi": "10.3886/e113189v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20170950": {
+    "icpsr_id": "116925",
+    "repo_doi": "10.3886/e116925",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20170973": {
     "icpsr_id": "116194",
@@ -9098,6 +9443,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.20171349": {
+    "icpsr_id": "114984",
+    "repo_doi": "10.3886/e114984v3",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20171397": {
     "icpsr_id": "119743",
     "reason": "The README explicitly states 'All data used in the paper are provided in the replication package' and 'All data were collected by the authors through field work,' indicating no restricted or proprietary external data sources are required.",
@@ -9159,6 +9510,12 @@
     "repo_doi": "10.3886/e113200v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20171541": {
+    "icpsr_id": "114987",
+    "repo_doi": "10.3886/e114987v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20171611": {
     "icpsr_id": "120446",
@@ -9369,6 +9726,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.20180203": {
+    "icpsr_id": "117665",
+    "repo_doi": "10.3886/e117665",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20180260": {
     "icpsr_id": "154841",
     "repo_doi": "10.3886/E154841V1",
@@ -9518,6 +9881,18 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/aer.20180649": {
+    "icpsr_id": "115903",
+    "repo_doi": "10.3886/e115903",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20180652": {
+    "icpsr_id": "118607",
+    "repo_doi": "10.3886/e118607v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20180654": {
     "icpsr_id": "231413",
     "reason": "The README indicates that all necessary data (AANewData.mat containing algorithmically-generated games, feature vectors, and observed play) are included in the repository, and no restricted or external data sources are required.",
@@ -9579,12 +9954,48 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/aer.20180830": {
+    "icpsr_id": "117047",
+    "repo_doi": "10.3886/e117047v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20180831": {
+    "icpsr_id": "118567",
+    "repo_doi": "10.3886/e118567v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20180841": {
+    "icpsr_id": "115794",
+    "repo_doi": "10.3886/e115794v2",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20180865": {
+    "icpsr_id": "118762",
+    "repo_doi": "10.3886/e118762",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20180924": {
+    "icpsr_id": "118805",
+    "repo_doi": "10.3886/e118805v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20180946": {
     "icpsr_id": "231417",
     "reason": "The replication package includes some data (clinical trials data, EU and US data files) but the proprietary price and quantity data from Millennium Research Group cannot be shared and requires purchase through Decision Resources Group.",
     "repo_doi": "10.3886/e231417v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20180975": {
+    "icpsr_id": "119404",
+    "repo_doi": "10.3886/e119404v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20180976": {
     "icpsr_id": "231418",
@@ -9660,6 +10071,12 @@
     "repo_doi": "10.3886/e118422v1-181227",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20181243": {
+    "icpsr_id": "118401",
+    "repo_doi": "10.3886/e118401v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20181249": {
     "icpsr_id": "166506",
@@ -9771,6 +10188,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20181678": {
+    "icpsr_id": "113202",
+    "repo_doi": "10.3886/e113202v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20181707": {
     "icpsr_id": "142421",
     "reason": "The paper uses only author-generated simulation data (a randomly generated 50x3 matrix provided in the CSV file), with no external data sources required.",
@@ -9784,6 +10207,12 @@
     "repo_doi": "10.3886/e231422v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20181721": {
+    "icpsr_id": "118802",
+    "repo_doi": "10.3886/e118802v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20181735": {
     "icpsr_id": "120690",
@@ -9860,6 +10289,12 @@
     "repo_doi": "10.3886/E120126V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20190089": {
+    "icpsr_id": "112141",
+    "repo_doi": "10.3886/e112141",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20190098": {
     "icpsr_id": "130544",
@@ -9944,6 +10379,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.20190448": {
+    "icpsr_id": "231416",
+    "repo_doi": "10.3886/e231416",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20190460": {
     "icpsr_id": "119387",
     "reason": "Some data (SimulatedData, FeeData, SurveyData) are publicly available in the AER Data Repository, but the core proprietary eBay datasets (raw_all_bids, raw_posted_price, raw_posted_price_switchers, categ_names_final) require restricted access through a data use agreement with eBay.",
@@ -9971,6 +10412,12 @@
     "repo_doi": "10.3886/E123761V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20190565": {
+    "icpsr_id": "173341",
+    "repo_doi": "10.3886/e173341v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20190586": {
     "icpsr_id": "127401",
@@ -10270,6 +10717,12 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/aer.20191330": {
+    "icpsr_id": "119163",
+    "repo_doi": "10.3886/e119163v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20191385": {
     "icpsr_id": "165922",
     "reason": "confidential",
@@ -10400,6 +10853,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.20191814": {
+    "icpsr_id": "112141",
+    "repo_doi": "10.3886/e112141",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20191823": {
     "icpsr_id": "154781",
     "reason": "The README describes manually coded Excel files that are included in the repository directory for validating the GPR index, with no mention of restricted or proprietary data requirements.",
@@ -10488,6 +10947,12 @@
     "repo_doi": "10.3886/E124501V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20200146": {
+    "icpsr_id": "159781",
+    "repo_doi": "10.3886/e159781v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20200153": {
     "icpsr_id": "130802",
@@ -10650,6 +11115,12 @@
   "10.1257/aer.20200732": {
     "icpsr_id": "146062",
     "repo_doi": "10.3886/E146062V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.20200738": {
+    "icpsr_id": "153181",
+    "repo_doi": "10.3886/e153181v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -10961,6 +11432,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20201739": {
+    "icpsr_id": "166161",
+    "repo_doi": "10.3886/e166161v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20201753": {
     "icpsr_id": "144721",
     "reason": "The replication package includes only one data file (Table5.dta) and relies on external data from Su\u00e1rez Serrato and Zidar (2016)'s replication archive available at https://doi.org/10.3886/E113026V1, meaning users must obtain additional data from an external source to fully replicate the paper.",
@@ -11125,6 +11602,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.20210140": {
+    "icpsr_id": "174541",
+    "repo_doi": "10.3886/e174541",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20210147": {
     "icpsr_id": "177001",
     "reason": "Most data are publicly available and included in the replication package, but S&P Global Ratings data requires registration and cannot be redistributed, making full replication impossible without access to this restricted source.",
@@ -11232,6 +11715,12 @@
     "repo_doi": "10.3886/E183761V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20210419": {
+    "icpsr_id": "193218",
+    "repo_doi": "10.3886/e193218v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20210434": {
     "icpsr_id": "182903",
@@ -11373,6 +11862,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20210970": {
+    "icpsr_id": "182995",
+    "repo_doi": "10.3886/e182995v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20210972": {
     "icpsr_id": "171821",
     "reason": "The paper involves only theoretically-generated data created by the authors' provided code with no external data sources, calibration, or quantitative analyses requiring external datasets.",
@@ -11393,6 +11888,12 @@
     "repo_doi": "10.3886/e195601v1-198221",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20211015": {
+    "icpsr_id": "188201",
+    "repo_doi": "10.3886/e188201v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20211024": {
     "icpsr_id": "228327",
@@ -11428,6 +11929,12 @@
     "repo_doi": "10.3886/E208143V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20211207": {
+    "icpsr_id": "182787",
+    "repo_doi": "10.3886/e182787v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20211217": {
     "icpsr_id": "237164",
@@ -11580,6 +12087,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20211715": {
+    "icpsr_id": "225841",
+    "repo_doi": "10.3886/e225841v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20211729": {
     "icpsr_id": "179821",
     "reason": "The paper contains no external data analysis; all figures are generated through author-written code using simulations and LaTeX, with no restricted or proprietary data required.",
@@ -11697,6 +12210,12 @@
     "repo_doi": "10.3886/E197928V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20220249": {
+    "icpsr_id": "193344",
+    "repo_doi": "10.3886/e193344",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20220276": {
     "icpsr_id": "200001",
@@ -11903,6 +12422,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20220822": {
+    "icpsr_id": "198562",
+    "repo_doi": "10.3886/e198562",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20220831": {
     "icpsr_id": "237625",
     "reason": "The replication package includes publicly available data (CPS, CPS-ASEC, ACS, HUD, GII) but excludes the proprietary firm data covered by a Data Use Agreement, which is essential for reproducing the main results; only Step 1 of the analysis can be executed without access to the confidential data.",
@@ -12033,6 +12558,12 @@
     "repo_doi": "10.3886/E231127V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20221352": {
+    "icpsr_id": "198061",
+    "repo_doi": "10.3886/e198061",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20221365": {
     "icpsr_id": "192375",
@@ -12263,6 +12794,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20230309": {
+    "icpsr_id": "216501",
+    "repo_doi": "10.3886/e216501v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20230328": {
     "icpsr_id": "209323",
     "reason": "The replication package includes some publicly available data (FOIA dataset, California hospice data, Provider of Services File, Distance-Zip Files) but the primary data source\u2014the 100% Medicare Claims Research-Identifiable Files\u2014is proprietary and cannot be publicly shared, requiring researchers to obtain their own Data Use Agreement through ResDAC.",
@@ -12305,6 +12842,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aer.20230463": {
+    "icpsr_id": "226085",
+    "repo_doi": "10.3886/e226085v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.20230486": {
     "icpsr_id": "209147",
     "reason": "The replication package includes public data sources (CRSP, some Bloomberg data) and dummy file structures, but requires restricted access to Bloomberg Terminal, OptionMetrics via WRDS, and purchased Markit CDS data that cannot be redistributed.",
@@ -12332,6 +12875,12 @@
     "repo_doi": "10.3886/e208254v1-187449",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aer.20230505": {
+    "icpsr_id": "208371",
+    "repo_doi": "10.3886/e208371v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20230515": {
     "icpsr_id": "205281",
@@ -12589,6 +13138,12 @@
     "repo_doi": "10.3886/E228041V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aer.20231656": {
+    "icpsr_id": "231681",
+    "repo_doi": "10.3886/e231681v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aer.20231679": {
     "icpsr_id": "217601",
@@ -12990,6 +13545,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aer.96.5.1918": {
+    "icpsr_id": "229581",
+    "repo_doi": "10.3886/e229581v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aer.97.1.197": {
     "icpsr_id": "116256",
     "reason": "The replication package includes US County Business Patterns data (publicly available) and population data, but the main French ESE data requires restricted access and permission from INSEE with potential fees, making full replication impossible without obtaining this proprietary dataset.",
@@ -13230,6 +13791,12 @@
   "10.1257/aer.97.5.2005": {
     "icpsr_id": "113225",
     "repo_doi": "10.3886/e113225v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aer.97.5.2019": {
+    "icpsr_id": "113225",
+    "repo_doi": "10.3886/e113225",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -14005,12 +14572,66 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/aeri.20190114": {
+    "icpsr_id": "111223",
+    "repo_doi": "10.3886/e111223v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20190155": {
+    "icpsr_id": "111685",
+    "repo_doi": "10.3886/e111685v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20190224": {
+    "icpsr_id": "214741",
+    "repo_doi": "10.3886/e214741v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20190244": {
+    "icpsr_id": "112069",
+    "repo_doi": "10.3886/e112069v2",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20190285": {
+    "icpsr_id": "115761",
+    "repo_doi": "10.3886/e115761v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20190304": {
+    "icpsr_id": "117021",
+    "repo_doi": "10.3886/e117021v4",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20190307": {
+    "icpsr_id": "117361",
+    "repo_doi": "10.3886/e117361v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20190337": {
+    "icpsr_id": "116941",
+    "repo_doi": "10.3886/e116941v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aeri.20190355": {
     "icpsr_id": "115212",
     "reason": "Some data (NHANES and disease response rankings) are publicly accessible, but the Nurse Health Study and Nielsen HomeScan data require restricted access through applications, subscriptions, and fees that cannot be freely obtained.",
     "repo_doi": "10.3886/e115212",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aeri.20190379": {
+    "icpsr_id": "117402",
+    "repo_doi": "10.3886/e117402v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aeri.20190382": {
     "icpsr_id": "117506",
@@ -14025,11 +14646,23 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/aeri.20190457": {
+    "icpsr_id": "117424",
+    "repo_doi": "10.3886/e117424v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aeri.20190499": {
     "icpsr_id": "119043",
     "repo_doi": "10.3886/e119043v1-109620",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/aeri.20190510": {
+    "icpsr_id": "118585",
+    "repo_doi": "10.3886/e118585v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aeri.20190533": {
     "icpsr_id": "118945",
@@ -14068,6 +14701,12 @@
   "10.1257/aeri.20200086": {
     "icpsr_id": "120110",
     "repo_doi": "10.3886/E120110",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/aeri.20200101": {
+    "icpsr_id": "112346",
+    "repo_doi": "10.3886/e112346",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -14540,6 +15179,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/aeri.20220685": {
+    "icpsr_id": "193765",
+    "repo_doi": "10.3886/e193765v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/aeri.20220696": {
     "icpsr_id": "192366",
     "reason": "The README indicates that all necessary data files (.dta files) are included in the 01_Data folder of the replication package, and the Stata code in 02_Code can be run to reproduce all results without requiring access to restricted or proprietary data sources.",
@@ -14785,6 +15430,12 @@
     "repo_doi": "10.3886/E209061V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/aeri.20240155": {
+    "icpsr_id": "209404",
+    "repo_doi": "10.3886/e209404v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/aeri.20240184": {
     "icpsr_id": "210141",
@@ -15446,6 +16097,13 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/app.20130475": {
+    "icpsr_id": "113588",
+    "reason": "The README indicates that data files are included in the repository (Baseline, Followup, and other stata data files mentioned), but the document structure and instructions suggest this is a replication package where some original survey data from the microcredit experiment may have access restrictions, though the processed datasets for analysis appear to be provided.",
+    "repo_doi": "10.3886/e113588v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
   "10.1257/app.20130480": {
     "icpsr_id": "113595",
     "reason": "The replication package includes all raw datasets in STATA .dta format along with complete .do files needed to replicate all tables, indicating that all necessary data for replication are included in the repository.",
@@ -16041,6 +16699,12 @@
     "repo_doi": "10.3886/e113678v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/app.20160031": {
+    "icpsr_id": "100462",
+    "repo_doi": "10.3886/e100462v3-126740",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20160055": {
     "icpsr_id": "113679",
@@ -16653,6 +17317,12 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/app.20170656": {
+    "icpsr_id": "128442",
+    "repo_doi": "10.3886/e128442v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20170670": {
     "icpsr_id": "113735",
     "reason": "The replication package includes all necessary data files (information experiment, recruitment experiment, and household survey data) in Stata format along with code to reproduce tables and figures, with no mention of restricted or proprietary data requirements.",
@@ -16721,6 +17391,12 @@
     "repo_doi": "10.3886/e122001v1-117500",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/app.20180077": {
+    "icpsr_id": "120245",
+    "repo_doi": "10.3886/e120245v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20180078": {
     "icpsr_id": "116808",
@@ -16893,6 +17569,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/app.20180474": {
+    "icpsr_id": "110643",
+    "repo_doi": "10.3886/e110643",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20180487": {
     "icpsr_id": "183316",
     "reason": "The replication package includes analysis files and some raw data (migration flows, trade flows, GIS data), but the Brazilian Census microdata (1970-2010) requires purchase from IBGE and is not included in the repository.",
@@ -16941,9 +17623,21 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/app.20180686": {
+    "icpsr_id": "128301",
+    "repo_doi": "10.3886/e128301v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20180698": {
     "icpsr_id": "231483",
     "repo_doi": "10.3886/e231483v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20180752": {
+    "icpsr_id": "115642",
+    "repo_doi": "10.3886/e115642v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -16994,6 +17688,18 @@
     "repo_doi": "10.3886/E138481V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/app.20190038": {
+    "icpsr_id": "132601",
+    "repo_doi": "10.3886/e132601v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20190067": {
+    "icpsr_id": "112186",
+    "repo_doi": "10.3886/e112186v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20190070": {
     "icpsr_id": "231484",
@@ -17070,6 +17776,18 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/app.20190292": {
+    "icpsr_id": "115008",
+    "repo_doi": "10.3886/e115008v1-70000",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20190297": {
+    "icpsr_id": "147961",
+    "repo_doi": "10.3886/e147961v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20190309": {
     "icpsr_id": "116802",
     "reason": "The replication package includes processed .dta files needed to reproduce main results, but the README indicates that underlying raw data sources required for the cleaning code are not fully described as being included, and references to external sources (SNPK, IFLS, census data) suggest some data requires restricted access or external download.",
@@ -17077,12 +17795,24 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/app.20190372": {
+    "icpsr_id": "120483",
+    "repo_doi": "10.3886/e120483v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20190396": {
     "icpsr_id": "116761",
     "reason": "The README indicates that all results can be replicated using the provided Stata do files and the included database file (Moz1234panel.dta), with no mention of restricted access data requirements, though some additional GAUSS databases are referenced for Figure 1.",
     "repo_doi": "10.3886/E116761V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/app.20190410": {
+    "icpsr_id": "111901",
+    "repo_doi": "10.3886/e111901v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20190416": {
     "icpsr_id": "119685",
@@ -17186,6 +17916,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/app.20190721": {
+    "icpsr_id": "120607",
+    "repo_doi": "10.3886/e120607v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20190722": {
     "icpsr_id": "126722",
     "reason": "The main analysis dataset (LSS_analysis_datasets_2020_11_08.dta) requires restricted access through J-PAL DataVerse with a data use agreement, while other datasets (census and endline interview) appear to be included in the repository.",
@@ -17281,6 +18017,18 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/app.20200210": {
+    "icpsr_id": "123381",
+    "repo_doi": "10.3886/e123381v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20200220": {
+    "icpsr_id": "120470",
+    "repo_doi": "10.3886/e120470v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20200296": {
     "icpsr_id": "130285",
     "reason": "All data sources are publicly available from official Brazilian government repositories (TSE electoral commission and IBGE census data via ATLAS BRASIL) with detailed instructions on how to access and download them.",
@@ -17294,12 +18042,24 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/app.20200362": {
+    "icpsr_id": "150261",
+    "repo_doi": "10.3886/e150261v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20200367": {
     "icpsr_id": "130686",
     "reason": "All data is confidential and proprietary to Facebook; researchers must obtain authorized access directly from Facebook through formal data use agreements, and no data files are included in the replication package.",
     "repo_doi": "10.3886/E130686V1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/app.20200397": {
+    "icpsr_id": "138946",
+    "repo_doi": "10.3886/e138946v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20200398": {
     "icpsr_id": "144281",
@@ -17328,6 +18088,12 @@
     "repo_doi": "10.3886/e126941v1-133040",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/app.20200456": {
+    "icpsr_id": "138061",
+    "repo_doi": "10.3886/e138061v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20200467": {
     "icpsr_id": "130363",
@@ -17375,12 +18141,30 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/app.20200568": {
+    "icpsr_id": "143841",
+    "repo_doi": "10.3886/e143841v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20200631": {
     "icpsr_id": "141761",
     "reason": "The replication package includes code and some data files (workspaces), but the main data comes from the World Inequality Database (WID) which requires online access through the GPINTER interface and is not included in the repository itself.",
     "repo_doi": "10.3886/E141761V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/app.20200639": {
+    "icpsr_id": "178421",
+    "repo_doi": "10.3886/e178421v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20200659": {
+    "icpsr_id": "168101",
+    "repo_doi": "10.3886/e168101v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20200662": {
     "icpsr_id": "144601",
@@ -17463,12 +18247,24 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/app.20200819": {
+    "icpsr_id": "151441",
+    "repo_doi": "10.3886/e151441v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20200863": {
     "icpsr_id": "135621",
     "reason": "All data used in the replication package are publicly available from the Greek Ministry of Development and Competitiveness website, Hellenic Statistical Authority Census 2010 data, and Google Maps, with the datasets already compiled and included in the repository.",
     "repo_doi": "10.3886/E135621V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/app.20200867": {
+    "icpsr_id": "166601",
+    "repo_doi": "10.3886/e166601v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20210008": {
     "icpsr_id": "157941",
@@ -17515,6 +18311,12 @@
   "10.1257/app.20210051": {
     "icpsr_id": "184144",
     "repo_doi": "10.3886/E184144V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20210052": {
+    "icpsr_id": "179241",
+    "repo_doi": "10.3886/e179241",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -17623,6 +18425,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/app.20210248": {
+    "icpsr_id": "159261",
+    "repo_doi": "10.3886/e159261v1-146703",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20210252": {
     "icpsr_id": "168781",
     "reason": "All data sources are publicly available under open AEA journal licenses and are either included in the replication package or freely accessible via DOI links (Zenodo/Dataverse).",
@@ -17647,6 +18455,12 @@
   "10.1257/app.20210280": {
     "icpsr_id": "178981",
     "repo_doi": "10.3886/E178981V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20210292": {
+    "icpsr_id": "150681",
+    "repo_doi": "10.3886/e150681v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -17683,12 +18497,30 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/app.20210435": {
+    "icpsr_id": "169861",
+    "repo_doi": "10.3886/e169861v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20210446": {
+    "icpsr_id": "167041",
+    "repo_doi": "10.3886/e167041v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20210501": {
     "icpsr_id": "168941",
     "reason": "Some data sources are publicly available (census, Common Core of Data, BLS, etc.), but key proprietary datasets from Nielsen, LexisNexis, and Wesleyan Media Project cannot be publicly shared and require purchase or restricted access agreements.",
     "repo_doi": "10.3886/E168941V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/app.20210529": {
+    "icpsr_id": "168901",
+    "repo_doi": "10.3886/e168901v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20210550": {
     "icpsr_id": "208173",
@@ -17710,6 +18542,12 @@
     "repo_doi": "10.3886/e183285v1-153641",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/app.20210583": {
+    "icpsr_id": "181521",
+    "repo_doi": "10.3886/e181521v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20210614": {
     "icpsr_id": "164541",
@@ -17780,6 +18618,18 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/app.20210732": {
+    "icpsr_id": "175242",
+    "repo_doi": "10.3886/e175242v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20210736": {
+    "icpsr_id": "176601",
+    "repo_doi": "10.3886/e176601v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20210763": {
     "icpsr_id": "198086",
     "repo_doi": "10.3886/E198086V1",
@@ -17841,6 +18691,18 @@
     "repo_doi": "10.3886/e188682v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/app.20220032": {
+    "icpsr_id": "191781",
+    "repo_doi": "10.3886/e191781",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/app.20220037": {
+    "icpsr_id": "183346",
+    "repo_doi": "10.3886/e183346",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20220047": {
     "icpsr_id": "181101",
@@ -17909,12 +18771,24 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/app.20220201": {
+    "icpsr_id": "178141",
+    "repo_doi": "10.3886/e178141v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/app.20220258": {
     "icpsr_id": "174281",
     "reason": "The repository includes de-identified primary datasets collected by the authors, publicly available data from BMET and World Bank sources, and a nationally representative HIES 2016 dataset that appears to be accessible, with all necessary components for replication provided or freely available.",
     "repo_doi": "10.3886/E174281V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/app.20220279": {
+    "icpsr_id": "182042",
+    "repo_doi": "10.3886/e182042",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20220284": {
     "icpsr_id": "177203",
@@ -18213,6 +19087,12 @@
     "repo_doi": "10.3886/E197802V1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/app.20230344": {
+    "icpsr_id": "195864",
+    "repo_doi": "10.3886/e195864",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/app.20230352": {
     "icpsr_id": "198763",
@@ -19387,6 +20267,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.1.1.267": {
+    "icpsr_id": "114039",
+    "repo_doi": "10.3886/e114039",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.1.1.280": {
     "icpsr_id": "114039",
     "reason": "The replication package includes an Excel spreadsheet with some constructed data, but requires access to restricted sources (OECD and BEA data) that are not fully provided in the repository.",
@@ -19613,6 +20499,18 @@
     "repo_doi": "10.3886/e114187v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mac.2.4.36": {
+    "icpsr_id": "114185",
+    "repo_doi": "10.3886/e114185v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.2.4.46": {
+    "icpsr_id": "114185",
+    "repo_doi": "10.3886/e114185v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.2.4.53": {
     "icpsr_id": "114188",
@@ -20180,6 +21078,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20150222": {
+    "icpsr_id": "110982",
+    "repo_doi": "10.3886/e110982v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20150245": {
     "icpsr_id": "114128",
     "reason": "The README indicates that national-level tabulations and Excel outputs are provided, but state-level files cannot be shared due to LEHD MOU (Memorandum of Understanding) restrictions, meaning some required data for full replication is restricted.",
@@ -20307,6 +21211,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20160094": {
+    "icpsr_id": "111342",
+    "repo_doi": "10.3886/e111342v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20160101": {
     "icpsr_id": "134062",
     "reason": "The README indicates that all data used for calibration is contained in the included file 'data/data.xlsx', and the replication relies on computational code to generate results rather than external datasets.",
@@ -20402,6 +21312,12 @@
   "10.1257/mac.20160250": {
     "icpsr_id": "114143",
     "repo_doi": "10.3886/e114143v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20160253": {
+    "icpsr_id": "120215",
+    "repo_doi": "10.3886/e120215v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -20581,6 +21497,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20170229": {
+    "icpsr_id": "174542",
+    "repo_doi": "10.3886/e174542v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20170269": {
     "icpsr_id": "116416",
     "reason": "The README indicates that all necessary data files (DataACGM_84_Q308 and DataACGM_84_15 in MATLAB format) are included in the repository, along with all code and required toolboxes needed to replicate the paper's results.",
@@ -20752,6 +21674,18 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20180083": {
+    "icpsr_id": "110902",
+    "repo_doi": "10.3886/e110902v1-81380",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20180092": {
+    "icpsr_id": "118064",
+    "repo_doi": "10.3886/e118064v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20180105": {
     "icpsr_id": "116422",
     "repo_doi": "10.3886/e116422v1",
@@ -20764,6 +21698,12 @@
     "repo_doi": "10.3886/E116461V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mac.20180122": {
+    "icpsr_id": "122882",
+    "repo_doi": "10.3886/e122882v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20180125": {
     "icpsr_id": "116881",
@@ -20872,12 +21812,36 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20180321": {
+    "icpsr_id": "117504",
+    "repo_doi": "10.3886/e117504v3",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20180328": {
     "icpsr_id": "115281",
     "reason": "The replication package contains all necessary code and model files (including posterior mode and posterior draws in .mat files), with no mention of restricted data sources or external proprietary datasets required for replication.",
     "repo_doi": "10.3886/e115281v1-135960",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mac.20180342": {
+    "icpsr_id": "128801",
+    "repo_doi": "10.3886/e128801v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20180348": {
+    "icpsr_id": "173701",
+    "repo_doi": "10.3886/e173701v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20180363": {
+    "icpsr_id": "111722",
+    "repo_doi": "10.3886/e111722v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20180366": {
     "icpsr_id": "117946",
@@ -20927,6 +21891,18 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20180428": {
+    "icpsr_id": "129441",
+    "repo_doi": "10.3886/e129441v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20180429": {
+    "icpsr_id": "117305",
+    "repo_doi": "10.3886/e117305v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20180443": {
     "icpsr_id": "119222",
     "reason": "The main firm-level data is confidential and proprietary from China's National Bureau of Statistics and will not be released; only sample files and code are provided, making full replication impossible without access to the original restricted data.",
@@ -20940,6 +21916,18 @@
     "repo_doi": "10.3886/e118761v1-107160",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mac.20180466": {
+    "icpsr_id": "122884",
+    "repo_doi": "10.3886/e122884v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20180473": {
+    "icpsr_id": "135081",
+    "repo_doi": "10.3886/e135081v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20180488": {
     "icpsr_id": "115982",
@@ -21060,6 +22048,18 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20190223": {
+    "icpsr_id": "120103",
+    "repo_doi": "10.3886/e120103v2",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20190228": {
+    "icpsr_id": "133182",
+    "repo_doi": "10.3886/e133182v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20190230": {
     "icpsr_id": "120568",
     "reason": "All data used in the paper are publicly available from the Census Bureau's QWI database, and the specific data release (R2019q3) is included in the repository to ensure reproducibility.",
@@ -21081,6 +22081,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20190248": {
+    "icpsr_id": "120557",
+    "repo_doi": "10.3886/e120557v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20190285": {
     "icpsr_id": "119556",
     "reason": "The repository includes the complete dataset (AgriDiv_Data.dta), all do-files for replication, and supporting shapefiles, with all data sources documented in the Data Appendix, enabling full replication of the paper's results.",
@@ -21101,12 +22107,30 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20190311": {
+    "icpsr_id": "124281",
+    "repo_doi": "10.3886/e124281v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20190332": {
+    "icpsr_id": "120523",
+    "repo_doi": "10.3886/e120523v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20190337": {
     "icpsr_id": "130082",
     "reason": "The replication package includes some processed data files (usdata.dta and statedata.dta) created from raw sources, but relies on restricted Census Bureau LEHD data that must be obtained separately, requiring a data use agreement or restricted access.",
     "repo_doi": "10.3886/E130082V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mac.20190338": {
+    "icpsr_id": "121221",
+    "repo_doi": "10.3886/e121221v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20190340": {
     "icpsr_id": "124901",
@@ -21183,12 +22207,30 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20200053": {
+    "icpsr_id": "148421",
+    "repo_doi": "10.3886/e148421v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20200057": {
     "icpsr_id": "170261",
     "reason": "All data sources (SIPP, FRED, IPUMS-CPS, and PSID) are freely available through public repositories or can be redistributed for replication purposes, with raw data included in the replication package.",
     "repo_doi": "10.3886/E170261V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mac.20200058": {
+    "icpsr_id": "130329",
+    "repo_doi": "10.3886/e130329v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20200060": {
+    "icpsr_id": "126661",
+    "repo_doi": "10.3886/e126661v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20200080": {
     "icpsr_id": "147021",
@@ -21231,6 +22273,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20200141": {
+    "icpsr_id": "185403",
+    "repo_doi": "10.3886/e185403",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20200149": {
     "icpsr_id": "195703",
     "reason": "While district-level agricultural data and some sources (FAOSTAT, GAEZ) are included or freely available, the replication requires restricted access to raw CSA household-level data and proprietary GIS road network data (costing $4,500 USD from a private consulting company) that cannot be shared without consent.",
@@ -21251,6 +22299,12 @@
     "repo_doi": "10.3886/E173141V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mac.20200213": {
+    "icpsr_id": "147524",
+    "repo_doi": "10.3886/e147524v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20200217": {
     "icpsr_id": "192603",
@@ -21279,6 +22333,12 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/mac.20200256": {
+    "icpsr_id": "146901",
+    "repo_doi": "10.3886/e146901v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20200269": {
     "icpsr_id": "168221",
     "reason": "Some EDD data is publicly available for download from the World Bank, but firm-level data for the core sample requires restricted access through a form request, and China's customs data cannot be made publicly available.",
@@ -21296,6 +22356,12 @@
   "10.1257/mac.20200282": {
     "icpsr_id": "156321",
     "repo_doi": "10.3886/E156321V2",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20200289": {
+    "icpsr_id": "174949",
+    "repo_doi": "10.3886/e174949v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -21374,6 +22440,18 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20200440": {
+    "icpsr_id": "158161",
+    "repo_doi": "10.3886/e158161v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20200442": {
+    "icpsr_id": "192261",
+    "repo_doi": "10.3886/e192261v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20200445": {
     "icpsr_id": "155004",
     "reason": "The data comes from the confidential DNB Household Survey and requires a Data Use Agreement with CentERdata/Tilburg University, though the authors indicate they will assist with replication attempts for two years post-publication.",
@@ -21408,12 +22486,24 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20200480": {
+    "icpsr_id": "187401",
+    "repo_doi": "10.3886/e187401",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20200486": {
     "icpsr_id": "153241",
     "reason": "The replication package includes some data (exchange rates and manually identified barcodes) but requires restricted access to three proprietary datasets (US Nielsen Consumer Panel Data, Mexican Nielsen Consumer Panel Data, and ICP 2011 micro-data) that must be obtained separately through data agreements and cannot be redistributed.",
     "repo_doi": "10.3886/E153241V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mac.20200495": {
+    "icpsr_id": "139621",
+    "repo_doi": "10.3886/e139621v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20210005": {
     "icpsr_id": "216561",
@@ -21436,12 +22526,24 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mac.20210035": {
+    "icpsr_id": "169401",
+    "repo_doi": "10.3886/e169401v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20210038": {
     "icpsr_id": "163641",
     "reason": "The README describes a computational replication package with MATLAB and Stata code that generates all results from calibrated parameters and simulated data; no external restricted-access datasets are required, only the provided code and parameter specifications.",
     "repo_doi": "10.3886/E163641V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mac.20210049": {
+    "icpsr_id": "154121",
+    "repo_doi": "10.3886/e154121v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20210052": {
     "icpsr_id": "164521",
@@ -21478,12 +22580,24 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20210099": {
+    "icpsr_id": "167862",
+    "repo_doi": "10.3886/e167862v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20210133": {
     "icpsr_id": "193141",
     "reason": "Most data is publicly available and included or linked in the package, but CDS spread data from Bloomberg Terminal and bond yield data from SDC Platinum both require paid subscriptions that are not provided.",
     "repo_doi": "10.3886/E193141V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mac.20210136": {
+    "icpsr_id": "150921",
+    "repo_doi": "10.3886/e150921v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20210138": {
     "icpsr_id": "212321",
@@ -21492,12 +22606,30 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mac.20210148": {
+    "icpsr_id": "179601",
+    "repo_doi": "10.3886/e179601v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20210163": {
+    "icpsr_id": "173502",
+    "repo_doi": "10.3886/e173502",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20210169": {
     "icpsr_id": "191941",
     "reason": "All data are sourced from publicly available government and central bank databases (Federal Reserve, Bureau of Economic Analysis, Bank of Japan, etc.) with no restricted or proprietary data required.",
     "repo_doi": "10.3886/E191941V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mac.20210171": {
+    "icpsr_id": "181721",
+    "repo_doi": "10.3886/e181721v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20210172": {
     "icpsr_id": "156941",
@@ -21519,6 +22651,12 @@
     "repo_doi": "10.3886/E226781V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mac.20210212": {
+    "icpsr_id": "193087",
+    "repo_doi": "10.3886/e193087v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20210226": {
     "icpsr_id": "205441",
@@ -21630,6 +22768,18 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/mac.20210455": {
+    "icpsr_id": "192372",
+    "repo_doi": "10.3886/e192372v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20210460": {
+    "icpsr_id": "184704",
+    "repo_doi": "10.3886/e184704v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mac.20210490": {
     "icpsr_id": "197181",
     "repo_doi": "10.3886/E197181V2",
@@ -21639,6 +22789,12 @@
   "10.1257/mac.20220015": {
     "icpsr_id": "173441",
     "repo_doi": "10.3886/E173441V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mac.20220017": {
+    "icpsr_id": "210061",
+    "repo_doi": "10.3886/e210061v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -21655,6 +22811,12 @@
     "repo_doi": "10.3886/E187541V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mac.20220047": {
+    "icpsr_id": "184701",
+    "repo_doi": "10.3886/e184701",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mac.20220051": {
     "icpsr_id": "192505",
@@ -22708,6 +23870,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mic.1.1.124": {
+    "icpsr_id": "195292",
+    "repo_doi": "10.3886/e195292v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.1.1.151": {
     "icpsr_id": "114312",
     "reason": "The excerpt describes experimental data from 5 laboratory sessions that are included in the replication package with detailed documentation of all variables and recording procedures.",
@@ -22758,6 +23926,12 @@
   "10.1257/mic.2.3.1": {
     "icpsr_id": "114375",
     "repo_doi": "10.3886/e114375v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.2.3.44": {
+    "icpsr_id": "114309",
+    "repo_doi": "10.3886/e114309v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -23053,6 +24227,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mic.20160287": {
+    "icpsr_id": "119621",
+    "repo_doi": "10.3886/e119621v3",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20160304": {
     "icpsr_id": "114360",
     "reason": "All data files from the experiments are included in the repository along with complete code files for analysis and replication.",
@@ -23113,6 +24293,12 @@
     "repo_doi": "10.3886/e114366v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mic.20170087": {
+    "icpsr_id": "116771",
+    "repo_doi": "10.3886/e116771v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20170100": {
     "icpsr_id": "116435",
@@ -23272,6 +24458,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/mic.20180133": {
+    "icpsr_id": "110942",
+    "repo_doi": "10.3886/e110942v2",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20180141": {
     "icpsr_id": "117901",
     "reason": "The repository contains the Python simulation code and the output data (thresholds.csv) needed to reproduce Figure 3, with no indication of restricted or proprietary data requirements.",
@@ -23285,6 +24477,12 @@
     "repo_doi": "10.3886/e231559v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mic.20180190": {
+    "icpsr_id": "110905",
+    "repo_doi": "10.3886/e110905v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20180191": {
     "icpsr_id": "119648",
@@ -23307,9 +24505,21 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mic.20180233": {
+    "icpsr_id": "134301",
+    "repo_doi": "10.3886/e134301v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20180236": {
     "icpsr_id": "118343",
     "repo_doi": "10.3886/E118343V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20180260": {
+    "icpsr_id": "130441",
+    "repo_doi": "10.3886/e130441v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -23402,12 +24612,30 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/mic.20190013": {
+    "icpsr_id": "130401",
+    "repo_doi": "10.3886/e130401v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20190018": {
     "icpsr_id": "121081",
     "reason": "The replication package includes all code files and references procurement auction data that appears to be included or processed within the package itself, with no mention of restricted access requirements or external proprietary data sources.",
     "repo_doi": "10.3886/e121081v1-187633",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mic.20190051": {
+    "icpsr_id": "120070",
+    "repo_doi": "10.3886/e120070v1-100007",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20190053": {
+    "icpsr_id": "120229",
+    "repo_doi": "10.3886/e120229v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20190062": {
     "icpsr_id": "119984",
@@ -23447,6 +24675,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mic.20190153": {
+    "icpsr_id": "119324",
+    "repo_doi": "10.3886/e119324v2",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20190163": {
     "icpsr_id": "169643",
     "reason": "All key data sources are confidential and require restricted access through data use agreements with VREG; no data files are included in the repository.",
@@ -23472,6 +24706,12 @@
     "repo_doi": "10.3886/E133481V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mic.20190277": {
+    "icpsr_id": "117370",
+    "repo_doi": "10.3886/e117370v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20190302": {
     "icpsr_id": "117803",
@@ -23520,15 +24760,57 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/mic.20190386": {
+    "icpsr_id": "120602",
+    "repo_doi": "10.3886/e120602v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20190389": {
+    "icpsr_id": "120083",
+    "repo_doi": "10.3886/e120083v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20200015": {
+    "icpsr_id": "140601",
+    "repo_doi": "10.3886/e140601v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20200017": {
     "icpsr_id": "120839",
     "repo_doi": "10.3886/E120839V1",
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mic.20200030": {
+    "icpsr_id": "193347",
+    "repo_doi": "10.3886/e193347",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20200038": {
     "icpsr_id": "195751",
     "repo_doi": "10.3886/E195751V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20200049": {
+    "icpsr_id": "118729",
+    "repo_doi": "10.3886/e118729v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20200074": {
+    "icpsr_id": "124682",
+    "repo_doi": "10.3886/e124682v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20200128": {
+    "icpsr_id": "119570",
+    "repo_doi": "10.3886/e119570v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -23566,12 +24848,24 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/mic.20200268": {
+    "icpsr_id": "127781",
+    "repo_doi": "10.3886/e127781v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20200290": {
     "icpsr_id": "146241",
     "reason": "All data needed to replicate the paper are publicly available and included in the repository, as the authors collected experimental data and explicitly state it is 'publicly available' with all raw data files provided in csv, sql, and Stata formats.",
     "repo_doi": "10.3886/e146241v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mic.20200301": {
+    "icpsr_id": "183702",
+    "repo_doi": "10.3886/e183702v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20200307": {
     "icpsr_id": "138281",
@@ -23593,9 +24887,21 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/mic.20200337": {
+    "icpsr_id": "165326",
+    "repo_doi": "10.3886/e165326v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20200347": {
     "icpsr_id": "181301",
     "repo_doi": "10.3886/E181301V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20200407": {
+    "icpsr_id": "192088",
+    "repo_doi": "10.3886/e192088v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -23605,6 +24911,12 @@
     "repo_doi": "10.3886/E186482V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mic.20210012": {
+    "icpsr_id": "176881",
+    "repo_doi": "10.3886/e176881v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20210015": {
     "icpsr_id": "196761",
@@ -23620,12 +24932,30 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mic.20210032": {
+    "icpsr_id": "172904",
+    "repo_doi": "10.3886/e172904v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20210053": {
+    "icpsr_id": "160781",
+    "repo_doi": "10.3886/e160781v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20210066": {
     "icpsr_id": "194501",
     "reason": "All data sources are public and freely available, either included in the repository or accessible through provided links to government agencies (USDA, BLS), public datasets (Dominick's Dataset), and open websites (cerealfacts.org, indexmundi.com)",
     "repo_doi": "10.3886/e194501v1-158941",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mic.20210069": {
+    "icpsr_id": "180561",
+    "repo_doi": "10.3886/e180561v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20210082": {
     "icpsr_id": "176941",
@@ -23668,6 +24998,18 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/mic.20210182": {
+    "icpsr_id": "156023",
+    "repo_doi": "10.3886/e156023v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/mic.20210229": {
+    "icpsr_id": "158301",
+    "repo_doi": "10.3886/e158301v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20210237": {
     "icpsr_id": "195045",
     "reason": "All data used in the paper are from experimental sessions conducted by the authors and are included in Excel files (data_moment and raven) within the replication package, with the authors certifying they have permission to redistribute the data publicly.",
@@ -23700,6 +25042,12 @@
     "repo_doi": "10.3886/E192023V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mic.20210320": {
+    "icpsr_id": "188165",
+    "repo_doi": "10.3886/e188165",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20210336": {
     "icpsr_id": "193102",
@@ -23811,12 +25159,24 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/mic.20220088": {
+    "icpsr_id": "134063",
+    "repo_doi": "10.3886/e134063v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/mic.20220094": {
     "icpsr_id": "192705",
     "reason": "The authors explicitly state they cannot provide the data directly to replicators because the analysis relies on Federal Reserve internal/administrative data (including the uninew version of SOD and Fed market shape files) that are not publicly available, and the final dataset cannot be shared even when partially derived from public sources.",
     "repo_doi": "10.3886/E192705V1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/mic.20220111": {
+    "icpsr_id": "192103",
+    "repo_doi": "10.3886/e192103",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20220118": {
     "icpsr_id": "198281",
@@ -23872,6 +25232,12 @@
     "repo_doi": "10.3886/E193601V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/mic.20220245": {
+    "icpsr_id": "183801",
+    "repo_doi": "10.3886/e183801",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20220248": {
     "icpsr_id": "199922",
@@ -23956,6 +25322,12 @@
     "repo_doi": "10.3886/E209142V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/mic.20230200": {
+    "icpsr_id": "210641",
+    "repo_doi": "10.3886/e210641v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/mic.20230331": {
     "icpsr_id": "202069",
@@ -25259,6 +26631,13 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20150088": {
+    "icpsr_id": "114699",
+    "reason": "All data sources are publicly available from government agencies (BLS, NBER, CPS, JOLTS) or are constructed from published sources (Barnichon 2010), with no restricted or proprietary data required for replication.",
+    "repo_doi": "10.3886/e114699v1",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
   "10.1257/pol.20150100": {
     "icpsr_id": "114636",
     "reason": "All four Stata datasets and the code file needed to replicate Tables 3-5 are included in the repository, with no mention of restricted access or external data requirements.",
@@ -25881,6 +27260,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20170094": {
+    "icpsr_id": "129186",
+    "repo_doi": "10.3886/e129186v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20170097": {
     "icpsr_id": "110861",
     "reason": "While some data sources are publicly available (World Bank, National Bureau of Statistics of China), the primary CFPS dataset requires registration and application approval before download, making it partially restricted.",
@@ -26147,6 +27532,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20170674": {
+    "icpsr_id": "115107",
+    "repo_doi": "10.3886/e115107v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20170678": {
     "icpsr_id": "116528",
     "reason": "The replication package requires restricted-access data from UNOS/OPTN (United Network of Organ Sharing and Organ Procurement and Transplantation Network) that must be requested and approved, while some supplementary geographic and crosswalk data are publicly available.",
@@ -26157,6 +27548,12 @@
   "10.1257/pol.20170688": {
     "icpsr_id": "231589",
     "repo_doi": "10.3886/e231589v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20170704": {
+    "icpsr_id": "110642",
+    "repo_doi": "10.3886/e110642v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -26195,11 +27592,29 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20180054": {
+    "icpsr_id": "110661",
+    "repo_doi": "10.3886/e110661v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20180061": {
+    "icpsr_id": "111481",
+    "repo_doi": "10.3886/e111481v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20180070": {
     "icpsr_id": "116529",
     "repo_doi": "10.3886/e116529v1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/pol.20180072": {
+    "icpsr_id": "123461",
+    "repo_doi": "10.3886/e123461v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20180076": {
     "icpsr_id": "231593",
@@ -26229,6 +27644,12 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/pol.20180167": {
+    "icpsr_id": "116530",
+    "repo_doi": "10.3886/e116530",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20180168": {
     "icpsr_id": "111542",
     "reason": "The replication package includes some processed datasets (FPhalfyearly.dta, FPMuncipalities.dta, FPMunyear.dta) and publicly available geographic controls, but requires restricted access to proprietary data from CINEP, CERAC, and the Procuradur\u00eda that cannot be shared in the repository.",
@@ -26236,12 +27657,30 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20180198": {
+    "icpsr_id": "115405",
+    "repo_doi": "10.3886/e115405v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20180203": {
+    "icpsr_id": "112082",
+    "repo_doi": "10.3886/e112082v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20180218": {
     "icpsr_id": "120073",
     "reason": "The replication package includes some data (distance matrices, housing prices, demographic data) but requires restricted access to confidential price data from Israel's Central Bureau of Statistics and proprietary expenditure data from a credit card company, both of which are essential for replication.",
     "repo_doi": "10.3886/E120073V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/pol.20180227": {
+    "icpsr_id": "115322",
+    "repo_doi": "10.3886/e115322v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20180230": {
     "icpsr_id": "231595",
@@ -26278,6 +27717,18 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/pol.20180323": {
+    "icpsr_id": "165921",
+    "repo_doi": "10.3886/e165921v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20180327": {
+    "icpsr_id": "114888",
+    "repo_doi": "10.3886/e114888v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20180352": {
     "icpsr_id": "231597",
     "reason": "Most data sources are publicly available and included in the repository, but the Secure Communities data was shared privately by other researchers and is not publicly accessible, requiring restricted access to fully replicate all results.",
@@ -26304,6 +27755,12 @@
     "repo_doi": "10.3886/E119153V1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/pol.20180410": {
+    "icpsr_id": "112222",
+    "repo_doi": "10.3886/e112222v1-43222",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20180420": {
     "icpsr_id": "116762",
@@ -26358,6 +27815,12 @@
     "repo_doi": "10.3886/e231601v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/pol.20180559": {
+    "icpsr_id": "115581",
+    "repo_doi": "10.3886/e115581v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20180564": {
     "icpsr_id": "120688",
@@ -26525,12 +27988,24 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/pol.20190213": {
+    "icpsr_id": "142061",
+    "repo_doi": "10.3886/e142061v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20190245": {
     "icpsr_id": "115010",
     "reason": "The README indicates that all survey data from the experimental study (Waves I, III, and IV) are included in the repository, with only minor PII removals (exact dates of birth), and all intermediate datasets and code needed for replication are provided.",
     "repo_doi": "10.3886/e115010v2-110321",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/pol.20190257": {
+    "icpsr_id": "118906",
+    "repo_doi": "10.3886/e118906v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20190258": {
     "icpsr_id": "119513",
@@ -26551,6 +28026,12 @@
     "repo_doi": "10.3886/E124381V1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/pol.20190276": {
+    "icpsr_id": "128261",
+    "repo_doi": "10.3886/e128261v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20190287": {
     "icpsr_id": "148522",
@@ -26606,6 +28087,18 @@
     "repo_doi": "10.3886/E118084V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/pol.20190457": {
+    "icpsr_id": "134341",
+    "repo_doi": "10.3886/e134341v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20190480": {
+    "icpsr_id": "127661",
+    "repo_doi": "10.3886/e127661v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20190492": {
     "icpsr_id": "126403",
@@ -26744,6 +28237,30 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20200044": {
+    "icpsr_id": "140841",
+    "repo_doi": "10.3886/e140841v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20200076": {
+    "icpsr_id": "155601",
+    "repo_doi": "10.3886/e155601v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20200092": {
+    "icpsr_id": "128143",
+    "repo_doi": "10.3886/e128143v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20200100": {
+    "icpsr_id": "120431",
+    "repo_doi": "10.3886/e120431v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20200120": {
     "icpsr_id": "120531",
     "reason": "The archive includes all BOCOP output files needed to create figures, Stata data files, and code for tables, allowing full replication without requiring external proprietary or restricted datasets.",
@@ -26771,6 +28288,18 @@
     "repo_doi": "10.3886/e137103v1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/pol.20200178": {
+    "icpsr_id": "147421",
+    "repo_doi": "10.3886/e147421v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20200200": {
+    "icpsr_id": "146321",
+    "repo_doi": "10.3886/e146321v1-136102",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20200203": {
     "icpsr_id": "148301",
@@ -26869,6 +28398,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20200322": {
+    "icpsr_id": "120306",
+    "repo_doi": "10.3886/e120306v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20200343": {
     "icpsr_id": "146541",
     "reason": "The replication package requires access to the restricted SOEP Innovation Sample dataset, which must be obtained through a formal application process with a data distribution contract, making this a partial data availability case where the code and methodology are provided but restricted data access is required.",
@@ -26882,6 +28417,12 @@
     "repo_doi": "10.3886/E138561V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/pol.20200400": {
+    "icpsr_id": "135881",
+    "repo_doi": "10.3886/e135881v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20200426": {
     "icpsr_id": "143701",
@@ -26911,6 +28452,18 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20200443": {
+    "icpsr_id": "130601",
+    "repo_doi": "10.3886/e130601v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20200466": {
+    "icpsr_id": "141081",
+    "repo_doi": "10.3886/e141081v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20200475": {
     "icpsr_id": "170682",
     "reason": "While most data sources are publicly available (CEDA, SFP, CCD, CDE), the California voter roll and NALEO directory require restricted access and/or payment, and only crosswalks (not the original files) are included in the package.",
@@ -26939,6 +28492,12 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/pol.20200515": {
+    "icpsr_id": "139421",
+    "repo_doi": "10.3886/e139421v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20200531": {
     "icpsr_id": "120757",
     "reason": "The replication package includes some public data files (TableA1.dta, charter_detailed.dta) and code to generate analysis, but the main analysis requires restricted data from the North Carolina Education Research Data Center that cannot be shared and requires data use agreements, IRB approval, and institutional access.",
@@ -26952,6 +28511,12 @@
     "repo_doi": "10.3886/E146961V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/pol.20200543": {
+    "icpsr_id": "130803",
+    "repo_doi": "10.3886/e130803v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20200553": {
     "icpsr_id": "160701",
@@ -27021,6 +28586,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20200678": {
+    "icpsr_id": "136821",
+    "repo_doi": "10.3886/e136821v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20200683": {
     "icpsr_id": "195021",
     "repo_doi": "10.3886/e195021v1",
@@ -27037,6 +28608,12 @@
   "10.1257/pol.20200688": {
     "icpsr_id": "155461",
     "repo_doi": "10.3886/E155461V1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20200694": {
+    "icpsr_id": "185068",
+    "repo_doi": "10.3886/e185068v1",
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
@@ -27096,6 +28673,12 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/pol.20200805": {
+    "icpsr_id": "146462",
+    "repo_doi": "10.3886/e146462v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20200808": {
     "icpsr_id": "173961",
     "reason": "All data sources are publicly available through official repositories (ONS, OECD, Zenodo, USITC, Bank of England) under open licenses, with no restricted access or proprietary data required for replication.",
@@ -27124,6 +28707,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20200881": {
+    "icpsr_id": "173182",
+    "repo_doi": "10.3886/e173182v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20200882": {
     "icpsr_id": "156481",
     "reason": "While some data is provided in the repository (city_center.dta, city_gdp.dta, etc.), key datasets require restricted access through paid subscriptions (CSMAR and WIND databases) or are only accessible through physical books and libraries (National Bureau of Statistics publications), making complete replication impossible without these restricted sources.",
@@ -27151,6 +28740,12 @@
     "repo_doi": "10.3886/E152861V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/pol.20210034": {
+    "icpsr_id": "158861",
+    "repo_doi": "10.3886/e158861v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20210062": {
     "icpsr_id": "154361",
@@ -27240,6 +28835,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20210208": {
+    "icpsr_id": "166342",
+    "repo_doi": "10.3886/e166342v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20210221": {
     "icpsr_id": "171462",
     "reason": "All data needed to replicate the paper are freely available either directly from public sources (OMIE, REE, AEMET) or archived in Zenodo, with cleaned datasets provided in the repository.",
@@ -27274,6 +28875,18 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20210336": {
+    "icpsr_id": "164701",
+    "repo_doi": "10.3886/e164701v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
+  "10.1257/pol.20210338": {
+    "icpsr_id": "159661",
+    "repo_doi": "10.3886/e159661v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20210346": {
     "icpsr_id": "186541",
     "reason": "The replication package relies primarily on confidential Austrian administrative data (ASSD, REV, income tax, child benefits) that requires restricted access applications and data use agreements, with no public versions of these core datasets included or freely available.",
@@ -27294,6 +28907,12 @@
     "repo_doi": "10.3886/E161021V1",
     "repo_host": "openicpsr",
     "status": "full_data"
+  },
+  "10.1257/pol.20210378": {
+    "icpsr_id": "192283",
+    "repo_doi": "10.3886/e192283",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20210388": {
     "icpsr_id": "183362",
@@ -27363,6 +28982,12 @@
     "repo_host": "openicpsr",
     "status": "no_data"
   },
+  "10.1257/pol.20210607": {
+    "icpsr_id": "192369",
+    "repo_doi": "10.3886/e192369",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20210618": {
     "icpsr_id": "197821",
     "reason": "All data sources are publicly available through institutional websites, government databases, or freely accessible repositories (Zenodo), with no restricted, confidential, or proprietary data required for replication.",
@@ -27383,6 +29008,12 @@
     "repo_doi": "10.3886/E185261V1",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/pol.20210699": {
+    "icpsr_id": "169341",
+    "repo_doi": "10.3886/e169341v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20210702": {
     "icpsr_id": "175701",
@@ -27432,6 +29063,12 @@
     "repo_doi": "10.3886/E208781V1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/pol.20220014": {
+    "icpsr_id": "179901",
+    "repo_doi": "10.3886/e179901",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20220019": {
     "icpsr_id": "182982",
@@ -27485,6 +29122,12 @@
     "repo_host": "openicpsr",
     "status": "full_data"
   },
+  "10.1257/pol.20220181": {
+    "icpsr_id": "183283",
+    "repo_doi": "10.3886/e183283",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20220197": {
     "icpsr_id": "184401",
     "reason": "The repository contains only Stata code and cannot share the underlying confidential Swedish administrative register data, which requires restricted access through Statistics Sweden with no public component available.",
@@ -27498,6 +29141,12 @@
     "repo_doi": "10.3886/e187421v1-158281",
     "repo_host": "openicpsr",
     "status": "partial_data"
+  },
+  "10.1257/pol.20220218": {
+    "icpsr_id": "184946",
+    "repo_doi": "10.3886/e184946",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20220219": {
     "icpsr_id": "216541",
@@ -27582,6 +29231,12 @@
     "repo_host": "openicpsr",
     "status": "partial_data"
   },
+  "10.1257/pol.20220416": {
+    "icpsr_id": "192302",
+    "repo_doi": "10.3886/e192302v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
+  },
   "10.1257/pol.20220422": {
     "icpsr_id": "109703",
     "reason": "The replication package includes most non-proprietary data files and analysis datasets, but explicitly states that proprietary data sources (IHDS-II, NSS, and village coordinates) are not included and require separate access.",
@@ -27637,6 +29292,12 @@
     "repo_doi": "10.3886/e198489v1",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/pol.20220530": {
+    "icpsr_id": "195121",
+    "repo_doi": "10.3886/e195121",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20220544": {
     "icpsr_id": "188841",
@@ -27802,6 +29463,12 @@
     "repo_doi": "10.3886/e192981v1-159141",
     "repo_host": "openicpsr",
     "status": "no_data"
+  },
+  "10.1257/pol.20230053": {
+    "icpsr_id": "190821",
+    "repo_doi": "10.3886/e190821v1",
+    "repo_host": "openicpsr",
+    "status": "unanalyzed_repo"
   },
   "10.1257/pol.20230100": {
     "icpsr_id": "208097",
@@ -28651,6 +30318,13 @@
     "status": "full_data"
   },
   "10.1257/pol.5.4.134": {
+    "icpsr_id": "114838",
+    "reason": "The replication package requires restricted access to HES (Health Episode Statistics) data from the NHS Information Centre, which researchers must apply for separately, while some other data sources appear to be publicly available.",
+    "repo_doi": "10.3886/e114838v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/pol.5.4.135": {
     "icpsr_id": "114838",
     "reason": "The replication package requires restricted access to HES (Health Episode Statistics) data from the NHS Information Centre, which researchers must apply for separately, while some other data sources appear to be publicly available.",
     "repo_doi": "10.3886/e114838v1",
