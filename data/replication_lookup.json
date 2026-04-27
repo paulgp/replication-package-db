@@ -17661,6 +17661,13 @@
     "repo_host": "openicpsr",
     "status": "unanalyzed_repo"
   },
+  "10.1257/app.20180721": {
+    "icpsr_id": "142721",
+    "reason": "confidential",
+    "repo_doi": "10.3886/e142721v1",
+    "repo_host": "openicpsr",
+    "status": "no_data"
+  },
   "10.1257/app.20180752": {
     "icpsr_id": "115642",
     "reason": "confidential",
@@ -18067,6 +18074,12 @@
     "icpsr_id": "130285",
     "reason": "All data sources are publicly available from official Brazilian government repositories (TSE electoral commission and IBGE census data via ATLAS BRASIL) with detailed instructions on how to access and download them.",
     "repo_doi": "10.3886/e130285v1-130923",
+    "repo_host": "openicpsr",
+    "status": "full_data"
+  },
+  "10.1257/app.20200306": {
+    "icpsr_id": "135021",
+    "repo_doi": "10.3886/e135021v1",
     "repo_host": "openicpsr",
     "status": "full_data"
   },
@@ -22635,6 +22648,13 @@
     "icpsr_id": "167862",
     "reason": "not publicly available",
     "repo_doi": "10.3886/e167862v1",
+    "repo_host": "openicpsr",
+    "status": "partial_data"
+  },
+  "10.1257/mac.20210120": {
+    "icpsr_id": "191561",
+    "reason": "confidential",
+    "repo_doi": "10.3886/e191561v1",
     "repo_host": "openicpsr",
     "status": "partial_data"
   },

@@ -12,7 +12,8 @@
   {
     "doi": "10.1257/aer.20241056",
     "title": "Similarity of Information and Collective Action",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.74
   },
   {
     "doi": "10.1257/aeri.20250119",
@@ -43,7 +44,8 @@
   {
     "doi": "10.1257/mic.20240068",
     "title": "Cardinality and Utilitarianism through Social Interactions",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.39
   },
   {
     "doi": "10.1257/mic.20240310",
@@ -155,7 +157,8 @@
   {
     "doi": "10.1257/aeri.20240216",
     "title": "Information Acquisition and Time-Risk Preference",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.34
   },
   {
     "doi": "10.1257/aeri.20240332",
@@ -222,7 +225,8 @@
   {
     "doi": "10.1257/mic.20230116",
     "title": "Simple Manipulations in School Choice Mechanisms",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.67
   },
   {
     "doi": "10.1257/mic.20230142",
@@ -408,12 +412,8 @@
   {
     "doi": "10.1257/mac.20210117",
     "title": "Optimal Foreign Reserves and Central Bank Policy under Financial Stress",
-    "reason": "no_candidates"
-  },
-  {
-    "doi": "10.1257/mac.20210120",
-    "title": "Why Didn\u2019t the College Premium Rise Everywhere? Employment Protection and On-the-Job Investment in Skills",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.31
   },
   {
     "doi": "10.1257/mic.20200285",
@@ -429,7 +429,7 @@
     "doi": "10.1257/mic.20220016",
     "title": "Technology Transfer in Global Value Chains",
     "reason": "low_similarity",
-    "best_score": 0.43
+    "best_score": 0.35
   },
   {
     "doi": "10.1257/mic.20220056",
@@ -543,7 +543,8 @@
   {
     "doi": "10.1257/aer.20211478",
     "title": "Occupational Exposure to Capital-Embodied Technical Change",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.66
   },
   {
     "doi": "10.1257/aer.20220199",
@@ -559,7 +560,7 @@
     "doi": "10.1257/aer.20221247",
     "title": "Optimal Insurance: Dual Utility, Random Losses, and Adverse Selection",
     "reason": "low_similarity",
-    "best_score": 0.46
+    "best_score": 0.45
   },
   {
     "doi": "10.1257/aer.20221578",
@@ -625,7 +626,8 @@
   {
     "doi": "10.1257/mac.20210137",
     "title": "Product Variety, the Cost of Living, and Welfare across Countries",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.11
   },
   {
     "doi": "10.1257/mac.20210333",
@@ -675,7 +677,8 @@
   {
     "doi": "10.1257/mic.20200325",
     "title": "Relative Wealth Concerns, Executive Compensation, and Managerial Risk-Taking",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.25
   },
   {
     "doi": "10.1257/mic.20200352",
@@ -990,17 +993,6 @@
     "reason": "no_candidates"
   },
   {
-    "doi": "10.1257/app.20180721",
-    "title": "Time to Repay or Time to Delay? The Effect of Having More Time before a Payday Loan Is Due",
-    "reason": "low_similarity",
-    "best_score": 0.26
-  },
-  {
-    "doi": "10.1257/app.20200306",
-    "title": "Using Individual-Level Randomized Treatment to Learn about Market Structure",
-    "reason": "no_candidates"
-  },
-  {
     "doi": "10.1257/app.20200448",
     "title": "Employer Responses to Family Leave Programs",
     "reason": "no_candidates"
@@ -1084,7 +1076,8 @@
   {
     "doi": "10.1257/mic.20190296",
     "title": "Tractable Model of Dynamic Many-to-Many Matching",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.14
   },
   {
     "doi": "10.1257/mic.20190307",
@@ -1216,7 +1209,8 @@
   {
     "doi": "10.1257/mic.20200227",
     "title": "Transition Dynamics in Equilibrium Search",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.24
   },
   {
     "doi": "10.1257/mic.20200230",
@@ -1291,7 +1285,8 @@
   {
     "doi": "10.1257/aer.20190189",
     "title": "Entry-Proofness and Discriminatory Pricing under Adverse Selection",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.26
   },
   {
     "doi": "10.1257/aer.20190390",
@@ -1506,7 +1501,8 @@
   {
     "doi": "10.1257/aer.20151147",
     "title": "The Distributional Consequences of Public School Choice",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.44
   },
   {
     "doi": "10.1257/aer.20161491",
@@ -1624,7 +1620,8 @@
   {
     "doi": "10.1257/aeri.20190051",
     "title": "The Relation between Behavior under Risk and over Time",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.14
   },
   {
     "doi": "10.1257/aeri.20190165",
@@ -1656,7 +1653,8 @@
   {
     "doi": "10.1257/aeri.20200029",
     "title": "School Effects on Socioemotional Development, School-Based Arrests, and Educational Attainment",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.51
   },
   {
     "doi": "10.1257/aeri.20200178",
@@ -1664,19 +1662,16 @@
     "reason": "no_candidates"
   },
   {
-    "doi": "10.1257/app.20180474",
-    "title": "Energy Cost Pass-Through in US Manufacturing: Estimates and Implications for Carbon Taxes",
-    "reason": "no_candidates"
-  },
-  {
     "doi": "10.1257/app.20180732",
     "title": "The Black-White Gap in Noncognitive Skills among Elementary School Children",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.89
   },
   {
     "doi": "10.1257/mac.20160140",
     "title": "Optimal Capital Requirements over the Business and Financial Cycles",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.39
   },
   {
     "doi": "10.1257/mac.20170203",
@@ -1686,7 +1681,8 @@
   {
     "doi": "10.1257/mac.20180030",
     "title": "Non-Neutrality of Open-Market Operations",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.47
   },
   {
     "doi": "10.1257/mac.20180449",
@@ -1696,7 +1692,8 @@
   {
     "doi": "10.1257/mac.20180484",
     "title": "Quantitative Easing, Collateral Constraints, and Financial Spillovers",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.86
   },
   {
     "doi": "10.1257/mac.20190008",
@@ -1778,7 +1775,8 @@
   {
     "doi": "10.1257/mic.20180285",
     "title": "Promotion Signaling and Human Capital Investments",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.69
   },
   {
     "doi": "10.1257/mic.20180299",
@@ -1804,7 +1802,7 @@
     "doi": "10.1257/aer.109.6.1991",
     "title": "Climate Change: The Ultimate Challenge for Economics",
     "reason": "low_similarity",
-    "best_score": 0.5
+    "best_score": 0.41
   },
   {
     "doi": "10.1257/aer.109.6.2015",
@@ -2049,7 +2047,8 @@
   {
     "doi": "10.1257/pol.20170484",
     "title": "Peer Preferences, School Competition, and the Effects of Public School Choice",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.35
   },
   {
     "doi": "10.1184/r1/6704792",
@@ -2286,7 +2285,8 @@
   {
     "doi": "10.1257/mic.20160282",
     "title": "Dynamic Certification and Reputation for Quality",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.28
   },
   {
     "doi": "10.1257/mic.20160290",
@@ -2451,7 +2451,8 @@
   {
     "doi": "10.1257/mac.20150073",
     "title": "Safe Assets, Liquidity, and Monetary Policy",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.74
   },
   {
     "doi": "10.1257/mic.20140182",
@@ -2626,7 +2627,8 @@
   {
     "doi": "10.1257/pol.20140254",
     "title": "Heterogeneity, Demand for Insurance, and Adverse Selection",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.56
   },
   {
     "doi": "10.1257/pol.20140396",
@@ -2703,11 +2705,6 @@
   {
     "doi": "10.1257/aer.20140772",
     "title": "Managerial Attention and Worker Performance",
-    "reason": "no_candidates"
-  },
-  {
-    "doi": "10.1257/aer.20140883",
-    "title": "Tracing Value-Added and Double Counting in Gross Exports: Comment",
     "reason": "no_candidates"
   },
   {
@@ -2810,7 +2807,8 @@
   {
     "doi": "10.1257/mic.20140103",
     "title": "A Theory of Rational Demand for Index Insurance",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.73
   },
   {
     "doi": "10.1257/mic.20140110",
@@ -2950,7 +2948,8 @@
   {
     "doi": "10.1257/aer.20101552",
     "title": "Efficient Matching under Distributional Constraints: Theory and Applications",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.76
   },
   {
     "doi": "10.1257/aer.20110865",
@@ -3065,7 +3064,8 @@
   {
     "doi": "10.1257/aer.20140117",
     "title": "Revealed Preference, Rational Inattention, and Costly Information Acquisition",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.56
   },
   {
     "doi": "10.1257/aer.20140134",
@@ -3110,7 +3110,8 @@
   {
     "doi": "10.1257/mic.20120027",
     "title": "Expanding \u201cChoice\u201d in School Choice",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.66
   },
   {
     "doi": "10.1257/mic.20120109",
@@ -3494,7 +3495,8 @@
   {
     "doi": "10.1257/mic.6.3.203",
     "title": "An Economic Theory of the Evolutionary Emergence of Property Rights",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.24
   },
   {
     "doi": "10.1257/mic.6.3.227",
@@ -3740,7 +3742,8 @@
   {
     "doi": "10.1257/aer.103.7.3084",
     "title": "Social Preferences under Risk: Equality of Opportunity versus Equality of Outcome",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.51
   },
   {
     "doi": "10.1257/aer.103.7.i",
@@ -3812,7 +3815,7 @@
     "doi": "10.1257/mac.5.3.75",
     "title": "The Financial Crisis: Lessons for International Macroeconomics",
     "reason": "low_similarity",
-    "best_score": 0.21
+    "best_score": 0.44
   },
   {
     "doi": "10.1257/mac.5.3.i",
@@ -3837,7 +3840,8 @@
   {
     "doi": "10.1257/mic.5.1.63",
     "title": "On the Relationship between Preferential and Multilateral Trade Liberalization: The Case of Customs Unions",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.59
   },
   {
     "doi": "10.1257/mic.5.1.i",
@@ -3888,7 +3892,8 @@
   {
     "doi": "10.1257/mic.5.3.22",
     "title": "Platform Competition under Asymmetric Information",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.71
   },
   {
     "doi": "10.1257/mic.5.3.69",
@@ -3963,7 +3968,8 @@
   {
     "doi": "10.1257/aer.102.1.1",
     "title": "Optimal Interventions in Markets with Adverse Selection",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.42
   },
   {
     "doi": "10.1257/aer.102.1.29",
@@ -4094,8 +4100,7 @@
   {
     "doi": "10.1257/aer.102.6.3033",
     "title": "Economic Growth with Bubbles",
-    "reason": "low_similarity",
-    "best_score": 0.46
+    "reason": "no_candidates"
   },
   {
     "doi": "10.1257/aer.102.7.3140",
@@ -4323,7 +4328,8 @@
   {
     "doi": "10.1257/aer.101.1.1",
     "title": "100 Years of the <i>American Economic Review</i>: The Top 20 Articles",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.42
   },
   {
     "doi": "10.1257/aer.101.1.129",
@@ -4483,7 +4489,8 @@
   {
     "doi": "10.1257/aer.101.6.2796",
     "title": "Currency Misalignments and Optimal Monetary Policy: A Reexamination",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.66
   },
   {
     "doi": "10.1257/aer.101.6.i",
@@ -4710,7 +4717,8 @@
   {
     "doi": "10.1257/pol.3.1.54",
     "title": "Transfer Program Complexity and the Take-Up of Social Benefits",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.59
   },
   {
     "doi": "10.1257/pol.3.1.i",
@@ -4948,7 +4956,8 @@
   {
     "doi": "10.1257/mac.2.4.281",
     "title": "Risk-Sensitive Consumption and Savings under Rational Inattention",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.64
   },
   {
     "doi": "10.1257/mac.2.4.i",
@@ -5313,7 +5322,7 @@
     "doi": "10.1257/mac.1.1.146",
     "title": "Culture: An Empirical Investigation of Beliefs, Work, and Fertility",
     "reason": "low_similarity",
-    "best_score": 0.26
+    "best_score": 0.44
   },
   {
     "doi": "10.1257/mac.1.1.i",
@@ -5877,7 +5886,8 @@
   {
     "doi": "10.1257/aer.97.4.1488",
     "title": "Individual Consumption Risk and the Welfare Cost of Business Cycles",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.64
   },
   {
     "doi": "10.1257/aer.97.5.1611",
@@ -6000,16 +6010,6 @@
   {
     "doi": "10.1257/000282806779468418",
     "title": "Credibility of Optimal Monetary Delegation: Comment",
-    "reason": "no_candidates"
-  },
-  {
-    "doi": "10.1257/000282806779468463",
-    "title": "Stock Prices, News, and Economic Fluctuations",
-    "reason": "no_candidates"
-  },
-  {
-    "doi": "10.1257/000282806779468472",
-    "title": "What Is Discrimination? Gender in the American Economic Association, 1935\u20132004",
     "reason": "no_candidates"
   },
   {
@@ -6198,7 +6198,8 @@
   {
     "doi": "10.1257/0002828054201288",
     "title": "Heterogeneous Patience and the Term Structure of Real Interest Rates",
-    "reason": "no_candidates"
+    "reason": "low_similarity",
+    "best_score": 0.55
   },
   {
     "doi": "10.1257/0002828054201341",

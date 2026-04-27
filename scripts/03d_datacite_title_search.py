@@ -42,7 +42,7 @@ LOGGER = logging.getLogger(__name__)
 
 RATE_LIMIT_SLEEP = 0.3
 REQUEST_TIMEOUT = 30
-SIMILARITY_THRESHOLD = 0.72
+SIMILARITY_THRESHOLD = 0.80
 
 ICPSR_RE = re.compile(r"10\.3886/[eE](\d+)")
 STOPWORDS = {
@@ -53,9 +53,14 @@ STOPWORDS = {
 }
 REPO_PREFIX_RE = re.compile(
     r"^(data and code for|code and data for|code for|data for|"
-    r"replication (code|data|files|package) for|"
-    r"data and code|code and data|"
-    r"programs? and data for|programs? for|software for)\s*[:\-]?\s*",
+    r"replication (code|data|files|package|materials|archive) for|"
+    r"replication for|data and code|code and data|"
+    r"(replication )?programs? (and data |source )?(code )?for|"
+    r"(replication )?source code for|"
+    r"(replication )?materials for|"
+    r"software for|"
+    r"datasets? and code for|datasets? for|"
+    r"data archive for)\s*[:\-]?\s*",
     re.IGNORECASE,
 )
 QUOTES_RE = re.compile(r'[“”"\'‘’‘’]')
@@ -96,10 +101,14 @@ def normalize_title(t: str) -> str:
 
 
 def extract_keywords(title: str, max_n: int = 5) -> list[str]:
+    """Distinctive title words from the start of the title."""
+    return _all_keywords(title)[:max_n]
+
+
+def _all_keywords(title: str) -> list[str]:
     main = _main_title(title)
     words = re.findall(r"[a-zA-Z]+", main)
-    distinctive = [w for w in words if len(w) > 3 and w.lower() not in STOPWORDS]
-    return distinctive[:max_n]
+    return [w for w in words if len(w) > 3 and w.lower() not in STOPWORDS]
 
 
 def similarity(a: str, b: str) -> float:
@@ -151,17 +160,39 @@ def search_datacite_by_title(
         if hits:
             return hits
 
-    # Strategy 3: AND of fewer, more distinctive keywords
+    # Strategy 3: AND of first 3 distinctive keywords
     if len(kws) >= 3:
-        kw_query = " AND ".join(kws[:3])
-        q3 = f"prefix:10.3886 AND titles.title:({kw_query})"
+        q3 = f"prefix:10.3886 AND titles.title:({' AND '.join(kws[:3])})"
         data = _safe_get(
             session, f"{DATACITE_BASE_URL}/dois",
             {"query": q3, "page[size]": 15},
         )
-        return (data or {}).get("data", [])
+        hits = (data or {}).get("data", [])
+        if hits:
+            return hits
+
+    # Strategy 4: AND of LAST 3 distinctive keywords (topic words at end of title)
+    all_kws = _all_keywords(title)
+    if len(all_kws) >= 3:
+        last3 = all_kws[-3:]
+        if last3 != kws[:3]:  # only if different from strategy 3
+            q4 = f"prefix:10.3886 AND titles.title:({' AND '.join(last3)})"
+            data = _safe_get(
+                session, f"{DATACITE_BASE_URL}/dois",
+                {"query": q4, "page[size]": 15},
+            )
+            hits = (data or {}).get("data", [])
+            if hits:
+                return hits
 
     return []
+
+
+def _longest_distinctive_word(title: str) -> str | None:
+    kws = _all_keywords(title)
+    if not kws:
+        return None
+    return max(kws, key=len).lower()
 
 
 def pick_best_match(
@@ -169,7 +200,14 @@ def pick_best_match(
     candidates: list[dict[str, Any]],
     threshold: float = SIMILARITY_THRESHOLD,
 ) -> tuple[str, str, float] | None:
-    """Return (repo_doi, icpsr_project_id, score) for the best-matching candidate."""
+    """Return (repo_doi, icpsr_project_id, score) for the best-matching candidate.
+
+    Requires (a) SequenceMatcher similarity >= threshold AND (b) the longest
+    distinctive word of the paper title appears in the repo title — guards
+    against false positives where shared common words (e.g. "Information",
+    "Collective Action") inflate the similarity score.
+    """
+    anchor = _longest_distinctive_word(paper_title)
     best: tuple[str, str, float] | None = None
     for c in candidates:
         attrs = c.get("attributes") or {}
@@ -182,6 +220,8 @@ def pick_best_match(
         for t in attrs.get("titles") or []:
             t_text = t.get("title") or ""
             if not t_text:
+                continue
+            if anchor and anchor not in t_text.lower():
                 continue
             score = similarity(paper_title, t_text)
             if score >= threshold and (best is None or score > best[2]):
