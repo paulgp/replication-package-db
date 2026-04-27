@@ -2906,7 +2906,7 @@
     "icpsr_id": "112310",
     "repo_doi": "10.3886/e112310v1-88960",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/0002828053828626": {
     "icpsr_id": "116043",
@@ -2925,7 +2925,7 @@
     "icpsr_id": "112310",
     "repo_doi": "10.3886/e112310v1-88960",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/0002828053828653": {
     "icpsr_id": "116044",
@@ -3224,12 +3224,14 @@
   },
   "10.1257/000282806779468409": {
     "icpsr_id": "116232",
+    "reason": "confidential",
     "repo_doi": "10.3886/e116232",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/000282806779468427": {
     "icpsr_id": "116237",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e116237",
     "repo_host": "openicpsr",
     "status": "partial_data"
@@ -3266,13 +3268,13 @@
     "reason": "The replication package includes CPS data extract and Stata code, but the core experimental data comes from MDRC public-use files that researchers must separately request and obtain from MDRC, making this a partial data availability scenario.",
     "repo_doi": "10.3886/e116239v1",
     "repo_host": "openicpsr",
-    "status": "partial_data"
+    "status": "full_data"
   },
   "10.1257/000282806779468544": {
     "icpsr_id": "231424",
     "repo_doi": "10.3886/e231424",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/000282806779468562": {
     "icpsr_id": "116228",
@@ -3316,14 +3318,14 @@
     "icpsr_id": "116258",
     "repo_doi": "10.3886/e116258v1-84160",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/000282807780323442": {
     "icpsr_id": "116256",
     "reason": "The replication package includes US County Business Patterns data (publicly available) and population data, but the main French ESE data requires restricted access and permission from INSEE with potential fees, making full replication impossible without obtaining this proprietary dataset.",
     "repo_doi": "10.3886/e116256v1",
     "repo_host": "openicpsr",
-    "status": "partial_data"
+    "status": "full_data"
   },
   "10.1257/000282807780323479": {
     "icpsr_id": "116259",
@@ -3355,7 +3357,7 @@
     "icpsr_id": "116265",
     "repo_doi": "10.3886/e116265",
     "repo_host": "openicpsr",
-    "status": "partial_data"
+    "status": "full_data"
   },
   "10.1257/000282807780323604": {
     "icpsr_id": "116261",
@@ -3367,13 +3369,13 @@
     "icpsr_id": "116257",
     "repo_doi": "10.3886/e116257v1-128382",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/000282807780323640": {
     "icpsr_id": "116266",
     "repo_doi": "10.3886/e116266",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.100.1.130": {
     "icpsr_id": "112322",
@@ -3565,7 +3567,7 @@
     "reason": "The replication package includes some data files (distance/location data) but requires restricted access to three additional data files containing station-specific gasoline prices from OPIS, which are only available upon request from the corresponding author for replication purposes.",
     "repo_doi": "10.3886/e112353v1",
     "repo_host": "openicpsr",
-    "status": "partial_data"
+    "status": "full_data"
   },
   "10.1257/aer.100.3.1277": {
     "icpsr_id": "112353",
@@ -6367,7 +6369,7 @@
     "icpsr_id": "117206",
     "repo_doi": "10.3886/e117206v1-94220",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.113.6.1395": {
     "icpsr_id": "185843",
@@ -6929,7 +6931,7 @@
     "icpsr_id": "112682",
     "repo_doi": "10.3886/e112682v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20130570": {
     "icpsr_id": "112920",
@@ -7553,9 +7555,10 @@
   },
   "10.1257/aer.20140883": {
     "icpsr_id": "112734",
+    "reason": "licensed data",
     "repo_doi": "10.3886/e112734v1-100120",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20140890": {
     "icpsr_id": "112996",
@@ -7580,7 +7583,7 @@
     "icpsr_id": "112594",
     "repo_doi": "10.3886/e112594",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20141070": {
     "icpsr_id": "112998",
@@ -8364,7 +8367,7 @@
     "icpsr_id": "112411",
     "repo_doi": "10.3886/e112411",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20151398": {
     "icpsr_id": "113100",
@@ -8829,7 +8832,7 @@
     "icpsr_id": "113167",
     "repo_doi": "10.3886/e113167v1-88060",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20161151": {
     "icpsr_id": "113151",
@@ -8861,9 +8864,10 @@
   },
   "10.1257/aer.20161290": {
     "icpsr_id": "120529",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e120529v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20161329": {
     "icpsr_id": "113153",
@@ -8915,9 +8919,10 @@
   },
   "10.1257/aer.20161441": {
     "icpsr_id": "148242",
+    "reason": "confidential",
     "repo_doi": "10.3886/e148242v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20161457": {
     "icpsr_id": "231384",
@@ -9185,9 +9190,10 @@
   },
   "10.1257/aer.20170370": {
     "icpsr_id": "118183",
+    "reason": "confidential",
     "repo_doi": "10.3886/e118183v1-43828",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/aer.20170404": {
     "icpsr_id": "113180",
@@ -9216,9 +9222,10 @@
   },
   "10.1257/aer.20170471": {
     "icpsr_id": "132641",
+    "reason": "confidential",
     "repo_doi": "10.3886/e132641v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/aer.20170491": {
     "icpsr_id": "113183",
@@ -9277,7 +9284,7 @@
     "icpsr_id": "115321",
     "repo_doi": "10.3886/e115321v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20170725": {
     "icpsr_id": "185081",
@@ -9345,7 +9352,7 @@
     "icpsr_id": "116925",
     "repo_doi": "10.3886/e116925",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20170973": {
     "icpsr_id": "116194",
@@ -9515,7 +9522,7 @@
     "icpsr_id": "114987",
     "repo_doi": "10.3886/e114987v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20171611": {
     "icpsr_id": "120446",
@@ -9730,7 +9737,7 @@
     "icpsr_id": "117665",
     "repo_doi": "10.3886/e117665",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20180260": {
     "icpsr_id": "154841",
@@ -9883,15 +9890,17 @@
   },
   "10.1257/aer.20180649": {
     "icpsr_id": "115903",
+    "reason": "confidential",
     "repo_doi": "10.3886/e115903",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20180652": {
     "icpsr_id": "118607",
+    "reason": "confidential",
     "repo_doi": "10.3886/e118607v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20180654": {
     "icpsr_id": "231413",
@@ -9958,19 +9967,19 @@
     "icpsr_id": "117047",
     "repo_doi": "10.3886/e117047v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20180831": {
     "icpsr_id": "118567",
     "repo_doi": "10.3886/e118567v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20180841": {
     "icpsr_id": "115794",
     "repo_doi": "10.3886/e115794v2",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20180865": {
     "icpsr_id": "118762",
@@ -9982,7 +9991,7 @@
     "icpsr_id": "118805",
     "repo_doi": "10.3886/e118805v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20180946": {
     "icpsr_id": "231417",
@@ -9995,7 +10004,7 @@
     "icpsr_id": "119404",
     "repo_doi": "10.3886/e119404v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20180976": {
     "icpsr_id": "231418",
@@ -10074,9 +10083,10 @@
   },
   "10.1257/aer.20181243": {
     "icpsr_id": "118401",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e118401v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/aer.20181249": {
     "icpsr_id": "166506",
@@ -10192,7 +10202,7 @@
     "icpsr_id": "113202",
     "repo_doi": "10.3886/e113202v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20181707": {
     "icpsr_id": "142421",
@@ -10212,7 +10222,7 @@
     "icpsr_id": "118802",
     "repo_doi": "10.3886/e118802v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20181735": {
     "icpsr_id": "120690",
@@ -10294,7 +10304,7 @@
     "icpsr_id": "112141",
     "repo_doi": "10.3886/e112141",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20190098": {
     "icpsr_id": "130544",
@@ -10383,7 +10393,7 @@
     "icpsr_id": "231416",
     "repo_doi": "10.3886/e231416",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20190460": {
     "icpsr_id": "119387",
@@ -10417,7 +10427,7 @@
     "icpsr_id": "173341",
     "repo_doi": "10.3886/e173341v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20190586": {
     "icpsr_id": "127401",
@@ -10721,7 +10731,7 @@
     "icpsr_id": "119163",
     "repo_doi": "10.3886/e119163v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20191385": {
     "icpsr_id": "165922",
@@ -10857,7 +10867,7 @@
     "icpsr_id": "112141",
     "repo_doi": "10.3886/e112141",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20191823": {
     "icpsr_id": "154781",
@@ -10952,7 +10962,7 @@
     "icpsr_id": "159781",
     "repo_doi": "10.3886/e159781v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20200153": {
     "icpsr_id": "130802",
@@ -11120,9 +11130,10 @@
   },
   "10.1257/aer.20200738": {
     "icpsr_id": "153181",
+    "reason": "not publicly available",
     "repo_doi": "10.3886/e153181v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20200751": {
     "icpsr_id": "151841",
@@ -11436,7 +11447,7 @@
     "icpsr_id": "166161",
     "repo_doi": "10.3886/e166161v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20201753": {
     "icpsr_id": "144721",
@@ -11604,9 +11615,10 @@
   },
   "10.1257/aer.20210140": {
     "icpsr_id": "174541",
+    "reason": "purchased from",
     "repo_doi": "10.3886/e174541",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20210147": {
     "icpsr_id": "177001",
@@ -11718,9 +11730,10 @@
   },
   "10.1257/aer.20210419": {
     "icpsr_id": "193218",
+    "reason": "confidential",
     "repo_doi": "10.3886/e193218v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20210434": {
     "icpsr_id": "182903",
@@ -11866,7 +11879,7 @@
     "icpsr_id": "182995",
     "repo_doi": "10.3886/e182995v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20210972": {
     "icpsr_id": "171821",
@@ -11893,7 +11906,7 @@
     "icpsr_id": "188201",
     "repo_doi": "10.3886/e188201v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20211024": {
     "icpsr_id": "228327",
@@ -11932,9 +11945,10 @@
   },
   "10.1257/aer.20211207": {
     "icpsr_id": "182787",
+    "reason": "not publicly available",
     "repo_doi": "10.3886/e182787v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20211217": {
     "icpsr_id": "237164",
@@ -12089,9 +12103,10 @@
   },
   "10.1257/aer.20211715": {
     "icpsr_id": "225841",
+    "reason": "confidential",
     "repo_doi": "10.3886/e225841v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20211729": {
     "icpsr_id": "179821",
@@ -12215,7 +12230,7 @@
     "icpsr_id": "193344",
     "repo_doi": "10.3886/e193344",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20220276": {
     "icpsr_id": "200001",
@@ -12424,9 +12439,10 @@
   },
   "10.1257/aer.20220822": {
     "icpsr_id": "198562",
+    "reason": "confidential",
     "repo_doi": "10.3886/e198562",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/aer.20220831": {
     "icpsr_id": "237625",
@@ -12798,7 +12814,7 @@
     "icpsr_id": "216501",
     "repo_doi": "10.3886/e216501v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aer.20230328": {
     "icpsr_id": "209323",
@@ -12844,9 +12860,10 @@
   },
   "10.1257/aer.20230463": {
     "icpsr_id": "226085",
+    "reason": "confidential",
     "repo_doi": "10.3886/e226085v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/aer.20230486": {
     "icpsr_id": "209147",
@@ -12878,9 +12895,10 @@
   },
   "10.1257/aer.20230505": {
     "icpsr_id": "208371",
+    "reason": "confidential",
     "repo_doi": "10.3886/e208371v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aer.20230515": {
     "icpsr_id": "205281",
@@ -13141,9 +13159,10 @@
   },
   "10.1257/aer.20231656": {
     "icpsr_id": "231681",
+    "reason": "confidential",
     "repo_doi": "10.3886/e231681v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/aer.20231679": {
     "icpsr_id": "217601",
@@ -14574,21 +14593,23 @@
   },
   "10.1257/aeri.20190114": {
     "icpsr_id": "111223",
+    "reason": "cannot be posted",
     "repo_doi": "10.3886/e111223v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aeri.20190155": {
     "icpsr_id": "111685",
     "repo_doi": "10.3886/e111685v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aeri.20190224": {
     "icpsr_id": "214741",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e214741v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/aeri.20190244": {
     "icpsr_id": "112069",
@@ -14600,7 +14621,7 @@
     "icpsr_id": "115761",
     "repo_doi": "10.3886/e115761v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aeri.20190304": {
     "icpsr_id": "117021",
@@ -14612,7 +14633,7 @@
     "icpsr_id": "117361",
     "repo_doi": "10.3886/e117361v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aeri.20190337": {
     "icpsr_id": "116941",
@@ -14631,7 +14652,7 @@
     "icpsr_id": "117402",
     "repo_doi": "10.3886/e117402v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aeri.20190382": {
     "icpsr_id": "117506",
@@ -14650,7 +14671,7 @@
     "icpsr_id": "117424",
     "repo_doi": "10.3886/e117424v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aeri.20190499": {
     "icpsr_id": "119043",
@@ -14660,9 +14681,10 @@
   },
   "10.1257/aeri.20190510": {
     "icpsr_id": "118585",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e118585v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aeri.20190533": {
     "icpsr_id": "118945",
@@ -14708,7 +14730,7 @@
     "icpsr_id": "112346",
     "repo_doi": "10.3886/e112346",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/aeri.20200201": {
     "icpsr_id": "120689",
@@ -15181,9 +15203,10 @@
   },
   "10.1257/aeri.20220685": {
     "icpsr_id": "193765",
+    "reason": "confidential",
     "repo_doi": "10.3886/e193765v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/aeri.20220696": {
     "icpsr_id": "192366",
@@ -17319,9 +17342,10 @@
   },
   "10.1257/app.20170656": {
     "icpsr_id": "128442",
+    "reason": "cannot be redistributed",
     "repo_doi": "10.3886/e128442v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20170670": {
     "icpsr_id": "113735",
@@ -17396,7 +17420,7 @@
     "icpsr_id": "120245",
     "repo_doi": "10.3886/e120245v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20180078": {
     "icpsr_id": "116808",
@@ -17571,9 +17595,10 @@
   },
   "10.1257/app.20180474": {
     "icpsr_id": "110643",
+    "reason": "confidential",
     "repo_doi": "10.3886/e110643",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20180487": {
     "icpsr_id": "183316",
@@ -17625,9 +17650,10 @@
   },
   "10.1257/app.20180686": {
     "icpsr_id": "128301",
+    "reason": "restricted access",
     "repo_doi": "10.3886/e128301v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20180698": {
     "icpsr_id": "231483",
@@ -17637,9 +17663,10 @@
   },
   "10.1257/app.20180752": {
     "icpsr_id": "115642",
+    "reason": "confidential",
     "repo_doi": "10.3886/e115642v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20180795": {
     "icpsr_id": "119371",
@@ -17691,15 +17718,17 @@
   },
   "10.1257/app.20190038": {
     "icpsr_id": "132601",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e132601v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20190067": {
     "icpsr_id": "112186",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e112186v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20190070": {
     "icpsr_id": "231484",
@@ -17778,9 +17807,10 @@
   },
   "10.1257/app.20190292": {
     "icpsr_id": "115008",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e115008v1-70000",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20190297": {
     "icpsr_id": "147961",
@@ -17797,9 +17827,10 @@
   },
   "10.1257/app.20190372": {
     "icpsr_id": "120483",
+    "reason": "not publicly available",
     "repo_doi": "10.3886/e120483v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20190396": {
     "icpsr_id": "116761",
@@ -17812,7 +17843,7 @@
     "icpsr_id": "111901",
     "repo_doi": "10.3886/e111901v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20190416": {
     "icpsr_id": "119685",
@@ -17918,9 +17949,10 @@
   },
   "10.1257/app.20190721": {
     "icpsr_id": "120607",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e120607v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20190722": {
     "icpsr_id": "126722",
@@ -18019,15 +18051,17 @@
   },
   "10.1257/app.20200210": {
     "icpsr_id": "123381",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e123381v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20200220": {
     "icpsr_id": "120470",
+    "reason": "confidential",
     "repo_doi": "10.3886/e120470v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20200296": {
     "icpsr_id": "130285",
@@ -18044,9 +18078,10 @@
   },
   "10.1257/app.20200362": {
     "icpsr_id": "150261",
+    "reason": "restricted-use",
     "repo_doi": "10.3886/e150261v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20200367": {
     "icpsr_id": "130686",
@@ -18057,9 +18092,10 @@
   },
   "10.1257/app.20200397": {
     "icpsr_id": "138946",
+    "reason": "restricted access",
     "repo_doi": "10.3886/e138946v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20200398": {
     "icpsr_id": "144281",
@@ -18156,15 +18192,17 @@
   },
   "10.1257/app.20200639": {
     "icpsr_id": "178421",
+    "reason": "confidential",
     "repo_doi": "10.3886/e178421v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20200659": {
     "icpsr_id": "168101",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e168101v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20200662": {
     "icpsr_id": "144601",
@@ -18251,7 +18289,7 @@
     "icpsr_id": "151441",
     "repo_doi": "10.3886/e151441v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20200863": {
     "icpsr_id": "135621",
@@ -18262,9 +18300,10 @@
   },
   "10.1257/app.20200867": {
     "icpsr_id": "166601",
+    "reason": "restricted access",
     "repo_doi": "10.3886/e166601v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20210008": {
     "icpsr_id": "157941",
@@ -18316,9 +18355,10 @@
   },
   "10.1257/app.20210052": {
     "icpsr_id": "179241",
+    "reason": "confidential",
     "repo_doi": "10.3886/e179241",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20210068": {
     "icpsr_id": "113224",
@@ -18429,7 +18469,7 @@
     "icpsr_id": "159261",
     "repo_doi": "10.3886/e159261v1-146703",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20210252": {
     "icpsr_id": "168781",
@@ -18460,9 +18500,10 @@
   },
   "10.1257/app.20210292": {
     "icpsr_id": "150681",
+    "reason": "confidential",
     "repo_doi": "10.3886/e150681v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20210349": {
     "icpsr_id": "159582",
@@ -18499,15 +18540,17 @@
   },
   "10.1257/app.20210435": {
     "icpsr_id": "169861",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e169861v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20210446": {
     "icpsr_id": "167041",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e167041v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20210501": {
     "icpsr_id": "168941",
@@ -18520,7 +18563,7 @@
     "icpsr_id": "168901",
     "repo_doi": "10.3886/e168901v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20210550": {
     "icpsr_id": "208173",
@@ -18620,15 +18663,16 @@
   },
   "10.1257/app.20210732": {
     "icpsr_id": "175242",
+    "reason": "purchased from",
     "repo_doi": "10.3886/e175242v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20210736": {
     "icpsr_id": "176601",
     "repo_doi": "10.3886/e176601v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20210763": {
     "icpsr_id": "198086",
@@ -18694,15 +18738,16 @@
   },
   "10.1257/app.20220032": {
     "icpsr_id": "191781",
+    "reason": "confidential",
     "repo_doi": "10.3886/e191781",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20220037": {
     "icpsr_id": "183346",
     "repo_doi": "10.3886/e183346",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20220047": {
     "icpsr_id": "181101",
@@ -18773,9 +18818,10 @@
   },
   "10.1257/app.20220201": {
     "icpsr_id": "178141",
+    "reason": "confidential",
     "repo_doi": "10.3886/e178141v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20220258": {
     "icpsr_id": "174281",
@@ -18788,7 +18834,7 @@
     "icpsr_id": "182042",
     "repo_doi": "10.3886/e182042",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20220284": {
     "icpsr_id": "177203",
@@ -19090,9 +19136,10 @@
   },
   "10.1257/app.20230344": {
     "icpsr_id": "195864",
+    "reason": "confidential",
     "repo_doi": "10.3886/e195864",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/app.20230352": {
     "icpsr_id": "198763",
@@ -20271,7 +20318,7 @@
     "icpsr_id": "114039",
     "repo_doi": "10.3886/e114039",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.1.1.280": {
     "icpsr_id": "114039",
@@ -20504,13 +20551,13 @@
     "icpsr_id": "114185",
     "repo_doi": "10.3886/e114185v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.2.4.46": {
     "icpsr_id": "114185",
     "repo_doi": "10.3886/e114185v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.2.4.53": {
     "icpsr_id": "114188",
@@ -21317,9 +21364,10 @@
   },
   "10.1257/mac.20160253": {
     "icpsr_id": "120215",
+    "reason": "purchased from",
     "repo_doi": "10.3886/e120215v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20160255": {
     "icpsr_id": "114144",
@@ -21501,7 +21549,7 @@
     "icpsr_id": "174542",
     "repo_doi": "10.3886/e174542v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20170269": {
     "icpsr_id": "116416",
@@ -21678,7 +21726,7 @@
     "icpsr_id": "110902",
     "repo_doi": "10.3886/e110902v1-81380",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20180092": {
     "icpsr_id": "118064",
@@ -21701,9 +21749,10 @@
   },
   "10.1257/mac.20180122": {
     "icpsr_id": "122882",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e122882v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/mac.20180125": {
     "icpsr_id": "116881",
@@ -21816,7 +21865,7 @@
     "icpsr_id": "117504",
     "repo_doi": "10.3886/e117504v3",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20180328": {
     "icpsr_id": "115281",
@@ -21829,19 +21878,19 @@
     "icpsr_id": "128801",
     "repo_doi": "10.3886/e128801v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20180348": {
     "icpsr_id": "173701",
     "repo_doi": "10.3886/e173701v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20180363": {
     "icpsr_id": "111722",
     "repo_doi": "10.3886/e111722v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20180366": {
     "icpsr_id": "117946",
@@ -21921,13 +21970,13 @@
     "icpsr_id": "122884",
     "repo_doi": "10.3886/e122884v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20180473": {
     "icpsr_id": "135081",
     "repo_doi": "10.3886/e135081v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20180488": {
     "icpsr_id": "115982",
@@ -22058,7 +22107,7 @@
     "icpsr_id": "133182",
     "repo_doi": "10.3886/e133182v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20190230": {
     "icpsr_id": "120568",
@@ -22085,7 +22134,7 @@
     "icpsr_id": "120557",
     "repo_doi": "10.3886/e120557v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20190285": {
     "icpsr_id": "119556",
@@ -22111,13 +22160,13 @@
     "icpsr_id": "124281",
     "repo_doi": "10.3886/e124281v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20190332": {
     "icpsr_id": "120523",
     "repo_doi": "10.3886/e120523v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20190337": {
     "icpsr_id": "130082",
@@ -22211,7 +22260,7 @@
     "icpsr_id": "148421",
     "repo_doi": "10.3886/e148421v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200057": {
     "icpsr_id": "170261",
@@ -22224,13 +22273,13 @@
     "icpsr_id": "130329",
     "repo_doi": "10.3886/e130329v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200060": {
     "icpsr_id": "126661",
     "repo_doi": "10.3886/e126661v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200080": {
     "icpsr_id": "147021",
@@ -22277,7 +22326,7 @@
     "icpsr_id": "185403",
     "repo_doi": "10.3886/e185403",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200149": {
     "icpsr_id": "195703",
@@ -22304,7 +22353,7 @@
     "icpsr_id": "147524",
     "repo_doi": "10.3886/e147524v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200217": {
     "icpsr_id": "192603",
@@ -22335,9 +22384,10 @@
   },
   "10.1257/mac.20200256": {
     "icpsr_id": "146901",
+    "reason": "restricted access",
     "repo_doi": "10.3886/e146901v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20200269": {
     "icpsr_id": "168221",
@@ -22444,13 +22494,13 @@
     "icpsr_id": "158161",
     "repo_doi": "10.3886/e158161v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200442": {
     "icpsr_id": "192261",
     "repo_doi": "10.3886/e192261v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200445": {
     "icpsr_id": "155004",
@@ -22490,7 +22540,7 @@
     "icpsr_id": "187401",
     "repo_doi": "10.3886/e187401",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20200486": {
     "icpsr_id": "153241",
@@ -22503,7 +22553,7 @@
     "icpsr_id": "139621",
     "repo_doi": "10.3886/e139621v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20210005": {
     "icpsr_id": "216561",
@@ -22530,7 +22580,7 @@
     "icpsr_id": "169401",
     "repo_doi": "10.3886/e169401v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mac.20210038": {
     "icpsr_id": "163641",
@@ -22541,9 +22591,10 @@
   },
   "10.1257/mac.20210049": {
     "icpsr_id": "154121",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e154121v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20210052": {
     "icpsr_id": "164521",
@@ -22582,9 +22633,10 @@
   },
   "10.1257/mac.20210099": {
     "icpsr_id": "167862",
+    "reason": "not publicly available",
     "repo_doi": "10.3886/e167862v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20210133": {
     "icpsr_id": "193141",
@@ -22595,9 +22647,10 @@
   },
   "10.1257/mac.20210136": {
     "icpsr_id": "150921",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e150921v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20210138": {
     "icpsr_id": "212321",
@@ -22608,9 +22661,10 @@
   },
   "10.1257/mac.20210148": {
     "icpsr_id": "179601",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e179601v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/mac.20210163": {
     "icpsr_id": "173502",
@@ -22629,7 +22683,7 @@
     "icpsr_id": "181721",
     "repo_doi": "10.3886/e181721v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20210172": {
     "icpsr_id": "156941",
@@ -22770,9 +22824,10 @@
   },
   "10.1257/mac.20210455": {
     "icpsr_id": "192372",
+    "reason": "restricted access",
     "repo_doi": "10.3886/e192372v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20210460": {
     "icpsr_id": "184704",
@@ -22794,9 +22849,10 @@
   },
   "10.1257/mac.20220017": {
     "icpsr_id": "210061",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e210061v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20220035": {
     "icpsr_id": "195294",
@@ -22814,9 +22870,10 @@
   },
   "10.1257/mac.20220047": {
     "icpsr_id": "184701",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e184701",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mac.20220051": {
     "icpsr_id": "192505",
@@ -24231,7 +24288,7 @@
     "icpsr_id": "119621",
     "repo_doi": "10.3886/e119621v3",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20160304": {
     "icpsr_id": "114360",
@@ -24298,7 +24355,7 @@
     "icpsr_id": "116771",
     "repo_doi": "10.3886/e116771v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20170100": {
     "icpsr_id": "116435",
@@ -24462,7 +24519,7 @@
     "icpsr_id": "110942",
     "repo_doi": "10.3886/e110942v2",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20180141": {
     "icpsr_id": "117901",
@@ -24509,7 +24566,7 @@
     "icpsr_id": "134301",
     "repo_doi": "10.3886/e134301v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20180236": {
     "icpsr_id": "118343",
@@ -24521,7 +24578,7 @@
     "icpsr_id": "130441",
     "repo_doi": "10.3886/e130441v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20180269": {
     "icpsr_id": "118721",
@@ -24627,15 +24684,16 @@
   },
   "10.1257/mic.20190051": {
     "icpsr_id": "120070",
+    "reason": "confidential",
     "repo_doi": "10.3886/e120070v1-100007",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mic.20190053": {
     "icpsr_id": "120229",
     "repo_doi": "10.3886/e120229v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20190062": {
     "icpsr_id": "119984",
@@ -24679,7 +24737,7 @@
     "icpsr_id": "119324",
     "repo_doi": "10.3886/e119324v2",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20190163": {
     "icpsr_id": "169643",
@@ -24709,9 +24767,10 @@
   },
   "10.1257/mic.20190277": {
     "icpsr_id": "117370",
+    "reason": "cannot be shared",
     "repo_doi": "10.3886/e117370v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mic.20190302": {
     "icpsr_id": "117803",
@@ -24764,19 +24823,19 @@
     "icpsr_id": "120602",
     "repo_doi": "10.3886/e120602v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20190389": {
     "icpsr_id": "120083",
     "repo_doi": "10.3886/e120083v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200015": {
     "icpsr_id": "140601",
     "repo_doi": "10.3886/e140601v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200017": {
     "icpsr_id": "120839",
@@ -24788,7 +24847,7 @@
     "icpsr_id": "193347",
     "repo_doi": "10.3886/e193347",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200038": {
     "icpsr_id": "195751",
@@ -24800,19 +24859,19 @@
     "icpsr_id": "118729",
     "repo_doi": "10.3886/e118729v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200074": {
     "icpsr_id": "124682",
     "repo_doi": "10.3886/e124682v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200128": {
     "icpsr_id": "119570",
     "repo_doi": "10.3886/e119570v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200147": {
     "icpsr_id": "129701",
@@ -24852,7 +24911,7 @@
     "icpsr_id": "127781",
     "repo_doi": "10.3886/e127781v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200290": {
     "icpsr_id": "146241",
@@ -24865,7 +24924,7 @@
     "icpsr_id": "183702",
     "repo_doi": "10.3886/e183702v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20200307": {
     "icpsr_id": "138281",
@@ -24889,9 +24948,10 @@
   },
   "10.1257/mic.20200337": {
     "icpsr_id": "165326",
+    "reason": "confidential",
     "repo_doi": "10.3886/e165326v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mic.20200347": {
     "icpsr_id": "181301",
@@ -24903,7 +24963,7 @@
     "icpsr_id": "192088",
     "repo_doi": "10.3886/e192088v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mic.20200453": {
     "icpsr_id": "186482",
@@ -24916,7 +24976,7 @@
     "icpsr_id": "176881",
     "repo_doi": "10.3886/e176881v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mic.20210015": {
     "icpsr_id": "196761",
@@ -24936,13 +24996,14 @@
     "icpsr_id": "172904",
     "repo_doi": "10.3886/e172904v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20210053": {
     "icpsr_id": "160781",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e160781v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mic.20210066": {
     "icpsr_id": "194501",
@@ -24955,7 +25016,7 @@
     "icpsr_id": "180561",
     "repo_doi": "10.3886/e180561v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20210082": {
     "icpsr_id": "176941",
@@ -25000,15 +25061,16 @@
   },
   "10.1257/mic.20210182": {
     "icpsr_id": "156023",
+    "reason": "confidential",
     "repo_doi": "10.3886/e156023v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/mic.20210229": {
     "icpsr_id": "158301",
     "repo_doi": "10.3886/e158301v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20210237": {
     "icpsr_id": "195045",
@@ -25045,9 +25107,10 @@
   },
   "10.1257/mic.20210320": {
     "icpsr_id": "188165",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e188165",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/mic.20210336": {
     "icpsr_id": "193102",
@@ -25163,7 +25226,7 @@
     "icpsr_id": "134063",
     "repo_doi": "10.3886/e134063v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20220094": {
     "icpsr_id": "192705",
@@ -25176,7 +25239,7 @@
     "icpsr_id": "192103",
     "repo_doi": "10.3886/e192103",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20220118": {
     "icpsr_id": "198281",
@@ -25237,7 +25300,7 @@
     "icpsr_id": "183801",
     "repo_doi": "10.3886/e183801",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/mic.20220248": {
     "icpsr_id": "199922",
@@ -25325,9 +25388,10 @@
   },
   "10.1257/mic.20230200": {
     "icpsr_id": "210641",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e210641v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/mic.20230331": {
     "icpsr_id": "202069",
@@ -27262,9 +27326,10 @@
   },
   "10.1257/pol.20170094": {
     "icpsr_id": "129186",
+    "reason": "confidential",
     "repo_doi": "10.3886/e129186v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20170097": {
     "icpsr_id": "110861",
@@ -27536,7 +27601,7 @@
     "icpsr_id": "115107",
     "repo_doi": "10.3886/e115107v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20170678": {
     "icpsr_id": "116528",
@@ -27555,7 +27620,7 @@
     "icpsr_id": "110642",
     "repo_doi": "10.3886/e110642v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20170708": {
     "icpsr_id": "120522",
@@ -27600,9 +27665,10 @@
   },
   "10.1257/pol.20180061": {
     "icpsr_id": "111481",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e111481v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20180070": {
     "icpsr_id": "116529",
@@ -27612,9 +27678,10 @@
   },
   "10.1257/pol.20180072": {
     "icpsr_id": "123461",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e123461v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20180076": {
     "icpsr_id": "231593",
@@ -27646,9 +27713,10 @@
   },
   "10.1257/pol.20180167": {
     "icpsr_id": "116530",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e116530",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20180168": {
     "icpsr_id": "111542",
@@ -27659,15 +27727,16 @@
   },
   "10.1257/pol.20180198": {
     "icpsr_id": "115405",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e115405v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20180203": {
     "icpsr_id": "112082",
     "repo_doi": "10.3886/e112082v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20180218": {
     "icpsr_id": "120073",
@@ -27680,7 +27749,7 @@
     "icpsr_id": "115322",
     "repo_doi": "10.3886/e115322v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20180230": {
     "icpsr_id": "231595",
@@ -27719,15 +27788,16 @@
   },
   "10.1257/pol.20180323": {
     "icpsr_id": "165921",
+    "reason": "purchased from",
     "repo_doi": "10.3886/e165921v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20180327": {
     "icpsr_id": "114888",
     "repo_doi": "10.3886/e114888v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20180352": {
     "icpsr_id": "231597",
@@ -27758,9 +27828,10 @@
   },
   "10.1257/pol.20180410": {
     "icpsr_id": "112222",
+    "reason": "confidential",
     "repo_doi": "10.3886/e112222v1-43222",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20180420": {
     "icpsr_id": "116762",
@@ -27818,9 +27889,10 @@
   },
   "10.1257/pol.20180559": {
     "icpsr_id": "115581",
+    "reason": "confidential",
     "repo_doi": "10.3886/e115581v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20180564": {
     "icpsr_id": "120688",
@@ -27992,7 +28064,7 @@
     "icpsr_id": "142061",
     "repo_doi": "10.3886/e142061v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20190245": {
     "icpsr_id": "115010",
@@ -28005,7 +28077,7 @@
     "icpsr_id": "118906",
     "repo_doi": "10.3886/e118906v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20190258": {
     "icpsr_id": "119513",
@@ -28031,7 +28103,7 @@
     "icpsr_id": "128261",
     "repo_doi": "10.3886/e128261v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20190287": {
     "icpsr_id": "148522",
@@ -28090,15 +28162,16 @@
   },
   "10.1257/pol.20190457": {
     "icpsr_id": "134341",
+    "reason": "confidential",
     "repo_doi": "10.3886/e134341v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20190480": {
     "icpsr_id": "127661",
     "repo_doi": "10.3886/e127661v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20190492": {
     "icpsr_id": "126403",
@@ -28253,13 +28326,14 @@
     "icpsr_id": "128143",
     "repo_doi": "10.3886/e128143v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20200100": {
     "icpsr_id": "120431",
+    "reason": "not publicly available",
     "repo_doi": "10.3886/e120431v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20200120": {
     "icpsr_id": "120531",
@@ -28293,13 +28367,14 @@
     "icpsr_id": "147421",
     "repo_doi": "10.3886/e147421v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20200200": {
     "icpsr_id": "146321",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e146321v1-136102",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20200203": {
     "icpsr_id": "148301",
@@ -28400,9 +28475,10 @@
   },
   "10.1257/pol.20200322": {
     "icpsr_id": "120306",
+    "reason": "confidential",
     "repo_doi": "10.3886/e120306v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20200343": {
     "icpsr_id": "146541",
@@ -28420,9 +28496,10 @@
   },
   "10.1257/pol.20200400": {
     "icpsr_id": "135881",
+    "reason": "restricted access",
     "repo_doi": "10.3886/e135881v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20200426": {
     "icpsr_id": "143701",
@@ -28454,15 +28531,17 @@
   },
   "10.1257/pol.20200443": {
     "icpsr_id": "130601",
+    "reason": "confidential",
     "repo_doi": "10.3886/e130601v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20200466": {
     "icpsr_id": "141081",
+    "reason": "cannot be redistributed",
     "repo_doi": "10.3886/e141081v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20200475": {
     "icpsr_id": "170682",
@@ -28494,9 +28573,10 @@
   },
   "10.1257/pol.20200515": {
     "icpsr_id": "139421",
+    "reason": "cannot be shared",
     "repo_doi": "10.3886/e139421v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20200531": {
     "icpsr_id": "120757",
@@ -28516,7 +28596,7 @@
     "icpsr_id": "130803",
     "repo_doi": "10.3886/e130803v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20200553": {
     "icpsr_id": "160701",
@@ -28588,9 +28668,10 @@
   },
   "10.1257/pol.20200678": {
     "icpsr_id": "136821",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e136821v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20200683": {
     "icpsr_id": "195021",
@@ -28613,9 +28694,10 @@
   },
   "10.1257/pol.20200694": {
     "icpsr_id": "185068",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e185068v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20200703": {
     "icpsr_id": "160341",
@@ -28675,9 +28757,10 @@
   },
   "10.1257/pol.20200805": {
     "icpsr_id": "146462",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e146462v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20200808": {
     "icpsr_id": "173961",
@@ -28711,7 +28794,7 @@
     "icpsr_id": "173182",
     "repo_doi": "10.3886/e173182v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20200882": {
     "icpsr_id": "156481",
@@ -28743,9 +28826,10 @@
   },
   "10.1257/pol.20210034": {
     "icpsr_id": "158861",
+    "reason": "not publicly available",
     "repo_doi": "10.3886/e158861v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20210062": {
     "icpsr_id": "154361",
@@ -28837,9 +28921,10 @@
   },
   "10.1257/pol.20210208": {
     "icpsr_id": "166342",
+    "reason": "confidential",
     "repo_doi": "10.3886/e166342v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20210221": {
     "icpsr_id": "171462",
@@ -28877,15 +28962,17 @@
   },
   "10.1257/pol.20210336": {
     "icpsr_id": "164701",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e164701v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20210338": {
     "icpsr_id": "159661",
+    "reason": "cannot be shared",
     "repo_doi": "10.3886/e159661v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20210346": {
     "icpsr_id": "186541",
@@ -28910,9 +28997,10 @@
   },
   "10.1257/pol.20210378": {
     "icpsr_id": "192283",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e192283",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20210388": {
     "icpsr_id": "183362",
@@ -28984,9 +29072,10 @@
   },
   "10.1257/pol.20210607": {
     "icpsr_id": "192369",
+    "reason": "confidential",
     "repo_doi": "10.3886/e192369",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20210618": {
     "icpsr_id": "197821",
@@ -29011,9 +29100,10 @@
   },
   "10.1257/pol.20210699": {
     "icpsr_id": "169341",
+    "reason": "confidential",
     "repo_doi": "10.3886/e169341v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20210702": {
     "icpsr_id": "175701",
@@ -29066,9 +29156,10 @@
   },
   "10.1257/pol.20220014": {
     "icpsr_id": "179901",
+    "reason": "data use agreement",
     "repo_doi": "10.3886/e179901",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20220019": {
     "icpsr_id": "182982",
@@ -29124,9 +29215,10 @@
   },
   "10.1257/pol.20220181": {
     "icpsr_id": "183283",
+    "reason": "proprietary",
     "repo_doi": "10.3886/e183283",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20220197": {
     "icpsr_id": "184401",
@@ -29146,7 +29238,7 @@
     "icpsr_id": "184946",
     "repo_doi": "10.3886/e184946",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/pol.20220219": {
     "icpsr_id": "216541",
@@ -29235,7 +29327,7 @@
     "icpsr_id": "192302",
     "repo_doi": "10.3886/e192302v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20220422": {
     "icpsr_id": "109703",
@@ -29295,9 +29387,10 @@
   },
   "10.1257/pol.20220530": {
     "icpsr_id": "195121",
+    "reason": "confidential",
     "repo_doi": "10.3886/e195121",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/pol.20220544": {
     "icpsr_id": "188841",
@@ -29466,9 +29559,10 @@
   },
   "10.1257/pol.20230053": {
     "icpsr_id": "190821",
+    "reason": "confidential",
     "repo_doi": "10.3886/e190821v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "partial_data"
   },
   "10.1257/pol.20230100": {
     "icpsr_id": "208097",

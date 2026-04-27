@@ -1,46 +1,46 @@
 {
   "by_journal": {
     "American Economic Journal Applied Economics": {
-      "full_data": 209,
-      "no_data": 97,
+      "full_data": 216,
+      "no_data": 105,
       "no_repository": 37,
-      "partial_data": 242,
-      "unanalyzed_repo": 149
+      "partial_data": 259,
+      "unanalyzed_repo": 117
     },
     "American Economic Journal Economic Policy": {
-      "full_data": 180,
-      "no_data": 113,
+      "full_data": 194,
+      "no_data": 129,
       "no_repository": 49,
-      "partial_data": 288,
-      "unanalyzed_repo": 147
+      "partial_data": 303,
+      "unanalyzed_repo": 102
     },
     "American Economic Journal Macroeconomics": {
-      "full_data": 236,
-      "no_data": 31,
+      "full_data": 261,
+      "no_data": 33,
       "no_repository": 68,
-      "partial_data": 132,
-      "unanalyzed_repo": 147
+      "partial_data": 141,
+      "unanalyzed_repo": 111
     },
     "American Economic Journal Microeconomics": {
-      "full_data": 132,
-      "no_data": 19,
+      "full_data": 154,
+      "no_data": 21,
       "no_repository": 456,
-      "partial_data": 43,
-      "unanalyzed_repo": 83
+      "partial_data": 50,
+      "unanalyzed_repo": 52
     },
     "American Economic Review": {
-      "full_data": 577,
-      "no_data": 203,
+      "full_data": 614,
+      "no_data": 210,
       "no_repository": 1383,
-      "partial_data": 524,
-      "unanalyzed_repo": 436
+      "partial_data": 531,
+      "unanalyzed_repo": 385
     },
     "American Economic Review Insights": {
-      "full_data": 55,
-      "no_data": 17,
+      "full_data": 61,
+      "no_data": 18,
       "no_repository": 47,
-      "partial_data": 63,
-      "unanalyzed_repo": 36
+      "partial_data": 66,
+      "unanalyzed_repo": 26
     },
     "Journal of Financial Economics": {
       "full_data": 15,
@@ -58,11 +58,11 @@
     }
   },
   "by_status": {
-    "full_data": 1427,
-    "no_data": 528,
+    "full_data": 1538,
+    "no_data": 564,
     "no_repository": 3180,
-    "partial_data": 1416,
-    "unanalyzed_repo": 1291
+    "partial_data": 1474,
+    "unanalyzed_repo": 1086
   },
   "by_year": {
     "1953": {
@@ -160,25 +160,25 @@
       "unanalyzed_repo": 11
     },
     "2005": {
-      "full_data": 17,
+      "full_data": 19,
       "no_data": 1,
       "no_repository": 40,
       "partial_data": 2,
-      "unanalyzed_repo": 28
+      "unanalyzed_repo": 26
     },
     "2006": {
-      "full_data": 22,
-      "no_data": 3,
+      "full_data": 24,
+      "no_data": 4,
       "no_repository": 42,
-      "partial_data": 16,
-      "unanalyzed_repo": 20
+      "partial_data": 15,
+      "unanalyzed_repo": 18
     },
     "2007": {
-      "full_data": 15,
+      "full_data": 20,
       "no_data": 1,
       "no_repository": 50,
-      "partial_data": 12,
-      "unanalyzed_repo": 28
+      "partial_data": 10,
+      "unanalyzed_repo": 25
     },
     "2008": {
       "full_data": 14,
@@ -188,18 +188,18 @@
       "unanalyzed_repo": 13
     },
     "2009": {
-      "full_data": 53,
+      "full_data": 54,
       "no_data": 13,
       "no_repository": 64,
       "partial_data": 24,
-      "unanalyzed_repo": 39
+      "unanalyzed_repo": 38
     },
     "2010": {
-      "full_data": 63,
+      "full_data": 66,
       "no_data": 19,
       "no_repository": 78,
-      "partial_data": 23,
-      "unanalyzed_repo": 53
+      "partial_data": 22,
+      "unanalyzed_repo": 51
     },
     "2011": {
       "full_data": 81,
@@ -237,11 +237,11 @@
       "unanalyzed_repo": 47
     },
     "2016": {
-      "full_data": 72,
+      "full_data": 75,
       "no_data": 31,
       "no_repository": 58,
-      "partial_data": 60,
-      "unanalyzed_repo": 41
+      "partial_data": 61,
+      "unanalyzed_repo": 37
     },
     "2017": {
       "full_data": 57,
@@ -251,67 +251,67 @@
       "unanalyzed_repo": 39
     },
     "2018": {
-      "full_data": 74,
+      "full_data": 76,
       "no_data": 37,
       "no_repository": 52,
       "partial_data": 71,
-      "unanalyzed_repo": 29
+      "unanalyzed_repo": 27
     },
     "2019": {
-      "full_data": 107,
-      "no_data": 49,
+      "full_data": 108,
+      "no_data": 50,
       "no_repository": 187,
-      "partial_data": 68,
-      "unanalyzed_repo": 46
+      "partial_data": 70,
+      "unanalyzed_repo": 42
     },
     "2020": {
-      "full_data": 55,
-      "no_data": 18,
+      "full_data": 84,
+      "no_data": 26,
       "no_repository": 338,
-      "partial_data": 103,
-      "unanalyzed_repo": 97
+      "partial_data": 111,
+      "unanalyzed_repo": 52
     },
     "2021": {
-      "full_data": 78,
-      "no_data": 37,
+      "full_data": 87,
+      "no_data": 40,
       "no_repository": 377,
-      "partial_data": 106,
-      "unanalyzed_repo": 71
+      "partial_data": 113,
+      "unanalyzed_repo": 52
     },
     "2022": {
-      "full_data": 79,
-      "no_data": 29,
+      "full_data": 108,
+      "no_data": 36,
       "no_repository": 211,
-      "partial_data": 117,
-      "unanalyzed_repo": 116
+      "partial_data": 131,
+      "unanalyzed_repo": 66
     },
     "2023": {
-      "full_data": 81,
-      "no_data": 42,
+      "full_data": 94,
+      "no_data": 49,
       "no_repository": 168,
-      "partial_data": 121,
-      "unanalyzed_repo": 106
+      "partial_data": 138,
+      "unanalyzed_repo": 69
     },
     "2024": {
-      "full_data": 111,
-      "no_data": 37,
+      "full_data": 122,
+      "no_data": 43,
       "no_repository": 129,
-      "partial_data": 161,
-      "unanalyzed_repo": 134
+      "partial_data": 171,
+      "unanalyzed_repo": 107
     },
     "2025": {
       "full_data": 91,
-      "no_data": 51,
+      "no_data": 53,
       "no_repository": 104,
-      "partial_data": 182,
-      "unanalyzed_repo": 127
+      "partial_data": 184,
+      "unanalyzed_repo": 123
     },
     "2026": {
-      "full_data": 19,
-      "no_data": 5,
+      "full_data": 20,
+      "no_data": 6,
       "no_repository": 28,
-      "partial_data": 44,
-      "unanalyzed_repo": 41
+      "partial_data": 45,
+      "unanalyzed_repo": 38
     }
   },
   "total_papers": 7842

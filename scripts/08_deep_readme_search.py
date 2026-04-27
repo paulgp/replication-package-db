@@ -80,18 +80,37 @@ extract_readme_text = classify_module.extract_readme_text
 # ---------------------------------------------------------------------------
 # DB helpers
 # ---------------------------------------------------------------------------
-def get_no_readme_repos(conn) -> list[dict[str, str]]:
-    """Return repos that came up with no README in the first pass."""
-    rows = conn.execute(
-        """
-        SELECT DISTINCT ra.repo_doi, rm.icpsr_project_id
-        FROM readme_analysis ra
-        JOIN repo_mappings rm ON ra.repo_doi = rm.repo_doi
-        WHERE ra.has_readme = 0
-          AND rm.icpsr_project_id IS NOT NULL
-        ORDER BY CAST(rm.icpsr_project_id AS INTEGER) DESC
-        """
-    ).fetchall()
+def get_no_readme_repos(conn, source: str | None = None) -> list[dict[str, str]]:
+    """Return repos that came up with no README in the first pass.
+
+    If ``source`` is given, restrict to mappings from that source (e.g.
+    'datacite_title') so we don't re-attempt repos that already failed an
+    earlier deep search.
+    """
+    if source:
+        rows = conn.execute(
+            """
+            SELECT DISTINCT ra.repo_doi, rm.icpsr_project_id
+            FROM readme_analysis ra
+            JOIN repo_mappings rm ON ra.repo_doi = rm.repo_doi
+            WHERE ra.has_readme = 0
+              AND rm.icpsr_project_id IS NOT NULL
+              AND rm.source = ?
+            ORDER BY CAST(rm.icpsr_project_id AS INTEGER) DESC
+            """,
+            (source,),
+        ).fetchall()
+    else:
+        rows = conn.execute(
+            """
+            SELECT DISTINCT ra.repo_doi, rm.icpsr_project_id
+            FROM readme_analysis ra
+            JOIN repo_mappings rm ON ra.repo_doi = rm.repo_doi
+            WHERE ra.has_readme = 0
+              AND rm.icpsr_project_id IS NOT NULL
+            ORDER BY CAST(rm.icpsr_project_id AS INTEGER) DESC
+            """
+        ).fetchall()
     return [{"repo_doi": r["repo_doi"], "icpsr_project_id": r["icpsr_project_id"]} for r in rows]
 
 
@@ -511,6 +530,12 @@ def main() -> int:
         action="store_true",
         help="Re-scan cached HTML only (no Chrome needed)",
     )
+    parser.add_argument(
+        "--source",
+        type=str,
+        default=None,
+        help="Restrict to repo_mappings.source (e.g. datacite_title)",
+    )
     args = parser.parse_args()
 
     READMES_RAW_DIR.mkdir(parents=True, exist_ok=True)
@@ -519,10 +544,14 @@ def main() -> int:
     conn = get_connection(db_path)
 
     try:
-        repos = get_no_readme_repos(conn)
+        repos = get_no_readme_repos(conn, source=args.source)
         if args.limit > 0:
             repos = repos[: args.limit]
-        LOGGER.info("No-README repos to deep-search: %d", len(repos))
+        LOGGER.info(
+            "No-README repos to deep-search: %d%s",
+            len(repos),
+            f" (source={args.source})" if args.source else "",
+        )
 
         if not repos:
             LOGGER.info("Nothing to do.")
