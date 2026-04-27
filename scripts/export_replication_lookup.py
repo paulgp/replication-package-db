@@ -15,8 +15,15 @@ Output: data/replication_lookup.json
     "repo_doi": "10.7910/DVN/ABCDEF",
     "reason": "All data used in the paper are proprietary..."
   },
+  "10.1257/aer.20240999": {
+    "status": "no_repository"
+  },
   ...
 }
+
+Papers with status='no_repository' are exported with no repo fields so the
+consumer can distinguish "we tracked this paper and confirmed no repo"
+from "we don't track this paper at all" (absent key).
 """
 
 from __future__ import annotations
@@ -37,7 +44,8 @@ from scripts.config import DATA_DIR
 def main() -> int:
     conn = get_connection(init_db())
 
-    rows = conn.execute(
+    # Papers with a repo: include host, DOI, ICPSR id, and reason.
+    repo_rows = conn.execute(
         """
         SELECT rs.paper_doi, rs.replication_status,
                rm.icpsr_project_id, rm.repo_host, rm.repo_doi,
@@ -53,7 +61,7 @@ def main() -> int:
     ).fetchall()
 
     lookup = {}
-    for r in rows:
+    for r in repo_rows:
         doi = r["paper_doi"]
         if doi in lookup:
             continue
@@ -71,6 +79,19 @@ def main() -> int:
             if flags and flags[0]:
                 entry["reason"] = flags[0]
         lookup[doi] = entry
+
+    # Papers we've checked and confirmed have no repository.
+    no_repo_rows = conn.execute(
+        """
+        SELECT rs.paper_doi
+        FROM replication_scores rs
+        WHERE rs.replication_status = 'no_repository'
+        """
+    ).fetchall()
+    for r in no_repo_rows:
+        doi = r["paper_doi"]
+        if doi not in lookup:
+            lookup[doi] = {"status": "no_repository"}
 
     out_path = DATA_DIR / "replication_lookup.json"
     out_path.write_text(json.dumps(lookup, indent=2, sort_keys=True))
