@@ -50,7 +50,7 @@ README_RE = re.compile(r"read[\s_-]?me", re.IGNORECASE)
 
 # How long to wait between page loads (seconds)
 PAGE_DELAY = 1.0
-DOWNLOAD_WAIT = 5.0
+DOWNLOAD_WAIT = 10.0
 
 
 # ---------------------------------------------------------------------------
@@ -385,7 +385,7 @@ def find_readme_with_subfolders(
     for folder_path in folders:
         folder_url = (
             f"https://www.openicpsr.org/openicpsr/project/{project_id}"
-            f"/version/V1/view?path={folder_path}&type=folder"
+            f"/version/V1/view?path={folder_path}&type=folder&pageSize=200"
         )
         try:
             page.goto(folder_url, wait_until="networkidle", timeout=20000)
@@ -534,7 +534,7 @@ def main() -> int:
                 if html is None:
                     try:
                         page.goto(
-                            f"https://www.openicpsr.org/openicpsr/project/{pid}/version/V1/view",
+                            f"https://www.openicpsr.org/openicpsr/project/{pid}/version/V1/view?pageSize=200",
                             wait_until="networkidle",
                             timeout=30000,
                         )

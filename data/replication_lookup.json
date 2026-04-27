@@ -25473,7 +25473,7 @@
     "icpsr_id": "147961",
     "repo_doi": "10.3886/e147961v1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20190309": {
     "icpsr_id": "116802",
@@ -25575,7 +25575,7 @@
     "icpsr_id": "119472",
     "repo_doi": "10.3886/E119472V1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "full_data"
   },
   "10.1257/app.20190655": {
     "icpsr_id": "118881",
@@ -25838,7 +25838,7 @@
     "reason": "not publicly available",
     "repo_doi": "10.3886/E136346V1",
     "repo_host": "openicpsr",
-    "status": "unanalyzed_repo"
+    "status": "no_data"
   },
   "10.1257/app.20200547": {
     "icpsr_id": "141721",

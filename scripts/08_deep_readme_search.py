@@ -48,7 +48,7 @@ READMES_RAW_DIR = RAW_DIR / "readmes"
 CDP_URL = "http://localhost:9222"
 MAX_DEPTH = 3
 PAGE_DELAY = 1.0
-DOWNLOAD_WAIT = 5.0
+DOWNLOAD_WAIT = 10.0
 
 # Matches "readme" anywhere in the filename, with common separators
 README_RE = re.compile(r"read[\s_-]?me", re.IGNORECASE)
@@ -331,7 +331,7 @@ def search_for_readme(
     # Try cached HTML first for root page
     html = load_cached_html(project_id)
     if html is None:
-        html = fetch_page_html(page, base_view)
+        html = fetch_page_html(page, f"{base_view}?pageSize=200")
     if html is None:
         return None, None
 
@@ -348,7 +348,7 @@ def search_for_readme(
             continue
 
         folder_url = (
-            f"{base_view}?path={quote(folder_path, safe='/:')}&type=folder"
+            f"{base_view}?path={quote(folder_path, safe='/:')}&type=folder&pageSize=200"
         )
         sub_html = fetch_page_html(page, folder_url)
         if sub_html is None:
@@ -536,6 +536,12 @@ def main() -> int:
         default=None,
         help="Restrict to repo_mappings.source (e.g. datacite_title)",
     )
+    parser.add_argument(
+        "--project-ids",
+        type=str,
+        default=None,
+        help="Comma-separated openICPSR project ids to target",
+    )
     args = parser.parse_args()
 
     READMES_RAW_DIR.mkdir(parents=True, exist_ok=True)
@@ -545,6 +551,9 @@ def main() -> int:
 
     try:
         repos = get_no_readme_repos(conn, source=args.source)
+        if args.project_ids:
+            wanted = {p.strip() for p in args.project_ids.split(",") if p.strip()}
+            repos = [r for r in repos if r["icpsr_project_id"] in wanted]
         if args.limit > 0:
             repos = repos[: args.limit]
         LOGGER.info(

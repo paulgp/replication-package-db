@@ -1,11 +1,11 @@
 {
   "by_journal": {
     "American Economic Journal Applied Economics": {
-      "full_data": 217,
-      "no_data": 106,
+      "full_data": 219,
+      "no_data": 107,
       "no_repository": 35,
       "partial_data": 259,
-      "unanalyzed_repo": 117
+      "unanalyzed_repo": 114
     },
     "American Economic Journal Economic Policy": {
       "full_data": 194,
@@ -58,11 +58,11 @@
     }
   },
   "by_status": {
-    "full_data": 1539,
-    "no_data": 565,
+    "full_data": 1541,
+    "no_data": 566,
     "no_repository": 3177,
     "partial_data": 1475,
-    "unanalyzed_repo": 1086
+    "unanalyzed_repo": 1083
   },
   "by_year": {
     "1953": {
@@ -279,11 +279,11 @@
       "unanalyzed_repo": 52
     },
     "2022": {
-      "full_data": 109,
-      "no_data": 37,
+      "full_data": 111,
+      "no_data": 38,
       "no_repository": 209,
       "partial_data": 131,
-      "unanalyzed_repo": 66
+      "unanalyzed_repo": 63
     },
     "2023": {
       "full_data": 94,
